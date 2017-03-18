@@ -1,0 +1,980 @@
+<?xml version="1.0" ?><svg height="1075" inkscape:version="0.48.5 r10040" sodipodi:docname="tools.svg" width="1485" xmlns="http://www.w3.org/2000/svg" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd">
+  <defs>
+    <marker id="a" inkscape:stockid="Arrow2Mend" orient="auto" overflow="visible">
+      <path d="M-5.23-2.42L1.323-.01-5.23 2.4c1.046-1.422 1.04-3.37 0-4.82z" fill-rule="evenodd" inkscape:connector-curvature="0" stroke-linejoin="round" stroke-width=".625"/>
+    </marker>
+    <marker id="b" orient="auto" overflow="visible">
+      <path d="M-10.69-4.437L1.328-.017l-12.018 4.42c1.92-2.61 1.91-6.18 0-8.84z" fill-rule="evenodd" font-size="12" inkscape:connector-curvature="0" stroke-linejoin="round" stroke-width=".625"/>
+    </marker>
+  </defs>
+  <rect display="none" fill="#eaeef0" height="1505.837" inkscape:export-filename="/space/enzet/raster/tools_r.png" inkscape:export-xdpi="300" inkscape:export-ydpi="300" inkscape:groupmode="layer" inkscape:label="back_album" rx="0" ry="0" transform="rotate(90 2.5 22.5)" width="1064.734" x="-7.534" y="-1505.124"/>
+  
+  <g fill="#50708c" fill-opacity=".498" inkscape:groupmode="layer" inkscape:label="group" stroke="#50708c" transform="translate(-915 -435)">
+    <path d="M1720 515v945c0 6-4 10-10 10h-95c-6 0-10-4-10-10V960c0-6-4-10-10-10h-170c-6 0-10-4-10-10v-65c0-6 4-10 10-10h170c6 0 10-4 10-10V515c0-6 4-10 10-10h95c6 0 10 4 10 10z" inkscape:connector-curvature="0" opacity=".14" sodipodi:nodetypes="ccccccccccccccccc"/>
+    <rect height="145" opacity=".14" rx="10" ry="10" width="180" x="1980" y="1355"/>
+    <rect height="705" opacity=".14" rx="10" ry="10" width="115" x="1205" y="655"/>
+    <rect height="610" opacity=".14" rx="10" ry="10" width="110" x="1085" y="795"/>
+    <path d="M1425 795h160c5.54 0 10 4.46 10 10v145c0 6-4 10-10 10h-80c-6 0-10 4-10 10v310c0 5.54-4.46 10-10 10h-60c-5.54 0-10-4.46-10-10V960c0-6-4-10-10-10h-65c-6 0-10-4-10-10v-75c0-6 4-10 10-10h65c6 0 10-4 10-10v-40c0-5.54 4.46-10 10-10z" inkscape:connector-curvature="0" opacity=".14" sodipodi:nodetypes="sssccccssssccccccccss"/>
+    <path d="M1330 665c0-6 4-10 10-10h130c6 0 10 4 10 10v55c0 6-4 10-10 10h-60c-6 0-10 4-10 10v55c0 6-4 10-10 10h-50c-6 0-10-4-10-10z" inkscape:connector-curvature="0" opacity=".14" sodipodi:nodetypes="ccccccccccccc"/>
+    <rect height="95" opacity=".14" rx="10" ry="10" width="80" x="1410" y="645"/>
+    <rect height="780" opacity=".14" rx="10" ry="10" width="80" x="2170" y="655"/>
+    <rect height="100" opacity=".14" rx="10" ry="10" width="205" x="1595" y="475"/>
+    <path d="M1730 675c0-6 4-10 10-10h100c6 0 10 4 10 10v730c0 6 4 10 10 10h100c6 0 10 4 10 10v50c0 6-4 10-10 10h-220c-6 0-10-4-10-10v-245c0-6-4-10-10-10h-205c-6 0-10 4-10 10v40c0 6-4 10-10 10h-60c-6 0-10-4-10-10v-45c0-6 4-10 10-10h285c6 0 10-4 10-10v-35c0-6-4-10-10-10h-70c-6 0-10-4-10-10V875c0-6 4-10 10-10h70c6 0 10-4 10-10z" inkscape:connector-curvature="0" opacity=".14" sodipodi:nodetypes="ccccccccccccccccccccccccccccccccc"/>
+    <rect height="750" opacity=".14" rx="10" ry="10" width="90" x="985" y="595"/>
+    <rect height="990" opacity=".14" rx="10" ry="10" width="90" x="1870" y="505"/>
+    <path d="M1870 785h150c5.54 0 10 4.46 10 10v265c0 5.54-4.46 10-10 10h-40c-6 0-10-4-10-10V880c0-6-4-10-10-10h-90c-5.54 0-10-4.46-10-10v-65c0-5.54 4.46-10 10-10z" inkscape:connector-curvature="0" opacity=".14" sodipodi:nodetypes="ccsssccccsssc"/>
+    <rect height="285" opacity=".14" rx="10" ry="10" width="110" x="2270" y="795"/>
+    <rect height="195" opacity=".14" rx="10" ry="10" width="100" x="2050" y="1140"/>
+  </g>
+  <g inkscape:groupmode="layer" inkscape:label="box" stroke-width=".7" transform="translate(-915 -435)">
+    <rect fill="#e4d3c2" height="45" rx="2" ry="2" stroke="#bda389" width="80" x="1095" y="875"/>
+    <rect fill="#e4d3c2" height="35" rx="2" ry="2" stroke="#bda389" width="45" x="1095" y="940"/>
+    <rect fill="#e4d3c2" height="35" rx="2" ry="2" stroke="#bda389" width="60" x="1425" y="875"/>
+    <rect fill="#e4d3c2" height="35" rx="2" ry="2" stroke="#bda389" width="50" x="1515" y="875"/>
+    <rect fill="#e4d3c2" height="55" rx="2" ry="2" stroke="#bda389" width="70" x="1215" y="1295"/>
+    <rect fill="#e4d3c2" height="50" rx="2" ry="2" stroke="#bda389" width="70" x="1740" y="1295"/>
+    <rect fill="#e4d3c2" height="55" rx="2" ry="2" stroke="#bda389" width="70" x="1740" y="1160"/>
+    <rect fill="#e4d3c2" height="40" rx="2" ry="2" stroke="#bda389" width="40" x="1740" y="1085"/>
+    <rect fill="#cfb6e0" height="45" rx="2" ry="2" stroke="#9d78b6" width="50" x="1790" y="1085"/>
+    <rect fill="#e4d3c2" height="45" rx="2" ry="2" stroke="#bda389" width="60" x="1990" y="1435"/>
+    <rect fill="#e4d3c2" height="45" rx="2" ry="2" stroke="#bda389" width="70" x="2080" y="1435"/>
+    <rect fill="#e4d3c2" height="50" rx="2" ry="2" stroke="#bda389" width="70" x="2080" y="1365"/>
+    <rect fill="#cab7a3" height="35" rx="2" ry="2" stroke="#bda389" width="30" x="1440" y="1295"/>
+    <rect fill="#e4d3c2" height="55" rx="2" ry="2" stroke="#bda389" width="50" x="1215" y="875"/>
+    <rect fill="#e4d3c2" height="35" rx="2" ry="2" stroke="#bda389" width="50" x="1215" y="735"/>
+    <rect fill="#e4d3c2" height="30" rx="2" ry="2" stroke="#bda389" width="45" x="1340" y="750"/>
+    <rect fill="#e4d3c2" height="55" rx="2" ry="2" stroke="#bda389" width="90" x="2280" y="1015"/>
+    <rect fill="#e4d3c2" height="45" rx="2" ry="2" stroke="#bda389" width="55" x="2070" y="1015"/>
+    <rect fill="#e4d3c2" height="65" rx="2" ry="2" stroke="#bda389" width="90" x="2280" y="1295"/>
+    <rect fill="#e4d3c2" height="45" rx="2" ry="2" stroke="#bda389" width="90" x="1500" y="1295"/>
+    <rect fill="none" height="30" rx="2" ry="2" stroke="#999" width="55" x="2070" y="815"/>
+    <rect fill="#e4d3c2" height="45" rx="2" ry="2" stroke="#bda389" width="60" x="2180" y="1085"/>
+    <rect fill="#cfb6e0" height="30" rx="2" ry="2" stroke="#9d78b6" width="40" x="1335" y="1365"/>
+    <rect fill="#e4d3c2" height="30" rx="2" ry="2" stroke="#bda389" width="50" x="1420" y="665"/>
+    <rect fill="#e4d3c2" height="30" rx="2" ry="2" stroke="#bda389" width="35" x="1275" y="675"/>
+    <rect fill="#e4d3c2" height="35" rx="2" ry="2" stroke="#bda389" width="50" x="1340" y="670"/>
+    <rect fill="#e4d3c2" height="40" rx="2" ry="2" stroke="#bda389" width="70" x="995" y="665"/>
+    <rect fill="#c8daa4" height="35" rx="2" ry="2" stroke="#96ae65" width="40" x="1540" y="1165"/>
+    <rect fill="#e4d3c2" height="55" rx="2" ry="2" stroke="#bda389" width="75" x="2060" y="1160"/>
+    <rect fill="#e4d3c2" height="60" rx="2" ry="2" stroke="#bda389" width="70" x="2275" y="605"/>
+    <rect fill="#e4d3c2" height="40" rx="2" ry="2" stroke="#bda389" width="60" x="2185" y="575"/>
+    <rect fill="#e4d3c2" height="60" rx="2" ry="2" stroke="#bda389" width="65" x="1880" y="665"/>
+    <rect fill="#e4d3c2" height="40" rx="2" ry="2" stroke="#bda389" width="80" x="1980" y="455"/>
+    <rect fill="#cfb6e0" height="40" rx="2" ry="2" stroke="#9d78b6" width="60" x="1425" y="535"/>
+    <rect fill="#c8daa4" height="30" rx="2" ry="2" stroke="#96ae65" width="75" x="1515" y="1015"/>
+    <rect fill="#c8daa4" height="30" rx="2" ry="2" stroke="#96ae65" width="30" x="1215" y="665"/>
+    <rect fill="#e4d3c2" height="45" rx="2" ry="2" stroke="#bda389" width="50" x="2180" y="1380"/>
+    <rect fill="#cfb6e0" height="40" rx="2" ry="2" stroke="#9d78b6" width="70" x="1295" y="575"/>
+    <rect fill="#e0cfeb" height="35" rx="2" ry="2" stroke="#9d78b6" width="50" x="2115" y="945"/>
+    <rect fill="#cfb6e0" height="35" rx="2" ry="2" stroke="#9d78b6" width="50" x="2280" y="805"/>
+    <rect fill="#e4d3c2" height="30" rx="2" ry="2" stroke="#bda389" width="50" x="1650" y="875"/>
+    <rect fill="#e4d3c2" height="35" rx="2" ry="2" stroke="#bda389" width="50" x="1650" y="1085"/>
+    <rect fill="#e4d3c2" height="40" rx="2" ry="2" stroke="#bda389" width="60" x="1740" y="735"/>
+    <rect fill="#cfb6e0" height="40" rx="2" ry="2" stroke="#9d78b6" width="55" x="1105" y="545"/>
+    <rect fill="#cfb6e0" height="10" rx="1" ry="1" stroke="#9d78b6" width="30" x="1802.5" y="747.5"/>
+    <rect fill="#c8daa4" height="10" rx="1" ry="1" stroke="#96ae65" width="30" x="1802.5" y="735"/>
+    <rect fill="#c8daa4" height="10" rx="1" ry="1" stroke="#96ae65" width="20" x="1567.5" y="875"/>
+    <rect fill="#c8daa4" height="10" rx="1" ry="1" stroke="#96ae65" width="20" x="1812.5" y="1295"/>
+    <rect fill="#e4d3c2" height="10" rx="1" ry="1" stroke="#bda389" width="35" x="1740" y="1347.5"/>
+    <rect fill="#cfb6e0" height="10" rx="1" ry="1" stroke="#9d78b6" width="20" x="1812.5" y="1160"/>
+    <rect fill="#e4d3c2" height="30" rx="2" ry="2" stroke="#bda389" width="40" x="1095" y="805"/>
+    <rect fill="#e4d3c2" height="35" rx="2" ry="2" stroke="#bda389" width="70" x="1615" y="515"/>
+    <rect fill="#cfb6e0" height="10" rx="1" ry="1" stroke="#9d78b6" width="30" x="1615" y="552.5"/>
+    <rect fill="#e0cfeb" height="40" rx="2" ry="2" stroke="#9d78b6" width="60" x="1730" y="485"/>
+    <rect fill="#e4d3c2" height="40" rx="2" ry="2" stroke="#bda389" width="70" x="2040" y="635"/>
+    <rect fill="#cfb6e0" height="10" rx="1" ry="1" stroke="#9d78b6" width="30" x="1137.5" y="805"/>
+    <rect fill="#e4d3c2" height="30" rx="2" ry="2" stroke="#bda389" width="60" x="1615" y="805"/>
+    <rect fill="#cfb6e0" height="10" rx="1" ry="1" stroke="#9d78b6" width="30" x="1677.5" y="817.5"/>
+    <rect fill="#c8daa4" height="10" rx="1" ry="1" stroke="#96ae65" width="30" x="1677.5" y="805"/>
+    <rect fill="#cab7a3" height="35" rx="2" ry="2" stroke="#bda389" width="50" x="1335" y="1295"/>
+    <rect fill="none" height="10" rx="1" ry="1" stroke="#999" width="25" x="1387.5" y="1295"/>
+    <rect fill="#c8daa4" height="10" rx="1" ry="1" stroke="#96ae65" width="30" x="1267.5" y="735"/>
+    <rect fill="#c8daa4" height="10" rx="1" ry="1" stroke="#96ae65" width="30" x="1267.5" y="887.5"/>
+    <rect fill="none" height="10" rx="1" ry="1" stroke="#999" width="30" x="1267.5" y="875"/>
+    <rect fill="#c8daa4" height="10" rx="1" ry="1" stroke="#96ae65" width="20" x="1487.5" y="875"/>
+    <rect fill="#cfb6e0" height="10" rx="1" ry="1" stroke="#9d78b6" width="20" x="1812.5" y="1320"/>
+    <rect fill="#e4d3c2" height="40" rx="2" ry="2" stroke="#bda389" width="70" x="995" y="1295"/>
+    <rect fill="#cab7a3" height="35" rx="2" ry="2" stroke="#bda389" width="50" x="1340" y="1225"/>
+    <rect fill="#cab7a3" height="10" rx="1" ry="1" stroke="#bda389" width="25" x="1777.5" y="1347.5"/>
+    <rect fill="#cab7a3" height="10" rx="1" ry="1" stroke="#bda389" width="70" x="2080" y="1482.5"/>
+    <rect fill="#e4d3c2" height="40" rx="2" ry="2" stroke="#bda389" width="70" x="1880" y="1015"/>
+    <rect fill="#e4d3c2" height="30" rx="2" ry="2" stroke="#bda389" width="50" x="1740" y="1435"/>
+    <rect fill="#e4d3c2" height="30" rx="2" ry="2" stroke="#bda389" width="50" x="1880" y="805"/>
+    <rect fill="#e4d3c2" height="10" rx="1" ry="1" stroke="#bda389" width="50" x="1740" y="1467.5"/>
+    <rect fill="#e4d3c2" height="40" rx="2" ry="2" stroke="#bda389" width="60" x="1425" y="1015"/>
+    <rect fill="#e4d3c2" height="30" rx="2" ry="2" stroke="#bda389" width="50" x="1970" y="805"/>
+    <rect fill="none" height="10" rx="1" ry="1" stroke="#999" width="20" x="1990" y="1482.5"/>
+    <rect fill="none" height="10" rx="1" ry="1" stroke="#999" width="25" x="2012.5" y="1482.5"/>
+    <rect fill="none" height="10" rx="1" ry="1" stroke="#999" width="30" x="2040" y="1482.5"/>
+    <rect fill="#cfb6e0" height="10" rx="1" ry="1" stroke="#9d78b6" width="20" x="1812.5" y="1307.5"/>
+    <rect fill="#c8daa4" height="25" rx="2" ry="2" stroke="#96ae65" width="30" x="1425" y="805"/>
+    <rect fill="#cfb6e0" height="10" rx="1" ry="1" stroke="#9d78b6" width="20" x="1095" y="1045"/>
+    <rect fill="#c8daa4" height="30" rx="2" ry="2" stroke="#96ae65" width="60" x="1525" y="605"/>
+    <rect fill="#e4d3c2" height="45" rx="2" ry="2" stroke="#bda389" width="94.65" x="1215" y="1085"/>
+    <rect fill="#c8daa4" height="10" rx="1" ry="1" stroke="#96ae65" width="30" x="1215" y="697.5"/>
+    <rect fill="#e4d3c2" height="30" rx="2" ry="2" stroke="#bda389" width="90" x="1095" y="1155"/>
+    <rect fill="#e4d3c2" height="30" rx="2" ry="2" stroke="#bda389" width="90" x="1095" y="1365"/>
+    <rect fill="#e4d3c2" height="10" rx="1" ry="1" stroke="#bda389" width="30" x="2180" y="1132.5"/>
+    <rect fill="none" height="10" rx="1" ry="1" stroke="#999" width="30" x="2212.5" y="1132.5"/>
+    <rect fill="#c8daa4" height="35" rx="2" ry="2" stroke="#96ae65" width="40" x="1430" y="1365"/>
+    <rect fill="#e4d3c2" height="40" rx="2" ry="2" stroke="#bda389" width="55" x="2040" y="925"/>
+    <rect fill="#c8daa4" height="10" rx="1" ry="1" stroke="#96ae65" width="25" x="2040" y="967.5"/>
+    <rect fill="#cfb6e0" height="10" rx="1" ry="1" stroke="#9d78b6" width="30" x="2067.5" y="967.5"/>
+    <rect fill="#e4d3c2" height="30" rx="2" ry="2" stroke="#bda389" width="50" x="2180" y="665"/>
+    <rect fill="#e4d3c2" height="30" rx="2" ry="2" stroke="#bda389" width="60" x="1340" y="875"/>
+    <rect fill="#c8daa4" height="35" rx="2" ry="2" stroke="#96ae65" width="40" x="1435" y="1225"/>
+    <rect fill="#e4d3c2" height="30" rx="2" ry="2" stroke="#bda389" width="45" x="1880" y="1435"/>
+    <rect fill="#e4d3c2" height="10" rx="1" ry="1" stroke="#bda389" width="45" x="1880" y="1467.5"/>
+    <rect fill="none" height="10" rx="1" ry="1" stroke="#999" width="30" x="1335" y="1397.5"/>
+    <rect fill="none" height="10" rx="1" ry="1" stroke="#999" width="20" x="1105" y="587.5"/>
+    <rect fill="#cab7a3" height="35" rx="2" ry="2" stroke="#bda389" width="50" x="1810" y="545"/>
+    <rect fill="#cfb6e0" height="10" rx="1" ry="1" stroke="#9d78b6" width="30" x="2280" y="842.5"/>
+    <rect fill="#cfb6e0" height="10" rx="1" ry="1" stroke="#9d78b6" width="30" x="2115" y="982.5"/>
+    <rect fill="#e4d3c2" height="40" rx="2" ry="2" stroke="#bda389" width="60" x="2280" y="735"/>
+    <rect fill="#cfb6e0" height="10" rx="1" ry="1" stroke="#9d78b6" width="30" x="2342.5" y="735"/>
+    <rect fill="#e4d3c2" height="35" rx="2" ry="2" stroke="#bda389" width="39.65" x="1980" y="555"/>
+    <rect fill="#e4d3c2" height="30" rx="2" ry="2" stroke="#bda389" width="54.65" x="1615" y="1235"/>
+    <rect fill="#e4d3c2" height="30" rx="2" ry="2" stroke="#bda389" width="55" x="1615" y="1375"/>
+    <rect fill="#cfb6e0" height="10" rx="2" ry="2" stroke="#9d78b6" width="10" x="2250" y="455"/>
+    <rect fill="#e4d3c2" height="10" rx="2" ry="2" stroke="#bda389" width="10" x="2175" y="455"/>
+    <rect fill="none" height="10" rx="1" ry="1" stroke="#816647" width="10" x="2325" y="470"/>
+    <rect fill="none" height="10" rx="1" ry="1" stroke="#999" width="10" x="2325" y="485"/>
+    <rect fill="#cab7a3" height="10" rx="2" ry="2" stroke="#bda389" width="10" x="2175" y="470"/>
+    <rect fill="#c8daa4" height="10" rx="2" ry="2" stroke="#96ae65" width="10" x="2250" y="470"/>
+    <rect fill="#c4cfda" height="10" rx="2" ry="2" stroke="#a6b9c9" width="10" x="2325" y="455"/>
+    <rect fill="#e0cfeb" height="10" rx="2" ry="2" stroke="#9d78b6" width="10" x="2175" y="485"/>
+    <rect fill="#e4d3c2" height="30" rx="2" ry="2" stroke="#bda389" width="75" x="2060" y="1295"/>
+    <rect fill="#e4d3c2" height="35" rx="2" ry="2" stroke="#bda389" width="60" x="1485" y="805"/>
+    <rect fill="#e4d3c2" height="45" rx="2" ry="2" stroke="#bda389" width="65" x="1880" y="525"/>
+    <rect fill="#daa4a4" height="10" rx="1" ry="1" stroke="#ae656d" width="25" x="1880" y="572.5"/>
+    <rect fill="#daa4a4" height="10" rx="2" ry="2" stroke="#ae656d" width="10" x="2250" y="485"/>
+    <rect fill="none" height="10" rx="1" ry="1" stroke="#999" width="30" x="1980" y="592.5"/>
+    <rect fill="none" height="10" rx="1" ry="1" stroke="#999" width="30" x="1980" y="605"/>
+    <rect fill="none" height="25" rx="2" ry="2" stroke="#999" width="100" x="1740" y="805"/>
+    <rect fill="none" height="30" rx="2" ry="2" stroke="#999" width="40" x="1980" y="1015"/>
+    <rect fill="none" height="25" rx="2" ry="2" stroke="#999" width="40" x="1665" y="1410"/>
+    <rect fill="none" height="25" rx="2" ry="2" stroke="#999" width="80" x="1525" y="310"/>
+    <rect fill="none" height="30" rx="1" ry="1" stroke="#816647" width="50" x="2080" y="535"/>
+    <rect fill="none" height="35" rx="2" ry="2" stroke="#999" width="60" x="1650" y="940"/>
+  </g>
+  <g inkscape:groupmode="layer" inkscape:label="language" stroke-width=".7">
+    <rect fill="none" height="10" rx="1" ry="1" stroke="#b07219" transform="translate(-915 -435)" width="20" x="1980" y="542.5"/>
+    <rect fill="#f1e05a" height="10" rx="1" ry="1" stroke="#f1e05a" transform="translate(-915 -435)" width="35" x="1615" y="1222.5"/>
+    <rect fill="#f1e05a" height="10" rx="1" ry="1" stroke="#f1e05a" transform="translate(-915 -435)" width="35" x="1615" y="1362.5"/>
+    <rect fill="none" height="10" rx="1" ry="1" stroke="#b07219" transform="translate(-915 -435)" width="20" x="2040" y="622.5"/>
+    <rect fill="none" height="10" rx="1" ry="1" stroke="#b07219" transform="translate(-915 -435)" width="20" x="1880" y="652.5"/>
+    <rect fill="none" height="10" rx="1" ry="1" stroke="#b07219" transform="translate(-915 -435)" width="20" x="1880" y="512.5"/>
+    <rect fill="none" height="10" rx="1" ry="1" stroke="#b07219" transform="translate(-915 -435)" width="20" x="2185" y="562.5"/>
+    <rect fill="none" height="10" rx="1" ry="1" stroke="#b07219" transform="translate(-915 -435)" width="20" x="2275" y="592.5"/>
+    <rect fill="none" height="10" rx="1" ry="1" stroke="#b07219" transform="translate(-915 -435)" width="20" x="2280" y="722.5"/>
+    <rect fill="none" height="10" rx="1" ry="1" stroke="#b07219" transform="translate(-915 -435)" width="20" x="2280" y="1002.5"/>
+    <rect fill="none" height="10" rx="1" ry="1" stroke="#b07219" transform="translate(-915 -435)" width="20" x="2070" y="1002.5"/>
+    <rect fill="none" height="10" rx="1" ry="1" stroke="#b07219" transform="translate(-915 -435)" width="20" x="2060" y="1147.5"/>
+    <rect fill="none" height="10" rx="1" ry="1" stroke="#b07219" transform="translate(-915 -435)" width="20" x="2060" y="1282.5"/>
+    <rect fill="none" height="10" rx="1" ry="1" stroke="#b07219" transform="translate(-915 -435)" width="20" x="1880" y="1422.5"/>
+    <rect fill="none" height="10" rx="1" ry="1" stroke="#b07219" transform="translate(-915 -435)" width="20" x="1740" y="1422.5"/>
+    <rect fill="none" height="10" rx="1" ry="1" stroke="#b07219" transform="translate(-915 -435)" width="20" x="1095" y="927.5"/>
+    <rect fill="none" height="10" rx="1" ry="1" stroke="#b07219" transform="translate(-915 -435)" width="20" x="1340" y="737.5"/>
+    <rect fill="none" height="10" rx="1" ry="1" stroke="#b07219" transform="translate(-915 -435)" width="20" x="1880" y="792.5"/>
+    <rect fill="none" height="10" rx="1.5" ry="1" stroke="#178600" width="30" x="425" y="427.5"/>
+    <rect fill="none" height="10" rx="1" ry="1" stroke="#b07219" transform="translate(-915 -435)" width="20" x="2280" y="1282.5"/>
+  </g>
+  <g color="#000" fill="#84a1af" font-family="CMU Serif" font-size="10" font-weight="500" inkscape:groupmode="layer" inkscape:label="group_text" word-spacing="0">
+    <text letter-spacing="0" overflow="visible" sodipodi:linespacing="100%" style="line-height:100%;text-indent:0;text-align:center;block-progression:tb" text-anchor="middle" transform="translate(-915 -435)" x="1790" y="1070">
+      <tspan sodipodi:role="line" x="1790" y="1070">ForAllSecure</tspan>
+    </text>
+    <text letter-spacing="0" overflow="visible" sodipodi:linespacing="100%" style="line-height:100%;text-indent:0;text-align:center;block-progression:tb" text-anchor="middle" transform="translate(-915 -435)" x="2025" y="1415">
+      <tspan sodipodi:role="line" x="2025" y="1415">Shellphish</tspan>
+    </text>
+    <text letter-spacing="0" overflow="visible" sodipodi:linespacing="100%" style="line-height:100%;text-indent:0;text-align:center;block-progression:tb" text-anchor="middle" transform="translate(-915 -435)" x="1262.5" y="650">
+      <tspan sodipodi:role="line" x="1262.5" y="650">Stanford</tspan>
+    </text>
+    <text letter-spacing="0" overflow="visible" sodipodi:linespacing="100%" style="line-height:100%;text-indent:0;text-align:center;block-progression:tb" text-anchor="middle" transform="translate(-915 -435)" x="1140" y="790">
+      <tspan sodipodi:role="line" x="1140" y="790">Google</tspan>
+    </text>
+    <text letter-spacing="0" overflow="visible" sodipodi:linespacing="100%" style="line-height:100%;text-indent:0;text-align:center;block-progression:tb" text-anchor="middle" transform="translate(-915 -435)" x="1505" y="780">
+      <tspan sodipodi:role="line" x="1505" y="780">Microsoft</tspan><tspan sodipodi:role="line" x="1505" y="790">Research</tspan>
+    </text>
+    <text letter-spacing="0" overflow="visible" sodipodi:linespacing="100%" style="line-height:100%;text-indent:0;text-align:center;block-progression:tb" text-anchor="middle" transform="translate(-915 -435)" x="1365" y="650">
+      <tspan sodipodi:role="line" x="1365" y="650">Illinois</tspan>
+    </text>
+    <text letter-spacing="0" overflow="visible" sodipodi:linespacing="100%" style="line-height:100%;text-indent:0;text-align:center;block-progression:tb" text-anchor="middle" transform="translate(-915 -435)" x="1450" y="640">
+      <tspan sodipodi:role="line" x="1450" y="640">Bell labs</tspan>
+    </text>
+    <text letter-spacing="1" overflow="visible" sodipodi:linespacing="100%" style="line-height:100%;text-indent:0;text-align:center;block-progression:tb" text-anchor="middle" transform="translate(-915 -435)" x="2212" y="650">
+      <tspan sodipodi:role="line" x="2212.5" y="650">EPFL</tspan>
+    </text>
+    <text letter-spacing="0" overflow="visible" sodipodi:linespacing="100%" style="line-height:100%;text-indent:0;text-align:center;block-progression:tb" text-anchor="middle" transform="translate(-915 -435)" x="2205" y="1375">
+      <tspan sodipodi:role="line" x="2205" y="1375">CodeJitsu</tspan>
+    </text>
+    <text letter-spacing="0" overflow="visible" sodipodi:linespacing="100%" style="line-height:100%;text-indent:0;text-align:center;block-progression:tb" text-anchor="middle" transform="translate(-915 -435)" x="1662.5" y="500">
+      <tspan sodipodi:role="line" x="1662.5" y="500">Berkeley</tspan>
+    </text>
+    <text letter-spacing="0" overflow="visible" sodipodi:linespacing="100%" style="line-height:100%;text-indent:0;text-align:center;block-progression:tb" text-anchor="middle" transform="translate(-915 -435)" x="1914.5" y="500">
+      <tspan letter-spacing="1" sodipodi:role="line" x="1915" y="500">NASA</tspan>
+    </text>
+    <text letter-spacing="0" overflow="visible" sodipodi:linespacing="100%" style="line-height:100%;text-indent:0;text-align:center;block-progression:tb" text-anchor="middle" transform="translate(-915 -435)" x="1455" y="530">
+      <tspan sodipodi:role="line" x="1455" y="530">ParaDyn</tspan>
+    </text>
+    <text letter-spacing="0" overflow="visible" sodipodi:linespacing="100%" style="line-height:100%;text-indent:0;text-align:center;block-progression:tb" text-anchor="middle" transform="translate(-915 -435)" x="1697.5" y="470">
+      <tspan sodipodi:role="line" x="1697.5" y="470">Digital Equipment</tspan>
+    </text>
+    <text letter-spacing="0" overflow="visible" sodipodi:linespacing="100%" style="line-height:100%;text-indent:0;text-align:center;block-progression:tb" text-anchor="middle" transform="translate(-915 -435)" x="1700" y="530">
+      <tspan sodipodi:role="line" x="1700" y="530">UoW</tspan>
+    </text>
+    <text letter-spacing="0" overflow="visible" sodipodi:linespacing="100%" style="line-height:100%;text-indent:0;text-align:center;block-progression:tb" text-anchor="middle" transform="translate(-915 -435)" x="2325" y="790">
+      <tspan sodipodi:role="line" style="text-align:center" x="2325" y="790">Intel</tspan>
+    </text>
+    <text letter-spacing="0" overflow="visible" sodipodi:linespacing="100%" style="line-height:100%;text-indent:0;text-align:center;block-progression:tb" text-anchor="middle" transform="translate(-915 -435)" x="1790" y="660">
+      <tspan sodipodi:role="line" x="1790" y="660">Carnegie Mellon</tspan>
+    </text>
+    <text letter-spacing="0" overflow="visible" sodipodi:linespacing="100%" style="line-height:100%;text-indent:0;text-align:center;block-progression:tb" text-anchor="middle" transform="translate(-915 -435)" x="1030" y="610">
+      <tspan sodipodi:role="line" x="1030" y="610"><tspan letter-spacing="1">CE</tspan>A / Saclay</tspan>
+    </text>
+    <text letter-spacing="0" overflow="visible" sodipodi:linespacing="100%" style="line-height:100%;text-indent:0;text-align:center;block-progression:tb" text-anchor="middle" transform="translate(-915 -435)" x="1355" y="1360">
+      <tspan sodipodi:role="line" x="1356.67" y="1360">Bordeaux</tspan>
+    </text>
+    <text letter-spacing="0" overflow="visible" sodipodi:linespacing="100%" style="line-height:100%;text-indent:0;text-align:center;block-progression:tb" text-anchor="middle" transform="translate(-915 -435)" x="1915" y="650">
+      <tspan sodipodi:role="line" x="1915" y="650">Texas</tspan>
+    </text>
+    <text letter-spacing="0" overflow="visible" sodipodi:linespacing="100%" style="line-height:100%;text-indent:0;text-align:center;block-progression:tb" text-anchor="middle" transform="translate(-915 -435)" x="1995" y="780">
+      <tspan sodipodi:role="line" x="1995" y="780">Georgia</tspan>
+    </text>
+    <text letter-spacing="0" overflow="visible" sodipodi:linespacing="100%" stroke-width=".7" style="line-height:100%;text-indent:0;text-align:center;block-progression:tb" text-anchor="middle" transform="translate(-915 -435)" x="1790" y="710">
+      <tspan sodipodi:role="line" x="1790" y="710">CyLab</tspan>
+    </text>
+    <text letter-spacing="0" overflow="visible" sodipodi:linespacing="100%" style="line-height:100%;text-indent:0;text-align:center;block-progression:tb" text-anchor="middle" transform="translate(-915 -435)" x="2075" y="615">
+      <tspan sodipodi:role="line" x="2075" y="615">Munster</tspan>
+    </text>
+    <text letter-spacing="0" overflow="visible" sodipodi:linespacing="100%" style="line-height:100%;text-indent:0;text-align:start;block-progression:tb" transform="translate(-915 -435)" x="2115" y="940">
+      <tspan sodipodi:role="line" style="text-align:start" x="2115" y="940">San Diego</tspan>
+    </text>
+    <text letter-spacing="0" overflow="visible" sodipodi:linespacing="100%" style="line-height:100%;text-indent:0;text-align:center;block-progression:tb" text-anchor="middle" transform="translate(-915 -435)" x="1555" y="600">
+      <tspan sodipodi:role="line" x="1555" y="600">Chalmers</tspan>
+    </text>
+    <text letter-spacing="0" overflow="visible" sodipodi:linespacing="100%" style="line-height:100%;text-indent:0;text-align:center;block-progression:tb" text-anchor="middle" transform="translate(-915 -435)" x="1262.5" y="1060">
+      <tspan sodipodi:role="line" x="1262.5" y="1060">Colombia</tspan> <tspan sodipodi:role="line" x="1262.5" y="1070">GMU</tspan> <tspan sodipodi:role="line" x="1262.5" y="1080">Symantec</tspan>
+    </text>
+    <text letter-spacing="0" overflow="visible" sodipodi:linespacing="100%" style="line-height:100%;text-indent:0;text-align:center;block-progression:tb" text-anchor="middle" transform="translate(-915 -435)" x="1450" y="1360">
+      <tspan sodipodi:role="line" x="1450" y="1360">Portland</tspan>
+    </text>
+    <text letter-spacing="0" overflow="visible" sodipodi:linespacing="100%" style="line-height:100%;text-indent:0;text-align:center;block-progression:tb" text-anchor="middle" transform="translate(-915 -435)" x="2075" y="1350">
+      <tspan sodipodi:role="line" x="2075" y="1350">Santa Barbara</tspan>
+    </text>
+    <text letter-spacing="0" overflow="visible" sodipodi:linespacing="100%" style="line-height:100%;text-indent:0;text-align:center;block-progression:tb" text-anchor="middle" transform="translate(-915 -435)" x="1835" y="540">
+      <tspan sodipodi:role="line" x="1835" y="540">Peach</tspan>
+    </text>
+    <text letter-spacing="0" overflow="visible" sodipodi:linespacing="100%" style="line-height:100%;text-indent:0;text-align:center;block-progression:tb" text-anchor="middle" transform="translate(-915 -435)" x="2310" y="715">
+      <tspan sodipodi:role="line" x="2310" y="715">Ghent</tspan>
+    </text>
+    <text letter-spacing="0" overflow="visible" sodipodi:linespacing="100%" style="line-height:100%;text-indent:0;text-align:center;block-progression:tb" text-anchor="middle" transform="translate(-915 -435)" x="2325" y="985">
+      <tspan sodipodi:role="line" x="2325" y="985">Duke,</tspan> <tspan sodipodi:role="line" x="2325" y="995">Pennsyl.</tspan>
+    </text>
+    <text letter-spacing="0" overflow="visible" sodipodi:linespacing="100%" style="line-height:100%;text-indent:0;text-align:center;block-progression:tb" text-anchor="middle" transform="translate(-915 -435)" x="2100" y="1125">
+      <tspan sodipodi:role="line" x="2100" y="1125">Syracuse (<tspan letter-spacing="1">US</tspan>A)</tspan> <tspan sodipodi:role="line" x="2100" y="1135">Rome (<tspan letter-spacing="1">US</tspan>A)</tspan>
+    </text>
+    <text letter-spacing="0" overflow="visible" sodipodi:linespacing="100%" style="line-height:100%;text-indent:0;text-align:center;block-progression:tb" text-anchor="middle" transform="translate(-915 -435)" x="2325" y="1275">
+      <tspan sodipodi:role="line" x="2325" y="1275">Hong Kong</tspan>
+    </text>
+    <text letter-spacing="0" overflow="visible" sodipodi:linespacing="100%" style="line-height:100%;text-indent:0;text-align:center;block-progression:tb" text-anchor="middle" transform="translate(-915 -435)" x="2215" y="555">
+      <tspan sodipodi:role="line" x="2215" y="555">Nantes</tspan>
+    </text>
+    <text letter-spacing="0" overflow="visible" sodipodi:linespacing="100%" style="line-height:100%;text-indent:0;text-align:center;block-progression:tb" text-anchor="middle" transform="translate(-915 -435)" x="1645" y="1355">
+      <tspan sodipodi:role="line" x="1645" y="1355">Samsung</tspan>
+    </text>
+  </g>
+  
+  
+  <g font-family="CMU Serif" font-weight="500" inkscape:groupmode="layer" inkscape:label="box_text" word-spacing="0">
+    <text color="#000" font-size="6" letter-spacing="0" overflow="visible" sodipodi:linespacing="100%" style="line-height:100%;text-indent:0;text-align:start;block-progression:tb" transform="translate(-915 -447.4)" x="2280" y="632.362">
+      <tspan font-size="10" sodipodi:role="line" style="line-height:100%" x="2280" y="632.362">JNuke</tspan> <tspan sodipodi:role="line" x="2280" y="639.662">2003--2005</tspan> <tspan sodipodi:role="line" x="2280" y="645.662">written on C</tspan> <tspan sodipodi:role="line" x="2280" y="651.662">Java instrumentation</tspan> <tspan sodipodi:role="line" x="2280" y="657.662">virtual machine</tspan> <tspan sodipodi:role="line" x="2280" y="663.662">data races,</tspan> <tspan sodipodi:role="line" x="2280" y="669.662">static analysis</tspan>
+    </text>
+    <text color="#000" font-size="6" letter-spacing="0" overflow="visible" sodipodi:linespacing="100%" style="line-height:100%;text-indent:0;text-align:start;block-progression:tb" transform="translate(-915 -447.4)" x="1985" y="482.362">
+      <tspan font-size="10" sodipodi:role="line" style="line-height:100%" x="1985" y="482.362">BoundsChecker</tspan> <tspan sodipodi:role="line" x="1985" y="489.662">for C++</tspan> <tspan sodipodi:role="line" x="1985" y="495.662">1991--</tspan>
+    </text>
+    <text color="#000" font-size="6" letter-spacing="0" overflow="visible" sodipodi:linespacing="100%" style="line-height:100%;text-indent:0;text-align:start;block-progression:tb" transform="translate(-915 -447.4)" x="2285" y="1322.362">
+      <tspan font-size="10" sodipodi:role="line" style="line-height:100%" x="2285" y="1322.362">NDroid</tspan> <tspan sodipodi:role="line" x="2285" y="1329.662">2014</tspan> <tspan sodipodi:role="line" x="2285" y="1335.662">for Android: Java and JNI</tspan> <tspan sodipodi:role="line" x="2285" y="1341.662">dynamic taint analysis system</tspan> <tspan sodipodi:role="line" x="2285" y="1347.662">it only tracks data flow</tspan> <tspan sodipodi:role="line" x="2285" y="1353.662"> and uses random input data</tspan> <tspan sodipodi:role="line" x="2285" y="1359.662"> (like from monkeyrunner)</tspan> <tspan sodipodi:role="line" x="2285" y="1365.662">not released yet</tspan>
+    </text>
+    <text color="#000" font-size="6" letter-spacing="0" overflow="visible" sodipodi:linespacing="100%" style="line-height:100%;text-indent:0;text-align:start;block-progression:tb" transform="translate(-915 -447.4)" x="2285" y="1042.362">
+      <tspan font-size="10" sodipodi:role="line" style="line-height:100%;-inkscape-font-specification:'CMU Serif'" x="2285" y="1042.362">TaintDroid</tspan> <tspan sodipodi:role="line" x="2285" y="1049.662">2010</tspan> <tspan sodipodi:role="line" x="2285" y="1055.662">for Java, Android, no JNI</tspan> <tspan sodipodi:role="line" x="2285" y="1061.662">only tracks data flow</tspan> <tspan sodipodi:role="line" x="2285" y="1067.662">use taint tags between real</tspan> <tspan sodipodi:role="line" style="line-height:100%;-inkscape-font-specification:'CMU Serif'" x="2285" y="1073.662"> variables</tspan>
+    </text>
+    <text color="#000" font-size="6" letter-spacing="0" overflow="visible" sodipodi:linespacing="100%" style="line-height:100%;text-indent:0;text-align:start;block-progression:tb" transform="translate(-915 -447.4)" x="2065" y="1187.362">
+      <tspan font-size="10" sodipodi:role="line" style="line-height:100%;-inkscape-font-specification:'CMU Serif'" x="2065" y="1187.362">Droidscope</tspan> <tspan sodipodi:role="line" x="2065" y="1194.662">for Android, Dalvik</tspan> <tspan sodipodi:role="line" x="2065" y="1200.662"> Java and native part</tspan> <tspan sodipodi:role="line" x="2065" y="1206.662">based on QEMU</tspan> <tspan sodipodi:role="line" x="2065" y="1212.662">taint tracker to </tspan> <tspan sodipodi:role="line" x="2065" y="1218.662"> analyze leaks</tspan>
+    </text>
+    <text color="#000" font-size="6" letter-spacing="0" overflow="visible" sodipodi:linespacing="100%" style="line-height:100%;text-indent:0;text-align:start;block-progression:tb" transform="translate(-915 -447.4)" x="2075" y="1042.362">
+      <tspan font-size="10" sodipodi:role="line" style="line-height:100%;-inkscape-font-specification:'CMU Serif'" x="2075" y="1042.362">Jinn</tspan> <tspan sodipodi:role="line" x="2075" y="1049.662">2010</tspan> <tspan sodipodi:role="line" x="2075" y="1055.662">for Java, JNI</tspan> <tspan sodipodi:role="line" style="line-height:100%;-inkscape-font-specification:'CMU Serif'" x="2075" y="1061.662">dynamic analysis</tspan>
+    </text>
+    <text color="#000" font-size="6" letter-spacing="0" overflow="visible" sodipodi:linespacing="100%" style="line-height:100%;text-indent:0;text-align:start;block-progression:tb" transform="translate(-915 -447.4)" x="1885" y="692.362">
+      <tspan font-size="10" sodipodi:role="line" style="line-height:100%" x="1885" y="692.362">Java</tspan> <tspan font-size="10" sodipodi:role="line" style="line-height:100%" x="1885" y="702.362">PathFinder</tspan> <tspan sodipodi:role="line" x="1885" y="709.662">2005</tspan> <tspan sodipodi:role="line" x="1885" y="715.662">symbolic execution</tspan> <tspan sodipodi:role="line" x="1885" y="721.662">model checking</tspan> <tspan sodipodi:role="line" style="line-height:100%;-inkscape-font-specification:'CMU Serif'" x="1885" y="727.662">their own JVM</tspan>
+    </text>
+    <text color="#000" font-size="6" letter-spacing="0" overflow="visible" sodipodi:linespacing="100%" style="line-height:100%;text-indent:0;text-align:start;block-progression:tb" transform="translate(-915 -447.4)" x="2190" y="602.362">
+      <tspan font-size="10" sodipodi:role="line" style="line-height:100%;-inkscape-font-specification:'CMU Serif'" x="2190" y="602.362">Caffeine</tspan> <tspan sodipodi:role="line" x="2190" y="609.662">2002</tspan> <tspan sodipodi:role="line" x="2190" y="615.662">for Java, JNI</tspan> <tspan sodipodi:role="line" style="line-height:100%;-inkscape-font-specification:'CMU Serif'" x="2190" y="621.662">dynamic analysis</tspan>
+    </text>
+    <text color="#000" font-size="6" letter-spacing="0" overflow="visible" sodipodi:linespacing="100%" style="line-height:100%;text-indent:0;text-align:start;block-progression:tb" transform="translate(-915 -447.4)" x="1220" y="902.362">
+      <tspan font-size="10" letter-spacing="1" sodipodi:role="line" style="line-height:100%" x="1220" y="902.362">KLEE</tspan> <tspan sodipodi:role="line" x="1220" y="909.662">2008</tspan> <tspan sodipodi:role="line" x="1220" y="915.662">online DSE</tspan> <tspan sodipodi:role="line" x="1220" y="921.662">for native code</tspan> <tspan sodipodi:role="line" x="1220" y="927.662">constraint</tspan> <tspan sodipodi:role="line" x="1220" y="933.662"> optimizations</tspan>
+    </text>
+    <text color="#000" font-size="6" letter-spacing="0" overflow="visible" sodipodi:linespacing="100%" style="line-height:100%;text-indent:0;text-align:start;block-progression:tb" transform="translate(-915 -447.4)" x="1220" y="762.362">
+      <tspan font-size="10" letter-spacing="1" sodipodi:role="line" style="line-height:100%" x="1220" y="762.362">EXE</tspan> <tspan sodipodi:role="line" x="1220" y="769.662">2006</tspan> <tspan sodipodi:role="line" x="1220" y="775.662">for native code</tspan>
+    </text>
+    <text color="#000" font-size="6" letter-spacing="0" overflow="visible" sodipodi:linespacing="100%" style="line-height:100%;text-indent:0;text-align:start;block-progression:tb" transform="translate(-915 -447.4)" x="1100" y="902.362">
+      <tspan font-size="10" sodipodi:role="line" style="line-height:100%;-inkscape-font-specification:'CMU Serif'" x="1100" y="902.362">ThreadSanitizer </tspan> <tspan sodipodi:role="line" x="1100" y="909.662">since 2008</tspan> <tspan sodipodi:role="line" x="1100" y="915.662">for C/C++</tspan> <tspan sodipodi:role="line" x="1100" y="921.662">based on dynamic </tspan> <tspan sodipodi:role="line" x="1100" y="927.662">instrumentation (Valgrind)</tspan>
+    </text>
+    <text color="#000" font-size="6" letter-spacing="0" overflow="visible" sodipodi:linespacing="100%" style="line-height:100%;text-indent:0;text-align:start;block-progression:tb" transform="translate(-915 -447.4)" x="1095" y="1227.362">
+      <tspan font-size="8" sodipodi:role="line" style="line-height:100%;-inkscape-font-specification:'CMU Serif'" x="1095" y="1227.362">TS version 2</tspan> <tspan sodipodi:role="line" x="1095" y="1234.012">2012</tspan> <tspan sodipodi:role="line" x="1095" y="1240.012">based on static </tspan> <tspan sodipodi:role="line" x="1095" y="1246.012">instrumentation</tspan> <tspan sodipodi:role="line" x="1095" y="1252.012">(LLVM and GCC)</tspan> <tspan sodipodi:role="line" x="1095" y="1258.012">for speedup</tspan>
+    </text>
+    <text color="#000" font-size="6" letter-spacing="0" overflow="visible" sodipodi:linespacing="100%" style="line-height:100%;text-indent:0;text-align:start;block-progression:tb" transform="translate(-915 -447.4)" x="1100" y="967.362">
+      <tspan font-size="10" sodipodi:role="line" style="line-height:100%;-inkscape-font-specification:'CMU Serif'" x="1100" y="967.362">Java TS </tspan> <tspan sodipodi:role="line" style="line-height:100%;-inkscape-font-specification:'CMU Serif'" x="1100" y="974.662">2008--2010</tspan> <tspan sodipodi:role="line" style="line-height:100%;-inkscape-font-specification:'CMU Serif'" x="1100" y="980.662">for Java</tspan>
+    </text>
+    <text color="#000" font-size="6" letter-spacing="0" overflow="visible" sodipodi:linespacing="100%" style="line-height:100%;text-indent:0;text-align:start;block-progression:tb" transform="translate(-915 -447.4)" x="1095.005" y="1042.362">
+      <tspan sodipodi:role="line" x="1095.005" y="1042.362">based on PIN for</tspan> <tspan sodipodi:role="line" x="1095.005" y="1048.362">parallelization</tspan>
+    </text>
+    <text color="#000" font-size="6" letter-spacing="0" overflow="visible" sodipodi:linespacing="100%" style="line-height:100%;text-indent:0;text-align:start;block-progression:tb" transform="translate(-915 -447.4)" x="1280" y="702.362">
+      <tspan font-size="10" letter-spacing="1" sodipodi:role="line" style="line-height:100%" x="1280" y="702.362">EGT</tspan> <tspan sodipodi:role="line" x="1280" y="709.662">?</tspan>
+    </text>
+    <text color="#000" font-size="6" letter-spacing="0" overflow="visible" sodipodi:linespacing="100%" style="line-height:100%;text-indent:0;text-align:start;block-progression:tb" transform="translate(-915 -447.4)" x="1345" y="697.362">
+      <tspan font-size="10" letter-spacing="1" sodipodi:role="line" style="line-height:100%" x="1345" y="697.362">CUTE</tspan> <tspan sodipodi:role="line" x="1345" y="704.662">2005</tspan> <tspan sodipodi:role="line" x="1345" y="710.662">concolic testing</tspan>
+    </text>
+    <text color="#000" font-size="6" letter-spacing="0" overflow="visible" sodipodi:linespacing="100%" style="line-height:100%;text-indent:0;text-align:start;block-progression:tb" transform="translate(-915 -447.4)" x="1425" y="692.362">
+      <tspan font-size="10" letter-spacing="1" sodipodi:role="line" style="line-height:100%" x="1425" y="692.362">DART</tspan> <tspan sodipodi:role="line" x="1425" y="699.662">2005</tspan>
+    </text>
+    <text color="#000" font-size="6" letter-spacing="0" overflow="visible" sodipodi:linespacing="100%" style="line-height:100%;text-indent:0;text-align:start;block-progression:tb" transform="translate(-915 -447.4)" x="1430" y="902.362">
+      <tspan font-size="10" letter-spacing="1" sodipodi:role="line" style="line-height:100%" x="1430" y="902.362">SAGE</tspan> <tspan sodipodi:role="line" x="1430" y="909.662">2008</tspan> <tspan sodipodi:role="line" x="1430" y="915.662">concolic + fuzzing</tspan>
+    </text>
+    <text color="#000" font-size="6" letter-spacing="0" overflow="visible" sodipodi:linespacing="100%" style="line-height:100%;text-indent:0;text-align:start;block-progression:tb" transform="translate(-915 -447.4)" x="1345" y="777.362">
+      <tspan font-size="10" sodipodi:role="line" style="line-height:100%" x="1345" y="777.362">j<tspan letter-spacing="1">CUTE</tspan> </tspan> <tspan sodipodi:role="line" x="1345" y="784.662">2006</tspan>
+    </text>
+    <text color="#000" font-size="6" letter-spacing="0" overflow="visible" sodipodi:linespacing="100%" style="line-height:100%;text-indent:0;text-align:start;block-progression:tb" transform="translate(-915 -447.4)" x="2075" y="842.362">
+      <tspan font-size="10" sodipodi:role="line" style="line-height:100%" x="2075" y="842.362">ExpliSAT</tspan> <tspan sodipodi:role="line" x="2075" y="849.662">unknown date</tspan>
+    </text>
+    <text color="#000" font-size="6" letter-spacing="0" overflow="visible" sodipodi:linespacing="100%" style="line-height:100%;text-indent:0;text-align:start;block-progression:tb" transform="translate(-915 -447.4)" x="1000" y="692.362">
+      <tspan font-size="10" sodipodi:role="line" style="line-height:100%" x="1000" y="692.362">PathCrawler</tspan> <tspan sodipodi:role="line" x="1000" y="699.662">2005</tspan> <tspan sodipodi:role="line" x="1000" y="705.662">limit loop iterations</tspan>
+    </text>
+    <text font-size="10" letter-spacing="0" sodipodi:linespacing="100%" style="line-height:100%" transform="translate(-915 -447.4)" x="2084.984" y="562.362">
+      <tspan sodipodi:role="line" x="2084.984" y="562.362">HotSpot</tspan> <tspan font-size="6" sodipodi:role="line" x="2084.984" y="569.662">1999</tspan>
+    </text>
+    <text font-size="10" letter-spacing="0" sodipodi:linespacing="100%" style="line-height:100%" transform="translate(-915 -447.4)" x="2185" y="1112.362">
+      <tspan sodipodi:role="line" x="2185" y="1112.362">S<tspan baseline-shift="super" font-size="65.001%" style="line-height:100%">2</tspan>E</tspan> <tspan font-size="6" sodipodi:role="line" style="line-height:100%;-inkscape-font-specification:'CMU Serif'" x="2185" y="1119.662">for native code</tspan> <tspan font-size="6" sodipodi:role="line" style="line-height:100%;-inkscape-font-specification:'CMU Serif'" x="2185" y="1125.662">symbolic and </tspan> <tspan font-size="6" sodipodi:role="line" style="line-height:100%;-inkscape-font-specification:'CMU Serif'" x="2185" y="1131.662"> concrete execution</tspan> <tspan font-size="6" sodipodi:role="line" style="line-height:100%;-inkscape-font-specification:'CMU Serif'" x="2185" y="1137.662"> framework</tspan>
+    </text>
+    <text color="#000" font-size="6" letter-spacing="0" overflow="visible" sodipodi:linespacing="100%" style="line-height:100%;text-indent:0;text-align:start;block-progression:tb" transform="translate(-915 -447.4)" x="1505" y="1322.362">
+      <tspan font-size="10" sodipodi:role="line" style="line-height:100%" x="1505" y="1322.362">Sherlock</tspan> <tspan sodipodi:role="line" x="1505" y="1329.662">2014</tspan> <tspan sodipodi:role="line" x="1505" y="1335.662">dynamic analysis for deadlocks</tspan> <tspan sodipodi:role="line" x="1505" y="1341.662">scheduler control</tspan>
+    </text>
+    <text color="#000" font-size="6" letter-spacing="0" overflow="visible" sodipodi:linespacing="100%" style="line-height:100%;text-indent:0;text-align:start;block-progression:tb" transform="translate(-915 -447.4)" x="1430" y="562.362">
+      <tspan font-size="10" sodipodi:role="line" style="line-height:100%" x="1430" y="562.362">Dyninst</tspan> <tspan sodipodi:role="line" x="1430" y="569.662">1999 or earlier</tspan> <tspan sodipodi:role="line" x="1430" y="575.662">dynamic binary</tspan> <tspan sodipodi:role="line" x="1430" y="581.662"> instrumentator</tspan>
+    </text>
+    <text font-size="10" letter-spacing="0" sodipodi:linespacing="100%" style="line-height:100%;text-align:start" transform="translate(-915 -447.4)" x="1745" y="1187.362">
+      <tspan sodipodi:role="line" x="1745" y="1187.362">Mayhem</tspan> <tspan font-size="6" sodipodi:role="line" style="line-height:100%;-inkscape-font-specification:'CMU Serif'" x="1745" y="1194.662">2012</tspan> <tspan font-size="6" sodipodi:role="line" style="line-height:100%;-inkscape-font-specification:'CMU Serif'" x="1745" y="1200.662">binary exploit finder</tspan> <tspan font-size="6" sodipodi:role="line" style="line-height:100%;-inkscape-font-specification:'CMU Serif'" x="1745" y="1206.662"> and generator</tspan> <tspan font-size="6" sodipodi:role="line" style="line-height:100%;-inkscape-font-specification:'CMU Serif'" x="1745" y="1212.662">hybrid: online and</tspan> <tspan font-size="6" sodipodi:role="line" style="line-height:100%;-inkscape-font-specification:'CMU Serif'" x="1745" y="1218.662"> offline DSE</tspan>
+    </text>
+    <text font-size="10" letter-spacing="0" sodipodi:linespacing="100%" style="line-height:100%;text-align:start" transform="translate(-915 -447.4)" x="1545" y="1192.362">
+      <tspan sodipodi:role="line" x="1545" y="1192.362">Green</tspan> <tspan sodipodi:role="line" x="1545" y="1202.362">solver</tspan>
+    </text>
+    <text color="#000" font-size="10" letter-spacing="0" overflow="visible" sodipodi:linespacing="100%" style="line-height:100%;text-indent:0;text-align:start;block-progression:tb" transform="translate(-915 -447.4)" x="1795" y="1112.362">
+      <tspan letter-spacing="1" sodipodi:role="line" x="1795" y="1112.362">BAP</tspan> <tspan font-size="6" sodipodi:role="line" style="line-height:100%;-inkscape-font-specification:'CMU Serif'" x="1795" y="1119.662">2011</tspan> <tspan font-size="6" sodipodi:role="line" style="line-height:100%;-inkscape-font-specification:'CMU Serif'" x="1795" y="1125.662">binary analysis</tspan> <tspan font-size="6" sodipodi:role="line" style="line-height:100%;-inkscape-font-specification:'CMU Serif'" x="1795" y="1131.662">platform</tspan>
+    </text>
+    <text color="#000" font-size="10" letter-spacing="0" overflow="visible" sodipodi:linespacing="100%" style="line-height:100%;text-indent:0;text-align:start;block-progression:tb" transform="translate(-915 -447.4)" x="1745" y="1112.362">
+      <tspan letter-spacing="1" sodipodi:role="line" x="1745" y="1112.362">AEG</tspan> <tspan font-size="6" sodipodi:role="line" style="line-height:100%;-inkscape-font-specification:'CMU Serif'" x="1745" y="1119.662">2011</tspan> <tspan font-size="6" sodipodi:role="line" style="line-height:100%;-inkscape-font-specification:'CMU Serif'" x="1745" y="1125.662">exploit</tspan> <tspan font-size="6" sodipodi:role="line" style="line-height:100%;-inkscape-font-specification:'CMU Serif'" x="1745" y="1131.662"> generator</tspan>
+    </text>
+    <text font-size="10" letter-spacing="0" sodipodi:linespacing="100%" style="line-height:100%;text-align:start" transform="translate(-915 -447.4)" x="1745" y="1322.362">
+      <tspan sodipodi:role="line" x="1745" y="1322.362">MergePoint</tspan> <tspan font-size="6" sodipodi:role="line" style="line-height:100%;-inkscape-font-specification:'CMU Serif'" x="1745" y="1329.662">2014</tspan> <tspan font-size="6" sodipodi:role="line" style="line-height:100%;-inkscape-font-specification:'CMU Serif'" x="1745" y="1335.662">veritesting: switch</tspan> <tspan font-size="6" sodipodi:role="line" style="line-height:100%;-inkscape-font-specification:'CMU Serif'" x="1745" y="1341.662"> between DSE</tspan> <tspan font-size="6" sodipodi:role="line" style="line-height:100%;-inkscape-font-specification:'CMU Serif'" x="1745" y="1347.662"> and SSE (static)</tspan> <tspan font-size="6" sodipodi:role="line" style="line-height:100%;-inkscape-font-specification:'CMU Serif'" x="1745" y="1353.662">extract CFG</tspan>
+    </text>
+    <text font-size="10" letter-spacing="0" sodipodi:linespacing="100%" style="line-height:100%;text-align:start" transform="translate(-915 -447.4)" x="1995" y="1462.362">
+      <tspan sodipodi:role="line" x="1995" y="1462.362">angr</tspan> <tspan font-size="6" sodipodi:role="line" style="line-height:100%;-inkscape-font-specification:'CMU Serif'" x="1995" y="1469.662">2016</tspan> <tspan font-size="6" sodipodi:role="line" style="line-height:100%;-inkscape-font-specification:'CMU Serif'" x="1995" y="1475.662">binary analyzer</tspan>
+    </text>
+    <text font-size="10" letter-spacing="0" sodipodi:linespacing="100%" style="line-height:100%;text-align:start" transform="translate(-915 -447.4)" x="1445" y="1322.362">
+      <tspan letter-spacing="1" sodipodi:role="line" x="1445" y="1322.362">AFL</tspan> <tspan font-size="6" sodipodi:role="line" style="line-height:100%;-inkscape-font-specification:'CMU Serif'" x="1445" y="1329.662">2014</tspan> <tspan font-size="6" sodipodi:role="line" style="line-height:100%;-inkscape-font-specification:'CMU Serif'" x="1445" y="1335.662">fuzzer</tspan>
+    </text>
+    <text font-size="10" letter-spacing="0" sodipodi:linespacing="100%" style="line-height:100%;text-align:start" transform="translate(-915 -447.4)" x="2084.087" y="1462.198">
+      <tspan sodipodi:role="line" x="2084.087" y="1462.198">Driller</tspan> <tspan font-size="6" sodipodi:role="line" style="line-height:100%;-inkscape-font-specification:'CMU Serif'" x="2084.087" y="1469.497">2016</tspan> <tspan font-size="6" sodipodi:role="line" style="line-height:100%;-inkscape-font-specification:'CMU Serif'" x="2084.087" y="1475.497">hybrid fuzzing and DSE</tspan> <tspan font-size="6" sodipodi:role="line" style="line-height:100%;-inkscape-font-specification:'CMU Serif'" x="2084.087" y="1481.497">uses VEX</tspan>
+    </text>
+    <text font-size="10" letter-spacing="0" sodipodi:linespacing="100%" style="line-height:100%;text-align:start" transform="translate(-915 -447.4)" x="2085" y="1392.362">
+      <tspan sodipodi:role="line" x="2085" y="1392.362">Firmalice</tspan> <tspan font-size="6" sodipodi:role="line" style="line-height:100%;-inkscape-font-specification:'CMU Serif'" x="2085" y="1399.662">2015</tspan> <tspan font-size="6" sodipodi:role="line" style="line-height:100%;-inkscape-font-specification:'CMU Serif'" x="2085" y="1405.662">firmware auth. bypass</tspan> <tspan font-size="6" sodipodi:role="line" style="line-height:100%;-inkscape-font-specification:'CMU Serif'" x="2085" y="1411.662">uses SA to extract CFG</tspan> <tspan font-size="6" sodipodi:role="line" style="line-height:100%;-inkscape-font-specification:'CMU Serif'" x="2085" y="1417.662">performs DSE on slice</tspan>
+    </text>
+    <text color="#000" font-size="6" letter-spacing="0" overflow="visible" sodipodi:linespacing="100%" style="line-height:100%;text-indent:0;text-align:start;block-progression:tb" transform="translate(-915 -447.4)" x="1220" y="1322.362">
+      <tspan font-size="10" letter-spacing="1" sodipodi:role="line" style="line-height:100%" x="1220" y="1322.362">UC-KLEE</tspan> <tspan sodipodi:role="line" x="1220" y="1329.662">2014</tspan> <tspan sodipodi:role="line" x="1220" y="1335.662">under-constrained</tspan> <tspan sodipodi:role="line" x="1220" y="1341.662"> SE (DSE inside</tspan> <tspan sodipodi:role="line" x="1220" y="1347.662"> one function)</tspan> <tspan sodipodi:role="line" x="1220" y="1353.662">check patches</tspan>
+    </text>
+    <text color="#000" font-size="6" letter-spacing="0" overflow="visible" sodipodi:linespacing="100%" style="line-height:100%;text-indent:0;text-align:start;block-progression:tb" transform="translate(-915 -447.4)" x="1520" y="902.362">
+      <tspan font-size="10" sodipodi:role="line" style="line-height:100%" x="1520" y="902.362">Splat</tspan> <tspan sodipodi:role="line" x="1520" y="909.662">2008</tspan> <tspan sodipodi:role="line" x="1520" y="915.662">symbolic length</tspan>
+    </text>
+    <text color="#000" font-size="6" letter-spacing="0" overflow="visible" sodipodi:linespacing="100%" style="line-height:100%;text-indent:0;text-align:start;block-progression:tb" transform="translate(-915 -447.4)" x="1340" y="1392.362">
+      <tspan font-size="10" sodipodi:role="line" style="line-height:100%" x="1340" y="1392.362">Triton</tspan> <tspan sodipodi:role="line" x="1340" y="1399.662">2015</tspan>
+    </text>
+    <text color="#000" font-size="6" letter-spacing="0" overflow="visible" sodipodi:linespacing="100%" style="line-height:100%;text-indent:0;text-align:start;block-progression:tb" transform="translate(-915 -447.4)" x="1520" y="1042.362">
+      <tspan font-size="10" sodipodi:role="line" style="line-height:100%" x="1520" y="1042.362">CryptoMiniSat</tspan> <tspan sodipodi:role="line" x="1520" y="1049.662">2010</tspan>
+    </text>
+    <text color="#000" font-size="6" letter-spacing="0" overflow="visible" sodipodi:linespacing="100%" style="line-height:100%;text-indent:0;text-align:start;block-progression:tb" transform="translate(-915 -447.4)" x="1220" y="692.362">
+      <tspan font-size="10" letter-spacing="1" sodipodi:role="line" style="line-height:100%" x="1220" y="692.362">STP</tspan> <tspan sodipodi:role="line" x="1220" y="699.662">2005</tspan>
+    </text>
+    <text font-size="10" letter-spacing="0" sodipodi:linespacing="100%" style="line-height:100%;text-align:start" transform="translate(-915 -447.4)" x="2184.087" y="1407.198">
+      <tspan sodipodi:role="line" x="2184.087" y="1407.198">Galactica</tspan>
+    </text>
+    <text color="#000" font-size="6" letter-spacing="0" overflow="visible" sodipodi:linespacing="100%" style="line-height:100%;text-indent:0;text-align:start;block-progression:tb" transform="translate(-915 -447.4)" x="1300" y="602.362">
+      <tspan font-size="10" sodipodi:role="line" style="line-height:100%" x="1300" y="602.362">Dynamo<tspan letter-spacing="1">RIO</tspan> </tspan> <tspan sodipodi:role="line" x="1300" y="609.662">2002</tspan> <tspan sodipodi:role="line" x="1300" y="615.662">dynamic binary</tspan> <tspan sodipodi:role="line" x="1300" y="621.662"> instrumentator</tspan>
+    </text>
+    <text color="#000" font-size="6" letter-spacing="0" overflow="visible" sodipodi:linespacing="100%" style="line-height:100%;text-indent:0;text-align:start;block-progression:tb" transform="translate(-915 -447.4)" x="2120" y="972.362">
+      <tspan font-size="10" letter-spacing="1" sodipodi:role="line" style="line-height:100%" x="2120" y="972.362">PEBIL</tspan> <tspan sodipodi:role="line" x="2120" y="979.662">static binary</tspan> <tspan sodipodi:role="line" x="2120" y="985.662">instrumentator</tspan>
+    </text>
+    <text color="#000" font-size="6" letter-spacing="0" overflow="visible" sodipodi:linespacing="100%" style="line-height:100%;text-indent:0;text-align:start;block-progression:tb" transform="translate(-915 -447.4)" x="2285" y="832.362">
+      <tspan font-size="10" letter-spacing="1" sodipodi:role="line" style="line-height:100%" x="2285" y="832.362">PIN</tspan> <tspan sodipodi:role="line" x="2285" y="839.662">dynamic binary</tspan> <tspan sodipodi:role="line" x="2285" y="845.662">instrumentator</tspan>
+    </text>
+    <text color="#000" font-size="10" letter-spacing="0" overflow="visible" sodipodi:linespacing="100%" style="line-height:100%;text-indent:0;text-align:start;block-progression:tb" transform="translate(-915 -447.4)" x="1655" y="902.362">
+      <tspan sodipodi:role="line" x="1655" y="902.362">BitBlaze</tspan> <tspan font-size="6" sodipodi:role="line" style="line-height:100%;-inkscape-font-specification:'CMU Serif'" x="1655" y="909.662">2008</tspan>
+    </text>
+    <text color="#000" font-size="10" letter-spacing="0" overflow="visible" sodipodi:linespacing="100%" style="line-height:100%;text-indent:0;text-align:start;block-progression:tb" transform="translate(-915 -447.4)" x="1655" y="1112.362">
+      <tspan sodipodi:role="line" x="1655" y="1112.362"><tspan letter-spacing="1">DTA</tspan>++</tspan> <tspan font-size="6" sodipodi:role="line" style="line-height:100%;-inkscape-font-specification:'CMU Serif'" x="1655" y="1119.662">2011</tspan>
+    </text>
+    <text color="#000" font-size="10" letter-spacing="0" overflow="visible" sodipodi:linespacing="100%" style="line-height:100%;text-indent:0;text-align:start;block-progression:tb" transform="translate(-915 -447.4)" x="1745" y="762.362">
+      <tspan sodipodi:role="line" x="1745" y="762.362">Replayer</tspan> <tspan font-size="6" sodipodi:role="line" style="line-height:100%;-inkscape-font-specification:'CMU Serif'" x="1745" y="769.662">2006</tspan> <tspan font-size="6" sodipodi:role="line" style="line-height:100%;-inkscape-font-specification:'CMU Serif'" x="1745" y="775.662">execution replay</tspan> <tspan font-size="6" sodipodi:role="line" style="line-height:100%;-inkscape-font-specification:'CMU Serif'" x="1745" y="781.662">for dialog program</tspan>
+    </text>
+    <text color="#000" font-size="6" letter-spacing="0" overflow="visible" sodipodi:linespacing="100%" style="line-height:100%;text-indent:0;text-align:start;block-progression:tb" transform="translate(-915 -447.4)" x="1110" y="572.362">
+      <tspan font-size="10" sodipodi:role="line" style="line-height:100%" x="1110" y="572.362">Valgrind</tspan> <tspan sodipodi:role="line" x="1110" y="579.662">2000</tspan> <tspan sodipodi:role="line" x="1110" y="585.662">dynamic binary</tspan> <tspan sodipodi:role="line" x="1110" y="591.662"> instrumentator</tspan>
+    </text>
+    <text color="#000" font-size="6" letter-spacing="0" overflow="visible" sodipodi:linespacing="100%" style="line-height:100%;text-indent:0;text-align:center;block-progression:tb" text-anchor="middle" transform="translate(-915 -447.4)" x="1817.5" y="766.862">
+      <tspan sodipodi:role="line" style="line-height:50%;text-align:center" x="1817.5" y="766.862">Valgrind</tspan>
+    </text>
+    <text color="#000" font-size="6" letter-spacing="0" overflow="visible" sodipodi:linespacing="100%" style="line-height:100%;text-indent:0;text-align:center;block-progression:tb" text-anchor="middle" transform="translate(-915 -447.4)" x="1817.25" y="754.362">
+      <tspan letter-spacing=".5" sodipodi:role="line" style="line-height:50%;text-align:center" x="1817.5" y="754.362">STP</tspan>
+    </text>
+    <text color="#000" font-size="6" letter-spacing="0" overflow="visible" sodipodi:linespacing="100%" style="line-height:100%;text-indent:0;text-align:center;block-progression:tb" text-anchor="middle" transform="translate(-915 -447.4)" x="1577.25" y="894.362">
+      <tspan letter-spacing=".5" sodipodi:role="line" style="line-height:50%;text-align:center" x="1577.5" y="894.362">STP</tspan>
+    </text>
+    <text color="#000" font-size="6" letter-spacing="0" overflow="visible" sodipodi:linespacing="100%" style="line-height:100%;text-indent:0;text-align:center;block-progression:tb" text-anchor="middle" transform="translate(-915 -447.4)" x="1822.25" y="1314.362">
+      <tspan letter-spacing=".5" sodipodi:role="line" style="line-height:50%;text-align:center" x="1822.5" y="1314.362">Z3</tspan>
+    </text>
+    <text color="#000" font-size="6" letter-spacing="0" overflow="visible" sodipodi:linespacing="100%" style="line-height:100%;text-indent:0;text-align:center;block-progression:tb" text-anchor="middle" transform="translate(-915 -447.4)" x="1822.25" y="1326.862">
+      <tspan sodipodi:role="line" style="line-height:50%;text-align:center" x="1822.5" y="1326.862"> <tspan letter-spacing=".5" style="text-align:center">BAP</tspan> </tspan>
+    </text>
+    <text color="#000" font-size="6" letter-spacing="0" overflow="visible" sodipodi:linespacing="100%" style="line-height:100%;text-indent:0;text-align:center;block-progression:tb" text-anchor="middle" transform="translate(-915 -447.4)" x="1757.5" y="1366.862">
+      <tspan sodipodi:role="line" style="line-height:50%;text-align:center" x="1757.5" y="1366.862">Mayhem</tspan>
+    </text>
+    <text color="#000" font-size="6" letter-spacing="0" overflow="visible" sodipodi:linespacing="100%" style="line-height:100%;text-indent:0;text-align:center;block-progression:tb" text-anchor="middle" transform="translate(-915 -447.4)" x="1822.25" y="1179.362">
+      <tspan sodipodi:role="line" style="line-height:50%;text-align:center" x="1822.5" y="1179.362"> <tspan letter-spacing=".5" style="text-align:center">BAP</tspan> </tspan>
+    </text>
+    <text color="#000" font-size="6" letter-spacing="0" overflow="visible" sodipodi:linespacing="100%" style="line-height:100%;text-indent:0;text-align:start;block-progression:tb" transform="translate(-915 -447.4)" x="1100" y="832.362">
+      <tspan font-size="10" sodipodi:role="line" style="line-height:100%" x="1100" y="832.362">Flayer</tspan> <tspan sodipodi:role="line" x="1100" y="839.662">2007</tspan>
+    </text>
+    <text color="#000" font-size="6" letter-spacing="0" overflow="visible" sodipodi:linespacing="100%" style="line-height:100%;text-indent:0;text-align:start;block-progression:tb" transform="translate(-915 -447.4)" x="1620" y="542.362">
+      <tspan font-size="10" sodipodi:role="line" style="line-height:100%" x="1620" y="542.362">Eraser</tspan> <tspan sodipodi:role="line" x="1620" y="549.662">1997</tspan> <tspan sodipodi:role="line" style="line-height:100%;-inkscape-font-specification:'CMU Serif'" x="1620" y="555.662">data race detector</tspan>
+    </text>
+    <text color="#000" font-size="6" letter-spacing=".5" overflow="visible" sodipodi:linespacing="100%" style="line-height:100%;text-indent:0;text-align:start;block-progression:tb" transform="translate(-915 -447.4)" x="1617.5" y="571.862">
+      <tspan sodipodi:role="line" style="line-height:50%" x="1617.5" y="571.862">ATOM</tspan>
+    </text>
+    <text color="#000" font-size="6" letter-spacing="0" overflow="visible" sodipodi:linespacing="100%" style="line-height:100%;text-indent:0;text-align:start;block-progression:tb" transform="translate(-915 -447.4)" x="1735" y="512.362">
+      <tspan font-size="10" sodipodi:role="line" style="line-height:100%" x="1735" y="512.362"> <tspan letter-spacing="1">ATOM</tspan> </tspan> <tspan sodipodi:role="line" x="1735" y="519.662">1994</tspan> <tspan sodipodi:role="line" x="1735" y="525.662">instrumentation</tspan> <tspan sodipodi:role="line" x="1735" y="531.662">framework</tspan>
+    </text>
+    <text color="#000" font-size="6" letter-spacing="0" overflow="visible" sodipodi:linespacing="100%" style="line-height:100%;text-indent:0;text-align:start;block-progression:tb" transform="translate(-915 -447.4)" x="1140" y="824.362">
+      <tspan sodipodi:role="line" style="line-height:50%" x="1140" y="824.362">Valgrind</tspan>
+    </text>
+    <text color="#000" font-size="6" letter-spacing="0" overflow="visible" sodipodi:linespacing="100%" style="line-height:100%;text-indent:0;text-align:start;block-progression:tb" transform="translate(-915 -447.4)" x="1620" y="832.362">
+      <tspan font-size="10" sodipodi:role="line" style="line-height:100%" x="1620" y="832.362">Catchconv</tspan> <tspan sodipodi:role="line" x="1620" y="839.662">2007</tspan>
+    </text>
+    <text color="#000" font-size="6" letter-spacing="0" overflow="visible" sodipodi:linespacing="100%" style="line-height:100%;text-indent:0;text-align:center;block-progression:tb" text-anchor="middle" transform="translate(-915 -447.4)" x="1692.5" y="836.862">
+      <tspan sodipodi:role="line" style="line-height:50%;text-align:center" x="1692.5" y="836.862">Valgrind</tspan>
+    </text>
+    <text color="#000" font-size="6" letter-spacing="0" overflow="visible" sodipodi:linespacing="100%" style="line-height:100%;text-indent:0;text-align:center;block-progression:tb" text-anchor="middle" transform="translate(-915 -447.4)" x="1692.25" y="824.362">
+      <tspan letter-spacing=".5" sodipodi:role="line" style="line-height:50%;text-align:center" x="1692.5" y="824.362">STP</tspan>
+    </text>
+    <text font-size="10" letter-spacing="0" sodipodi:linespacing="100%" style="line-height:100%;text-align:start" transform="translate(-915 -447.4)" x="1340" y="1322.362">
+      <tspan sodipodi:role="line" x="1340" y="1322.362">libFuzzer</tspan> <tspan font-size="6" sodipodi:role="line" style="line-height:100%" x="1340" y="1329.662">fuzzer</tspan>
+    </text>
+    <text color="#000" font-size="6" letter-spacing="0" overflow="visible" sodipodi:linespacing="100%" style="line-height:100%;text-indent:0;text-align:start;block-progression:tb" transform="translate(-915 -447.4)" x="1390" y="1314.362">
+      <tspan sodipodi:role="line" style="line-height:50%" x="1390" y="1314.362">Clang</tspan>
+    </text>
+    <text color="#000" font-size="6" letter-spacing="0" overflow="visible" sodipodi:linespacing="100%" style="line-height:100%;text-indent:0;text-align:start;block-progression:tb" transform="translate(-915 -447.4)" x="1270" y="754.362">
+      <tspan letter-spacing=".5" sodipodi:role="line" style="line-height:50%" x="1270" y="754.362">STP</tspan>
+    </text>
+    <text color="#000" font-size="6" letter-spacing="0" overflow="visible" sodipodi:linespacing="100%" style="line-height:100%;text-indent:0;text-align:center;block-progression:tb" text-anchor="middle" transform="translate(-915 -447.4)" x="1282.25" y="906.862">
+      <tspan letter-spacing=".5" sodipodi:role="line" style="line-height:50%;text-align:center" x="1282.5" y="906.862">STP</tspan>
+    </text>
+    <text color="#000" font-size="6" letter-spacing="0" overflow="visible" sodipodi:linespacing="100%" style="line-height:100%;text-indent:0;text-align:center;block-progression:tb" text-anchor="middle" transform="translate(-915 -447.4)" x="1282.313" y="894.362">
+      <tspan letter-spacing=".5" sodipodi:role="line" style="line-height:50%;text-align:center" x="1282.563" y="894.362">LLVM</tspan>
+    </text>
+    <text color="#000" font-size="6" letter-spacing="0" overflow="visible" sodipodi:linespacing="100%" style="line-height:100%;text-indent:0;text-align:center;block-progression:tb" text-anchor="middle" transform="translate(-915 -447.4)" x="1497.25" y="894.362">
+      <tspan letter-spacing=".5" sodipodi:role="line" style="line-height:50%;text-align:center" x="1497.5" y="894.362">Z3</tspan>
+    </text>
+    <text color="#000" font-size="6" letter-spacing="0" overflow="visible" sodipodi:linespacing="100%" style="line-height:100%;text-indent:0;text-align:center;block-progression:tb" text-anchor="middle" transform="translate(-915 -447.4)" x="1822.5" y="1339.362">
+      <tspan sodipodi:role="line" style="line-height:50%;text-align:center" x="1822.5" y="1339.362">Pin</tspan>
+    </text>
+    <text color="#000" font-size="6" letter-spacing="0" overflow="visible" sodipodi:linespacing="100%" style="line-height:100%;text-indent:0;text-align:start;block-progression:tb" transform="translate(-915 -447.4)" x="1000" y="1322.362">
+      <tspan font-size="10" letter-spacing="1" sodipodi:role="line" style="line-height:100%" x="1000" y="1322.362">SANTE</tspan> <tspan sodipodi:role="line" x="1000" y="1329.662">2014</tspan> <tspan sodipodi:role="line" x="1000" y="1335.662">combination of </tspan> <tspan sodipodi:role="line" x="1000" y="1341.662"><tspan letter-spacing=".5">S</tspan> A and <tspan letter-spacing=".5">D</tspan> A</tspan>
+    </text>
+    <text font-size="10" letter-spacing="0" sodipodi:linespacing="100%" style="line-height:100%;text-align:start" transform="translate(-915 -447.4)" x="1345" y="1252.362">
+      <tspan sodipodi:role="line" x="1345" y="1252.362">Dowser</tspan> <tspan font-size="6" sodipodi:role="line" style="line-height:100%" x="1345" y="1259.662">fuzzer</tspan>
+    </text>
+    <text color="#000" font-size="6" letter-spacing=".5" overflow="visible" sodipodi:linespacing="100%" style="line-height:100%;text-indent:0;text-align:center;block-progression:tb" text-anchor="middle" transform="translate(-915 -447.4)" x="1789.75" y="1366.862">
+      <tspan sodipodi:role="line" style="line-height:50%;text-align:center" x="1790" y="1366.862">AFL</tspan>
+    </text>
+    <text color="#000" font-size="6" letter-spacing=".5" overflow="visible" sodipodi:linespacing="100%" style="line-height:100%;text-indent:0;text-align:center;block-progression:tb" text-anchor="middle" transform="translate(-915 -447.4)" x="2114.75" y="1501.862">
+      <tspan sodipodi:role="line" style="line-height:50%;text-align:center" x="2115" y="1501.862">AFL</tspan>
+    </text>
+    <text color="#000" font-size="6" letter-spacing="0" overflow="visible" sodipodi:linespacing="100%" style="line-height:100%;text-indent:0;text-align:start;block-progression:tb" transform="translate(-915 -447.4)" x="1885" y="1042.362">
+      <tspan font-size="10" sodipodi:role="line" style="line-height:100%" x="1885" y="1042.362">Symbolic</tspan> <tspan font-size="10" sodipodi:role="line" style="line-height:100%" x="1885" y="1052.362">PathFinder</tspan> <tspan sodipodi:role="line" style="line-height:100%;-inkscape-font-specification:'CMU Serif'" x="1885" y="1059.662">2010</tspan>
+    </text>
+    <text color="#000" font-size="6" letter-spacing="0" overflow="visible" sodipodi:linespacing="100%" style="line-height:100%;text-indent:0;text-align:start;block-progression:tb" transform="translate(-915 -447.4)" x="1885" y="832.362">
+      <tspan font-size="10" sodipodi:role="line" style="line-height:100%" x="1885" y="832.362">JPF-SE</tspan> <tspan sodipodi:role="line" style="line-height:100%;-inkscape-font-specification:'CMU Serif'" x="1885" y="839.662">2007</tspan>
+    </text>
+    <text color="#000" font-size="6" letter-spacing="0" overflow="visible" sodipodi:linespacing="100%" style="line-height:100%;text-indent:0;text-align:start;block-progression:tb" transform="translate(-915 -447.4)" x="1745" y="1462.362">
+      <tspan font-size="10" letter-spacing="1" sodipodi:role="line" style="line-height:100%" x="1745" y="1462.362">ISSTAC</tspan> <tspan sodipodi:role="line" style="line-height:100%;-inkscape-font-specification:'CMU Serif'" x="1745" y="1469.662">2016</tspan>
+    </text>
+    <text color="#000" font-size="6" letter-spacing="0" overflow="visible" sodipodi:linespacing="100%" style="line-height:100%;text-indent:0;text-align:center;block-progression:tb" text-anchor="middle" transform="translate(-915 -447.4)" x="1764.75" y="1486.862">
+      <tspan letter-spacing=".5" sodipodi:role="line" style="line-height:50%;text-align:center" x="1765" y="1486.862">SPF</tspan>
+    </text>
+    <text color="#000" font-size="6" letter-spacing="0" overflow="visible" sodipodi:linespacing="100%" style="line-height:100%;text-indent:0;text-align:start;block-progression:tb" transform="translate(-915 -447.4)" x="1430" y="1042.362">
+      <tspan font-size="10" sodipodi:role="line" style="line-height:100%" x="1430" y="1042.362">SAGAN +</tspan> <tspan font-size="10" sodipodi:role="line" style="line-height:100%" x="1430" y="1052.362">JobCenter</tspan> <tspan sodipodi:role="line" x="1430" y="1059.662">2010</tspan>
+    </text>
+    <text color="#000" font-size="6" letter-spacing="0" overflow="visible" sodipodi:linespacing="100%" style="line-height:100%;text-indent:0;text-align:start;block-progression:tb" transform="translate(-915 -447.4)" x="1975" y="832.362">
+      <tspan font-size="10" sodipodi:role="line" style="line-height:100%" x="1975" y="832.362">Dytan</tspan> <tspan sodipodi:role="line" style="line-height:100%;-inkscape-font-specification:'CMU Serif'" x="1975" y="839.662">2007</tspan>
+    </text>
+    <text color="#000" font-size="6" letter-spacing="0" overflow="visible" sodipodi:linespacing="100%" style="line-height:100%;text-indent:0;text-align:start;block-progression:tb" transform="translate(-915 -447.4)" x="1985" y="1037.362">
+      <tspan font-size="8" sodipodi:role="line" style="line-height:100%" x="1985" y="1037.362">Solving</tspan> <tspan font-size="8" sodipodi:role="line" style="line-height:100%" x="1985" y="1045.362">Optim.</tspan> <tspan sodipodi:role="line" style="line-height:100%;-inkscape-font-specification:'CMU Serif'" x="1985" y="1052.012">2010</tspan>
+    </text>
+    <text color="#000" font-size="6" letter-spacing="0" overflow="visible" sodipodi:linespacing="100%" style="line-height:100%;text-indent:0;text-align:start;block-progression:tb" transform="translate(-915 -447.4)" x="2045" y="662.362">
+      <tspan font-size="10" sodipodi:role="line" style="line-height:100%" x="2045" y="662.362">GlassTT</tspan> <tspan sodipodi:role="line" x="2045" y="669.662">2004</tspan> <tspan sodipodi:role="line" x="2045" y="675.662">SJVM on top of JVM</tspan> <tspan sodipodi:role="line" x="2045" y="681.662">analyze only method</tspan>
+    </text>
+    <text color="#000" font-size="6" letter-spacing="0" overflow="visible" sodipodi:linespacing="100%" style="line-height:100%;text-indent:0;text-align:center;block-progression:tb" text-anchor="middle" transform="translate(-915 -447.4)" x="2000" y="1501.862">
+      <tspan sodipodi:role="line" style="line-height:50%;text-align:center" x="2000" y="1501.862">VEX</tspan>
+    </text>
+    <text color="#000" font-size="6" letter-spacing="0" overflow="visible" sodipodi:linespacing="100%" style="line-height:100%;text-indent:0;text-align:center;block-progression:tb" text-anchor="middle" transform="translate(-915 -447.4)" x="2025" y="1501.862">
+      <tspan sodipodi:role="line" style="line-height:50%;text-align:center" x="2025" y="1501.862">Unicorn</tspan>
+    </text>
+    <text color="#000" font-size="6" letter-spacing="0" overflow="visible" sodipodi:linespacing="100%" style="line-height:100%;text-indent:0;text-align:center;block-progression:tb" text-anchor="middle" transform="translate(-915 -447.4)" x="2055" y="1501.862">
+      <tspan sodipodi:role="line" style="line-height:50%;text-align:center" x="2055" y="1501.862">Capstone</tspan>
+    </text>
+    <text color="#000" font-size="6" letter-spacing="0" overflow="visible" sodipodi:linespacing="100%" style="line-height:100%;text-indent:0;text-align:start;block-progression:tb" transform="translate(-915 -447.4)" x="1430" y="832.362">
+      <tspan font-size="10" letter-spacing="1" sodipodi:role="line" style="line-height:100%" x="1430" y="832.362">Z3</tspan>
+    </text>
+    <text color="#000" font-size="6" letter-spacing="0" overflow="visible" sodipodi:linespacing="100%" style="line-height:100%;text-indent:0;text-align:center;block-progression:tb" text-anchor="middle" transform="translate(-915 -447.4)" x="1105" y="1064.362">
+      <tspan sodipodi:role="line" style="line-height:50%;text-align:center" x="1105" y="1064.362">Pin</tspan>
+    </text>
+    <text color="#000" font-size="6" letter-spacing="0" overflow="visible" sodipodi:linespacing="100%" style="line-height:100%;text-indent:0;text-align:start;block-progression:tb" transform="translate(-915 -447.4)" x="1530" y="632.362">
+      <tspan font-size="10" letter-spacing="1" sodipodi:role="line" style="line-height:100%" x="1530" y="632.362"><tspan letter-spacing="0">Mini</tspan>SAT</tspan> <tspan sodipodi:role="line" x="1530" y="639.662">2003</tspan>
+    </text>
+    <text color="#000" font-size="6" letter-spacing="0" overflow="visible" sodipodi:linespacing="100%" style="line-height:100%;text-indent:0;text-align:start;block-progression:tb" transform="translate(-915 -447.4)" x="1220" y="1112.362">
+      <tspan font-size="10" letter-spacing="1" sodipodi:role="line" style="line-height:100%" x="1220" y="1112.362">MINESTRONE</tspan> <tspan sodipodi:role="line" x="1220" y="1119.662">2011</tspan> <tspan sodipodi:role="line" x="1220" y="1125.662">static and dynamic</tspan> <tspan sodipodi:role="line" x="1220" y="1131.662">analysis combination</tspan>
+    </text>
+    <text color="#000" font-size="6" letter-spacing="0" overflow="visible" sodipodi:linespacing="100%" style="line-height:100%;text-indent:0;text-align:start;block-progression:tb" transform="translate(-915 -447.4)" x="1217.5" y="716.862">
+      <tspan sodipodi:role="line" style="line-height:50%" x="1217.5" y="716.862">Mini<tspan letter-spacing=".5">SAT</tspan> </tspan>
+    </text>
+    <text color="#000" font-size="6" letter-spacing="0" overflow="visible" sodipodi:linespacing="100%" style="line-height:100%;text-indent:0;text-align:start;block-progression:tb" transform="translate(-915 -447.4)" x="1100" y="1182.362">
+      <tspan font-size="10" sodipodi:role="line" style="line-height:100%;-inkscape-font-specification:'CMU Serif'" x="1100" y="1182.362">AddressSanitizer </tspan> <tspan sodipodi:role="line" x="1100" y="1189.662">2012</tspan>
+    </text>
+    <text color="#000" font-size="6" letter-spacing="0" overflow="visible" sodipodi:linespacing="100%" style="line-height:100%;text-indent:0;text-align:start;block-progression:tb" transform="translate(-915 -447.4)" x="1100" y="1392.362">
+      <tspan font-size="10" sodipodi:role="line" style="line-height:100%;-inkscape-font-specification:'CMU Serif'" x="1100" y="1392.362">MemorySanitizer </tspan> <tspan sodipodi:role="line" x="1100" y="1399.662">2015</tspan>
+    </text>
+    <text color="#000" font-size="6" letter-spacing=".5" overflow="visible" sodipodi:linespacing="100%" style="line-height:100%;text-indent:0;text-align:center;block-progression:tb" text-anchor="middle" transform="translate(-915 -447.4)" x="2194.75" y="1151.862">
+      <tspan sodipodi:role="line" style="line-height:50%;text-align:center" x="2195" y="1151.862">KLEE</tspan>
+    </text>
+    <text color="#000" font-size="6" letter-spacing=".5" overflow="visible" sodipodi:linespacing="100%" style="line-height:100%;text-indent:0;text-align:center;block-progression:tb" text-anchor="middle" transform="translate(-915 -447.4)" x="2227.25" y="1151.862">
+      <tspan sodipodi:role="line" style="line-height:50%;text-align:center" x="2227.5" y="1151.862">QEMU</tspan>
+    </text>
+    <text font-size="10" letter-spacing="0" sodipodi:linespacing="100%" style="line-height:100%;text-align:start" transform="translate(-915 -447.4)" x="1435" y="1392.362">
+      <tspan letter-spacing="1" sodipodi:role="line" x="1435" y="1392.362">BLT</tspan>
+    </text>
+    <text color="#000" font-size="6" letter-spacing="0" overflow="visible" sodipodi:linespacing="100%" style="line-height:100%;text-indent:0;text-align:start;block-progression:tb" transform="translate(-915 -447.4)" x="1530" y="332.362">
+      <tspan font-size="8" sodipodi:role="line" style="line-height:100%" x="1530" y="332.362">Symbolic execution</tspan> <tspan sodipodi:role="line" style="line-height:100%;-inkscape-font-specification:'CMU Serif'" x="1530" y="339.012">1976</tspan>
+    </text>
+    <text color="#000" font-size="6" letter-spacing="0" overflow="visible" sodipodi:linespacing="100%" style="line-height:100%;text-indent:0;text-align:start;block-progression:tb" transform="translate(-915 -447.4)" x="2045" y="952.362">
+      <tspan font-size="10" sodipodi:role="line" style="line-height:100%" x="2045" y="952.362">Fuzzgrind</tspan>
+    </text>
+    <text color="#000" font-size="6" letter-spacing="0" overflow="visible" sodipodi:linespacing="100%" style="line-height:100%;text-indent:0;text-align:center;block-progression:tb" text-anchor="middle" transform="translate(-915 -447.4)" x="2052.25" y="986.862">
+      <tspan letter-spacing=".5" sodipodi:role="line" style="line-height:50%;text-align:center" x="2052.5" y="986.862">STP</tspan>
+    </text>
+    <text color="#000" font-size="6" letter-spacing="0" overflow="visible" sodipodi:linespacing="100%" style="line-height:100%;text-indent:0;text-align:center;block-progression:tb" text-anchor="middle" transform="translate(-915 -447.4)" x="2082.5" y="986.862">
+      <tspan sodipodi:role="line" style="line-height:50%;text-align:center" x="2082.5" y="986.862">Valgrind</tspan>
+    </text>
+    <text color="#000" font-size="6" letter-spacing="0" overflow="visible" sodipodi:linespacing="100%" style="line-height:100%;text-indent:0;text-align:start;block-progression:tb" transform="translate(-915 -447.4)" x="2185" y="692.362">
+      <tspan font-size="10" sodipodi:role="line" style="line-height:100%" x="2185" y="692.362">Autodafe</tspan> <tspan sodipodi:role="line" style="line-height:100%;-inkscape-font-specification:'CMU Serif'" x="2185" y="699.662">2005</tspan>
+    </text>
+    <text color="#000" font-size="10" letter-spacing="0" overflow="visible" sodipodi:linespacing="100%" style="line-height:100%;text-indent:0;text-align:start;block-progression:tb" transform="translate(-915 -447.4)" x="1655" y="967.362">
+      <tspan letter-spacing="1" sodipodi:role="line" x="1655" y="967.362">LESE</tspan> <tspan font-size="6" sodipodi:role="line" style="line-height:100%;-inkscape-font-specification:'CMU Serif'" x="1655" y="974.662">2009</tspan> <tspan font-size="6" sodipodi:role="line" style="line-height:100%;-inkscape-font-specification:'CMU Serif'" x="1655" y="980.662">loop-extended <tspan letter-spacing=".5" style="line-height:50%">SE</tspan> </tspan>
+    </text>
+    <text color="#000" font-size="6" letter-spacing="0" overflow="visible" sodipodi:linespacing="100%" style="line-height:100%;text-indent:0;text-align:start;block-progression:tb" transform="translate(-915 -447.4)" x="1345" y="902.362">
+      <tspan font-size="10" sodipodi:role="line" style="line-height:100%" x="1345" y="902.362">Pex</tspan> <tspan sodipodi:role="line" x="1345" y="909.662">2008</tspan>
+    </text>
+    <text font-size="10" letter-spacing="0" sodipodi:linespacing="100%" style="line-height:100%;text-align:start" transform="translate(-915 -447.4)" x="1440" y="1252.362">
+      <tspan sodipodi:role="line" x="1440" y="1252.362">Lean</tspan> <tspan font-size="6" sodipodi:role="line" style="-inkscape-font-specification:'CMU Serif'" x="1440" y="1259.662">2013</tspan>
+    </text>
+    <text color="#000" font-size="6" letter-spacing="0" overflow="visible" sodipodi:linespacing="100%" style="line-height:100%;text-indent:0;text-align:start;block-progression:tb" transform="translate(-915 -447.4)" x="1885" y="1462.362">
+      <tspan font-size="10" sodipodi:role="line" style="line-height:100%" x="1885" y="1462.362">jDart</tspan> <tspan sodipodi:role="line" style="line-height:100%;-inkscape-font-specification:'CMU Serif'" x="1885" y="1469.662">2016</tspan>
+    </text>
+    <text color="#000" font-size="6" letter-spacing="0" overflow="visible" sodipodi:linespacing="100%" style="line-height:100%;text-indent:0;text-align:center;block-progression:tb" text-anchor="middle" transform="translate(-915 -447.4)" x="1902.25" y="1486.862">
+      <tspan letter-spacing=".5" sodipodi:role="line" style="line-height:50%;text-align:center" x="1902.5" y="1486.862">JPF</tspan>
+    </text>
+    <text color="#000" font-size="6" letter-spacing="0" overflow="visible" sodipodi:linespacing="100%" style="line-height:100%;text-indent:0;text-align:start;block-progression:tb" transform="translate(-915 -447.4)" x="1337.5" y="1416.862">
+      <tspan sodipodi:role="line" style="line-height:50%" x="1337.5" y="1416.862">Capstone</tspan>
+    </text>
+    <text color="#000" font-size="6" letter-spacing=".5" overflow="visible" sodipodi:linespacing="100%" style="line-height:100%;text-indent:0;text-align:start;block-progression:tb" transform="translate(-915 -447.4)" x="1107.5" y="606.862">
+      <tspan sodipodi:role="line" style="line-height:50%" x="1107.5" y="606.862">VEX</tspan>
+    </text>
+    <text font-size="10" letter-spacing="0" sodipodi:linespacing="100%" style="line-height:100%;text-align:start" transform="translate(-915 -447.4)" x="1815" y="572.362">
+      <tspan sodipodi:role="line" x="1815" y="572.362">Peach</tspan> <tspan font-size="6" sodipodi:role="line" style="line-height:100%" x="1815" y="579.662">2000</tspan> <tspan font-size="6" sodipodi:role="line" style="line-height:100%" x="1815" y="585.662">fuzzer</tspan>
+    </text>
+    <text color="#000" font-size="6" letter-spacing=".5" overflow="visible" sodipodi:linespacing="100%" style="line-height:100%;text-indent:0;text-align:start;block-progression:tb" transform="translate(-915 -447.4)" x="2282.5" y="861.862">
+      <tspan sodipodi:role="line" style="line-height:50%" x="2282.5" y="861.862">ATOM</tspan>
+    </text>
+    <text color="#000" font-size="6" letter-spacing=".5" overflow="visible" sodipodi:linespacing="100%" style="line-height:100%;text-indent:0;text-align:center;block-progression:tb" text-anchor="middle" transform="translate(-915 -447.4)" x="2129.75" y="1001.862">
+      <tspan sodipodi:role="line" style="line-height:50%;text-align:center" x="2130" y="1001.862">ATOM</tspan>
+    </text>
+    <text color="#000" font-size="6" letter-spacing="0" overflow="visible" sodipodi:linespacing="100%" style="line-height:100%;text-indent:0;text-align:start;block-progression:tb" transform="translate(-915 -447.4)" x="2285" y="762.362">
+      <tspan font-size="10" sodipodi:role="line" style="line-height:100%;-inkscape-font-specification:'CMU Serif'" x="2285" y="762.362">Javana</tspan> <tspan sodipodi:role="line" x="2285" y="769.662">for Java, JNI</tspan> <tspan sodipodi:role="line" style="line-height:100%;-inkscape-font-specification:'CMU Serif'" x="2285" y="775.662">dynamic analysis</tspan>
+    </text>
+    <text color="#000" font-size="6" letter-spacing="0" overflow="visible" sodipodi:linespacing="100%" style="line-height:100%;text-indent:0;text-align:start;block-progression:tb" transform="translate(-915 -447.4)" x="2345" y="754.362">
+      <tspan letter-spacing=".5" sodipodi:role="line" style="line-height:50%" x="2345" y="754.362">DIOTA</tspan>
+    </text>
+    <text color="#000" font-size="6" letter-spacing="0" overflow="visible" sodipodi:linespacing="100%" style="line-height:100%;text-indent:0;text-align:start;block-progression:tb" transform="translate(-915 -447.4)" x="1670" y="1432.362">
+      <tspan font-size="8" sodipodi:role="line" style="line-height:100%" x="1670" y="1432.362">Multi<tspan letter-spacing=".5">SE</tspan> </tspan> <tspan sodipodi:role="line" style="line-height:100%;-inkscape-font-specification:'CMU Serif'" x="1670" y="1439.012">2015</tspan>
+    </text>
+    <text color="#000" font-size="6" letter-spacing="0" overflow="visible" sodipodi:linespacing="100%" style="line-height:100%;text-indent:0;text-align:start;block-progression:tb" transform="translate(-915 -447.4)" x="1985" y="582.362">
+      <tspan font-size="10" sodipodi:role="line" style="line-height:100%" x="1985" y="582.362">Chord</tspan> <tspan sodipodi:role="line" x="1985" y="589.662">2001</tspan>
+    </text>
+    <text color="#000" font-size="6" letter-spacing="0" overflow="visible" sodipodi:linespacing="100%" style="line-height:100%;text-indent:0;text-align:start;block-progression:tb" transform="translate(-915 -447.4)" x="1620" y="1262.362">
+      <tspan font-size="10" sodipodi:role="line" style="line-height:100%" x="1620" y="1262.362">Jalangi</tspan> <tspan sodipodi:role="line" x="1620" y="1269.662">2013</tspan>
+    </text>
+    <text color="#000" font-size="6" letter-spacing="0" overflow="visible" sodipodi:linespacing="100%" style="line-height:100%;text-indent:0;text-align:start;block-progression:tb" transform="translate(-915 -447.4)" x="1620" y="1402.362">
+      <tspan font-size="10" sodipodi:role="line" style="line-height:100%" x="1620" y="1402.362">Jalangi 2</tspan> <tspan sodipodi:role="line" x="1620" y="1409.662">2015</tspan>
+    </text>
+    <text color="#000" font-size="6" letter-spacing="0" overflow="visible" sodipodi:linespacing="100%" style="line-height:100%;text-indent:0;text-align:start;block-progression:tb" transform="translate(-915 -447.4)" x="2065" y="1322.362">
+      <tspan font-size="10" letter-spacing="1" sodipodi:role="line" style="line-height:100%" x="2065" y="1322.362">DECAF</tspan> <tspan sodipodi:role="line" x="2065" y="1329.662">dynamic binary analysis</tspan>
+    </text>
+    <text color="#000" font-size="6" letter-spacing="0" overflow="visible" sodipodi:linespacing="100%" style="line-height:100%;text-indent:0;text-align:start;block-progression:tb" transform="translate(-915 -447.4)" x="1490" y="832.362">
+      <tspan font-size="10" letter-spacing="1" sodipodi:role="line" style="line-height:100%" x="1490" y="832.362">SMART</tspan> <tspan sodipodi:role="line" x="1490" y="839.662">2007</tspan>
+    </text>
+    <text color="#000" font-size="6" letter-spacing="0" overflow="visible" sodipodi:linespacing="100%" style="line-height:100%;text-indent:0;text-align:start;block-progression:tb" transform="translate(-915 -447.4)" x="1885" y="552.362">
+      <tspan font-size="10" sodipodi:role="line" style="line-height:100%" x="1885" y="552.362">Java</tspan> <tspan font-size="10" sodipodi:role="line" style="line-height:100%" x="1885" y="562.362">PathFinder</tspan> <tspan sodipodi:role="line" x="1885" y="569.662">1998</tspan> <tspan sodipodi:role="line" style="line-height:100%;-inkscape-font-specification:'CMU Serif'" x="1885" y="575.662">Java -&gt; Promela</tspan>
+    </text>
+    <text color="#000" font-size="6" letter-spacing="0" overflow="visible" sodipodi:linespacing="100%" style="line-height:100%;text-indent:0;text-align:center;block-progression:tb" text-anchor="middle" transform="translate(-915 -447.4)" x="1892.5" y="591.862">
+      <tspan sodipodi:role="line" style="line-height:50%;text-align:center" x="1892.5" y="591.862">Spin</tspan>
+    </text>
+    <text color="#000" font-size="6" letter-spacing="0" overflow="visible" sodipodi:linespacing="100%" style="line-height:100%;text-indent:0;text-align:center;block-progression:tb" text-anchor="middle" transform="translate(-915 -447.4)" x="1995" y="611.862">
+      <tspan sodipodi:role="line" style="line-height:50%;text-align:center" x="1995" y="611.862">Javassist</tspan>
+    </text>
+    <text color="#000" font-size="6" letter-spacing="0" overflow="visible" sodipodi:linespacing="100%" style="line-height:100%;text-indent:0;text-align:center;block-progression:tb" text-anchor="middle" transform="translate(-915 -447.4)" x="1995" y="624.362">
+      <tspan sodipodi:role="line" style="line-height:50%;text-align:center" x="1995" y="624.362">bddbddb</tspan>
+    </text>
+    <text color="#000" font-size="10" letter-spacing="0" overflow="visible" sodipodi:linespacing="100%" style="line-height:100%;text-indent:0;text-align:start;block-progression:tb" transform="translate(-915 -447.4)" x="1745" y="827.362">
+      <tspan font-size="8" sodipodi:role="line" x="1745" y="827.362">Discovery of Deviations</tspan> <tspan font-size="6" sodipodi:role="line" style="line-height:100%;-inkscape-font-specification:'CMU Serif'" x="1745" y="834.012">2007</tspan>
+    </text>
+    <text color="#000" font-size="24" letter-spacing="0" overflow="visible" sodipodi:linespacing="100%" style="line-height:100%;text-indent:0;text-align:center;block-progression:tb" text-anchor="middle" transform="translate(-915 -447.4)" x="1250.056" y="504.53">
+      <tspan sodipodi:role="line" x="1250.056" y="504.53">Dynamic Symbolic Execution</tspan>
+    </text>
+  </g>
+  <g fill="none" inkscape:groupmode="layer" inkscape:label="arrows" stroke="#000" stroke-linecap="round" stroke-width=".5">
+    <path d="M515 305v55m440.414 655H875M690 390h-10m-195-70h205m125 70h-10" inkscape:connector-curvature="0" inkscape:groupmode="layer" inkscape:label="arrows" sodipodi:nodetypes="cc"/>
+    <path d="M807 389c-1 1-2 1-2 1s1 0 2 1m-125-2c-1 1-2 1-2 1s1 0 2 1m6-72c1 1 2 1 2 1s-1 0-2 1m-172 37c-1 1-1 2-1 2s0-1-1-2m363 656c-1 1-2 1-2 1s1 0 2 1" inkscape:connector-curvature="0" stroke-linejoin="round"/>
+  </g>
+  
+  <g color="#000" font-family="CMU Serif" font-size="6" font-weight="bold" inkscape:groupmode="layer" inkscape:label="language_text" letter-spacing="0" text-anchor="middle" word-spacing="0">
+    <text fill="#b07219" overflow="visible" sodipodi:linespacing="100%" style="line-height:100%;-inkscape-font-specification:'CMU Serif Bold';text-indent:0;text-align:center;block-progression:tb" transform="translate(-915 -447.4)" x="1990" y="561.862">
+      <tspan sodipodi:role="line" style="line-height:50%;-inkscape-font-specification:'CMU Serif Bold';text-align:center" x="1990" y="561.862">Java</tspan>
+    </text>
+    <text fill="#b07219" overflow="visible" sodipodi:linespacing="100%" style="line-height:100%;-inkscape-font-specification:'CMU Serif Bold';text-indent:0;text-align:center;block-progression:tb" transform="translate(-915 -447.4)" x="2050" y="641.862">
+      <tspan sodipodi:role="line" style="line-height:50%;-inkscape-font-specification:'CMU Serif Bold';text-align:center" x="2050" y="641.862">Java</tspan>
+    </text>
+    <text fill="#b07219" overflow="visible" sodipodi:linespacing="100%" style="line-height:100%;-inkscape-font-specification:'CMU Serif Bold';text-indent:0;text-align:center;block-progression:tb" transform="translate(-915 -447.4)" x="1890" y="671.862">
+      <tspan sodipodi:role="line" style="line-height:50%;-inkscape-font-specification:'CMU Serif Bold';text-align:center" x="1890" y="671.862">Java</tspan>
+    </text>
+    <text fill="#b07219" overflow="visible" sodipodi:linespacing="100%" style="line-height:100%;-inkscape-font-specification:'CMU Serif Bold';text-indent:0;text-align:center;block-progression:tb" transform="translate(-915 -447.4)" x="1890" y="531.862">
+      <tspan sodipodi:role="line" style="line-height:50%;-inkscape-font-specification:'CMU Serif Bold';text-align:center" x="1890" y="531.862">Java</tspan>
+    </text>
+    <text fill="#b07219" overflow="visible" sodipodi:linespacing="100%" style="line-height:100%;-inkscape-font-specification:'CMU Serif Bold';text-indent:0;text-align:center;block-progression:tb" transform="translate(-915 -447.4)" x="2195" y="581.862">
+      <tspan sodipodi:role="line" style="line-height:50%;-inkscape-font-specification:'CMU Serif Bold';text-align:center" x="2195" y="581.862">Java</tspan>
+    </text>
+    <text fill="#b07219" overflow="visible" sodipodi:linespacing="100%" style="line-height:100%;-inkscape-font-specification:'CMU Serif Bold';text-indent:0;text-align:center;block-progression:tb" transform="translate(-915 -447.4)" x="2285" y="611.862">
+      <tspan sodipodi:role="line" style="line-height:50%;-inkscape-font-specification:'CMU Serif Bold';text-align:center" x="2285" y="611.862">Java</tspan>
+    </text>
+    <text fill="#b07219" overflow="visible" sodipodi:linespacing="100%" style="line-height:100%;-inkscape-font-specification:'CMU Serif Bold';text-indent:0;text-align:center;block-progression:tb" transform="translate(-915 -447.4)" x="2290" y="741.862">
+      <tspan sodipodi:role="line" style="line-height:50%;-inkscape-font-specification:'CMU Serif Bold';text-align:center" x="2290" y="741.862">Java</tspan>
+    </text>
+    <text fill="#b07219" overflow="visible" sodipodi:linespacing="100%" style="line-height:100%;-inkscape-font-specification:'CMU Serif Bold';text-indent:0;text-align:center;block-progression:tb" transform="translate(-915 -447.4)" x="2080" y="1021.862">
+      <tspan sodipodi:role="line" style="line-height:50%;-inkscape-font-specification:'CMU Serif Bold';text-align:center" x="2080" y="1021.862">Java</tspan>
+    </text>
+    <text fill="#b07219" overflow="visible" sodipodi:linespacing="100%" style="line-height:100%;-inkscape-font-specification:'CMU Serif Bold';text-indent:0;text-align:center;block-progression:tb" transform="translate(-915 -447.4)" x="2070" y="1166.862">
+      <tspan sodipodi:role="line" style="line-height:50%;-inkscape-font-specification:'CMU Serif Bold';text-align:center" x="2070" y="1166.862">Java</tspan>
+    </text>
+    <text fill="#b07219" overflow="visible" sodipodi:linespacing="100%" style="line-height:100%;-inkscape-font-specification:'CMU Serif Bold';text-indent:0;text-align:center;block-progression:tb" transform="translate(-915 -447.4)" x="2070" y="1301.862">
+      <tspan sodipodi:role="line" style="line-height:50%;-inkscape-font-specification:'CMU Serif Bold';text-align:center" x="2070" y="1301.862">Java</tspan>
+    </text>
+    <text fill="#b07219" overflow="visible" sodipodi:linespacing="100%" style="line-height:100%;-inkscape-font-specification:'CMU Serif Bold';text-indent:0;text-align:center;block-progression:tb" transform="translate(-915 -447.4)" x="2290" y="1301.862">
+      <tspan sodipodi:role="line" style="line-height:50%;-inkscape-font-specification:'CMU Serif Bold';text-align:center" x="2290" y="1301.862">Java</tspan>
+    </text>
+    <text fill="#b07219" overflow="visible" sodipodi:linespacing="100%" style="line-height:100%;-inkscape-font-specification:'CMU Serif Bold';text-indent:0;text-align:center;block-progression:tb" transform="translate(-915 -447.4)" x="1890" y="1441.862">
+      <tspan sodipodi:role="line" style="line-height:50%;-inkscape-font-specification:'CMU Serif Bold';text-align:center" x="1890" y="1441.862">Java</tspan>
+    </text>
+    <text fill="#b07219" overflow="visible" sodipodi:linespacing="100%" style="line-height:100%;-inkscape-font-specification:'CMU Serif Bold';text-indent:0;text-align:center;block-progression:tb" transform="translate(-915 -447.4)" x="1750" y="1441.862">
+      <tspan sodipodi:role="line" style="line-height:50%;-inkscape-font-specification:'CMU Serif Bold';text-align:center" x="1750" y="1441.862">Java</tspan>
+    </text>
+    <text fill="#b07219" overflow="visible" sodipodi:linespacing="100%" style="line-height:100%;-inkscape-font-specification:'CMU Serif Bold';text-indent:0;text-align:center;block-progression:tb" transform="translate(-915 -447.4)" x="1350" y="756.862">
+      <tspan sodipodi:role="line" style="line-height:50%;-inkscape-font-specification:'CMU Serif Bold';text-align:center" x="1350" y="756.862">Java</tspan>
+    </text>
+    <text fill="#b07219" overflow="visible" sodipodi:linespacing="100%" style="line-height:100%;-inkscape-font-specification:'CMU Serif Bold';text-indent:0;text-align:center;block-progression:tb" transform="translate(-915 -447.4)" x="1890" y="811.862">
+      <tspan sodipodi:role="line" style="line-height:50%;-inkscape-font-specification:'CMU Serif Bold';text-align:center" x="1890" y="811.862">Java</tspan>
+    </text>
+    <text opacity=".85" overflow="visible" sodipodi:linespacing="100%" style="line-height:100%;-inkscape-font-specification:'CMU Serif Bold';text-indent:0;text-align:center;block-progression:tb" transform="translate(-915 -447.4)" x="1632.5" y="1241.862">
+      <tspan sodipodi:role="line" style="line-height:50%;-inkscape-font-specification:'CMU Serif Bold';text-align:center" x="1632.5" y="1241.862">Javascript</tspan>
+    </text>
+    <text opacity=".85" overflow="visible" sodipodi:linespacing="100%" style="line-height:100%;-inkscape-font-specification:'CMU Serif Bold';text-indent:0;text-align:center;block-progression:tb" transform="translate(-915 -447.4)" x="1632.5" y="1381.862">
+      <tspan sodipodi:role="line" style="line-height:50%;-inkscape-font-specification:'CMU Serif Bold';text-align:center" x="1632.5" y="1381.862">Javascript</tspan>
+    </text>
+    <text fill="#178600" overflow="visible" sodipodi:linespacing="100%" style="line-height:100%;-inkscape-font-specification:'CMU Serif Bold';text-indent:0;text-align:center;block-progression:tb" x="439.75" y="434.5">
+      <tspan sodipodi:role="line" style="line-height:50%;-inkscape-font-specification:'CMU Serif Bold';text-align:center" x="440" y="434.5">.<tspan letter-spacing=".5" style="-inkscape-font-specification:'CMU Serif Bold'">NET</tspan> </tspan>
+    </text>
+    <text fill="#b07219" overflow="visible" sodipodi:linespacing="100%" style="line-height:100%;-inkscape-font-specification:'CMU Serif Bold';text-indent:0;text-align:center;block-progression:tb" transform="translate(-915 -447.4)" x="1105" y="946.862">
+      <tspan sodipodi:role="line" style="line-height:50%;-inkscape-font-specification:'CMU Serif Bold';text-align:center" x="1105" y="946.862">Java</tspan>
+    </text>
+    <text fill="#b07219" overflow="visible" sodipodi:linespacing="100%" style="line-height:100%;-inkscape-font-specification:'CMU Serif Bold';text-indent:0;text-align:center;block-progression:tb" transform="translate(-915 -447.4)" x="2290" y="1021.862">
+      <tspan sodipodi:role="line" style="line-height:50%;-inkscape-font-specification:'CMU Serif Bold';text-align:center" x="2290" y="1021.862">Java</tspan>
+    </text>
+  </g>
+  <g color="#000" font-family="CMU Serif" font-size="10" font-weight="500" inkscape:groupmode="layer" inkscape:label="time_text" letter-spacing="0" text-anchor="end" word-spacing="0">
+    <text overflow="visible" style="text-indent:0;text-align:end;block-progression:tb" transform="translate(-915 -435)" x="960" y="570">
+      <tspan sodipodi:role="line" x="960" y="570">2001</tspan>
+    </text>
+    <text overflow="visible" style="text-indent:0;text-align:end;block-progression:tb" transform="translate(-915 -435)" x="960" y="590">
+      <tspan sodipodi:role="line" x="960" y="590">2002</tspan>
+    </text>
+    <text overflow="visible" style="text-indent:0;text-align:end;block-progression:tb" transform="translate(-915 -435)" x="960" y="620">
+      <tspan sodipodi:role="line" x="960" y="620">2003</tspan>
+    </text>
+    <text overflow="visible" style="text-indent:0;text-align:end;block-progression:tb" transform="translate(-915 -435)" x="960" y="650">
+      <tspan sodipodi:role="line" x="960" y="650">2004</tspan>
+    </text>
+    <text overflow="visible" style="text-indent:0;text-align:end;block-progression:tb" transform="translate(-915 -435)" x="960" y="700">
+      <tspan sodipodi:role="line" x="960" y="700">2005</tspan>
+    </text>
+    <text overflow="visible" style="text-indent:0;text-align:end;block-progression:tb" transform="translate(-915 -435)" x="960" y="770">
+      <tspan sodipodi:role="line" x="960" y="770">2006</tspan>
+    </text>
+    <text overflow="visible" style="text-indent:0;text-align:end;block-progression:tb" transform="translate(-915 -435)" x="960" y="840">
+      <tspan sodipodi:role="line" x="960" y="840">2007</tspan>
+    </text>
+    <text overflow="visible" style="text-indent:0;text-align:end;block-progression:tb" transform="translate(-915 -435)" x="960" y="910">
+      <tspan sodipodi:role="line" x="960" y="910">2008</tspan>
+    </text>
+    <text overflow="visible" style="text-indent:0;text-align:end;block-progression:tb" transform="translate(-915 -435)" x="960" y="980">
+      <tspan sodipodi:role="line" x="960" y="980">2009</tspan>
+    </text>
+    <text overflow="visible" style="text-indent:0;text-align:end;block-progression:tb" transform="translate(-915 -435)" x="960" y="1050">
+      <tspan sodipodi:role="line" x="960" y="1050">2010</tspan>
+    </text>
+    <text overflow="visible" style="text-indent:0;text-align:end;block-progression:tb" transform="translate(-915 -435)" x="960" y="1120">
+      <tspan sodipodi:role="line" x="960" y="1120">2011</tspan>
+    </text>
+    <text overflow="visible" style="text-indent:0;text-align:end;block-progression:tb" transform="translate(-915 -435)" x="960" y="1190">
+      <tspan sodipodi:role="line" x="960" y="1190">2012</tspan>
+    </text>
+    <text overflow="visible" style="text-indent:0;text-align:end;block-progression:tb" transform="translate(-915 -435)" x="960" y="1260">
+      <tspan sodipodi:role="line" x="960" y="1260">2013</tspan>
+    </text>
+    <text overflow="visible" style="text-indent:0;text-align:end;block-progression:tb" transform="translate(-915 -435)" x="960" y="1330">
+      <tspan sodipodi:role="line" x="960" y="1330">2014</tspan>
+    </text>
+    <text overflow="visible" style="text-indent:0;text-align:end;block-progression:tb" transform="translate(-915 -435)" x="960" y="1400">
+      <tspan sodipodi:role="line" x="960" y="1400">2015</tspan>
+    </text>
+    <text overflow="visible" style="text-indent:0;text-align:end;block-progression:tb" transform="translate(-915 -435)" x="960" y="1470">
+      <tspan sodipodi:role="line" x="960" y="1470">2016</tspan>
+    </text>
+    <text overflow="visible" style="text-indent:0;text-align:end;block-progression:tb" transform="translate(-915 -435)" x="960" y="1540">
+      <tspan sodipodi:role="line" x="960" y="1540">2017</tspan>
+    </text>
+    <text overflow="visible" style="text-indent:0;text-align:end;block-progression:tb" transform="translate(-915 -435)" x="960" y="450">
+      <tspan sodipodi:role="line" x="960" y="450">1990</tspan>
+    </text>
+    <text overflow="visible" style="text-indent:0;text-align:end;block-progression:tb" transform="translate(-915 -435)" x="960" y="470">
+      <tspan sodipodi:role="line" x="960" y="470">1992</tspan>
+    </text>
+    <text overflow="visible" style="text-indent:0;text-align:end;block-progression:tb" transform="translate(-915 -435)" x="960" y="490">
+      <tspan sodipodi:role="line" x="960" y="490">1994</tspan>
+    </text>
+    <text overflow="visible" style="text-indent:0;text-align:end;block-progression:tb" transform="translate(-915 -435)" x="960" y="510">
+      <tspan sodipodi:role="line" x="960" y="510">1996</tspan>
+    </text>
+    <text overflow="visible" style="text-indent:0;text-align:end;block-progression:tb" transform="translate(-915 -435)" x="960" y="530">
+      <tspan sodipodi:role="line" x="960" y="530">1998</tspan>
+    </text>
+    <text overflow="visible" style="text-indent:0;text-align:end;block-progression:tb" transform="translate(-915 -435)" x="960" y="550">
+      <tspan sodipodi:role="line" x="960" y="550">2000</tspan>
+    </text>
+    <text overflow="visible" style="text-indent:0;text-align:end;block-progression:tb" transform="translate(-915 -435)" x="960" y="350">
+      <tspan sodipodi:role="line" x="960" y="350">1980</tspan>
+    </text>
+    <text overflow="visible" style="text-indent:0;text-align:end;block-progression:tb" transform="translate(-915 -435)" x="960" y="370">
+      <tspan sodipodi:role="line" x="960" y="370">1982</tspan>
+    </text>
+    <text overflow="visible" style="text-indent:0;text-align:end;block-progression:tb" transform="translate(-915 -435)" x="960" y="390">
+      <tspan sodipodi:role="line" x="960" y="390">1984</tspan>
+    </text>
+    <text overflow="visible" style="text-indent:0;text-align:end;block-progression:tb" transform="translate(-915 -435)" x="960" y="410">
+      <tspan sodipodi:role="line" x="960" y="410">1986</tspan>
+    </text>
+    <text overflow="visible" style="text-indent:0;text-align:end;block-progression:tb" transform="translate(-915 -435)" x="960" y="430">
+      <tspan sodipodi:role="line" x="960" y="430">1988</tspan>
+    </text>
+    <text overflow="visible" style="text-indent:0;text-align:end;block-progression:tb" transform="translate(-915 -435)" x="960" y="250">
+      <tspan sodipodi:role="line" x="960" y="250">1970</tspan>
+    </text>
+    <text overflow="visible" style="text-indent:0;text-align:end;block-progression:tb" transform="translate(-915 -435)" x="960" y="270">
+      <tspan sodipodi:role="line" x="960" y="270">1972</tspan>
+    </text>
+    <text overflow="visible" style="text-indent:0;text-align:end;block-progression:tb" transform="translate(-915 -435)" x="960" y="290">
+      <tspan sodipodi:role="line" x="960" y="290">1974</tspan>
+    </text>
+    <text overflow="visible" style="text-indent:0;text-align:end;block-progression:tb" transform="translate(-915 -435)" x="960" y="310">
+      <tspan sodipodi:role="line" x="960" y="310">1976</tspan>
+    </text>
+    <text overflow="visible" style="text-indent:0;text-align:end;block-progression:tb" transform="translate(-915 -435)" x="960" y="330">
+      <tspan sodipodi:role="line" x="960" y="330">1978</tspan>
+    </text>
+  </g>
+  <rect display="none" fill="#d40000" height="70" inkscape:groupmode="layer" inkscape:label="now" opacity=".1" rx="0" ry="10" stroke="#d40000" transform="translate(-315 105)" width="1760" x="100" y="960"/>
+  
+  
+  <g color="#000" font-family="CMU Serif" font-weight="500" inkscape:groupmode="layer" inkscape:label="people" letter-spacing="0" word-spacing="0">
+    <text font-size="6" overflow="visible" sodipodi:linespacing="100%" style="line-height:100%;text-indent:0;text-align:start;block-progression:tb" transform="translate(-915 -435)" x="2180" y="1150">
+      <tspan sodipodi:role="line" x="2180" y="1150">G. Candea</tspan> <tspan sodipodi:role="line" x="2180" y="1156">V. Kuznetsov</tspan> <tspan sodipodi:role="line" x="2180" y="1162">V. Chipounov</tspan>
+    </text>
+    <text font-size="6" overflow="visible" sodipodi:linespacing="100%" style="line-height:100%;text-indent:0;text-align:start;block-progression:tb" transform="translate(-915 -435)" x="1990" y="1370">
+      <tspan sodipodi:role="line" x="1990" y="1370">K. Borgolte</tspan> <tspan sodipodi:role="line" x="1990" y="1376">Y. Shoshitashvili</tspan> <tspan sodipodi:role="line" x="1990" y="1382">N. Stephens</tspan>
+    </text>
+    <text font-size="6" overflow="visible" sodipodi:linespacing="100%" style="line-height:100%;text-indent:0;text-align:start;block-progression:tb" transform="translate(-915 -435)" x="1740" y="785">
+      <tspan sodipodi:role="line" x="1740" y="785">D. Brumley</tspan> <tspan sodipodi:role="line" x="1740" y="791">J. Newsome</tspan> <tspan sodipodi:role="line" x="1740" y="797">J. Franklin</tspan>
+    </text>
+    <text font-size="6" overflow="visible" sodipodi:linespacing="100%" style="line-height:100%;text-indent:0;text-align:start;block-progression:tb" transform="translate(-915 -435)" x="1215" y="715">
+      <tspan sodipodi:role="line" x="1215" y="715">V. Ganesh!</tspan> <tspan sodipodi:role="line" x="1215" y="721">T. Hansen</tspan> <tspan sodipodi:role="line" x="1215" y="727">M. Soos</tspan>
+    </text>
+    <text font-size="6" overflow="visible" sodipodi:linespacing="100%" style="line-height:100%;text-indent:0;text-align:start;block-progression:tb" transform="translate(-915 -435)" x="1515" y="1055">
+      <tspan sodipodi:role="line" x="1515" y="1055">M. Soos</tspan>
+    </text>
+    <text font-size="6" overflow="visible" sodipodi:linespacing="100%" style="line-height:100%;text-indent:0;text-align:start;block-progression:tb" transform="translate(-915 -435)" x="1215" y="780">
+      <tspan sodipodi:role="line" x="1215" y="780">C. Cadar</tspan> <tspan sodipodi:role="line" x="1215" y="786">V. Ganesh</tspan> <tspan sodipodi:role="line" x="1215" y="792">P. Pawlowski</tspan> <tspan sodipodi:role="line" x="1215" y="798">D. Engler</tspan> <tspan sodipodi:role="line" x="1215" y="804">D. Dill</tspan>
+    </text>
+    <text font-size="6" overflow="visible" sodipodi:linespacing="100%" style="line-height:100%;text-indent:0;text-align:start;block-progression:tb" transform="translate(-915 -435)" x="1740" y="680">
+      <tspan sodipodi:role="line" x="1740" y="680">from 2005</tspan>
+    </text>
+    <text font-size="6" overflow="visible" sodipodi:linespacing="100%" style="line-height:100%;text-indent:0;text-align:start;block-progression:tb" transform="translate(-915 -435)" x="1615" y="845">
+      <tspan sodipodi:role="line" x="1615" y="845">D. Molnar (B)</tspan> <tspan sodipodi:role="line" x="1615" y="851">D. Wagner (B)</tspan>
+    </text>
+    <text font-size="6" overflow="visible" sodipodi:linespacing="100%" style="line-height:100%;text-indent:0;text-align:start;block-progression:tb" transform="translate(-915 -435)" x="1425" y="920">
+      <tspan sodipodi:role="line" x="1425" y="920">P. Godefroid (M)</tspan> <tspan sodipodi:role="line" x="1425" y="926">D. Molnar (B)</tspan> <tspan sodipodi:role="line" x="1425" y="932">M. Levin (M)</tspan>
+    </text>
+    <text font-size="6" overflow="visible" sodipodi:linespacing="100%" style="line-height:100%;text-indent:0;text-align:start;block-progression:tb" transform="translate(-915 -435)" x="1650" y="915">
+      <tspan sodipodi:role="line" x="1650" y="915">D. Song (B)</tspan> <tspan sodipodi:role="line" x="1650" y="921">D. Brumley (CM)</tspan> <tspan sodipodi:role="line" x="1650" y="927">... (B)</tspan>
+    </text>
+    <text font-size="6" overflow="visible" sodipodi:linespacing="100%" style="line-height:100%;text-indent:0;text-align:start;block-progression:tb" transform="translate(-915 -435)" x="1740" y="1135">
+      <tspan sodipodi:role="line" x="1740" y="1135">D. Brumley (CM)</tspan> <tspan sodipodi:role="line" x="1740" y="1141">... (CM)</tspan>
+    </text>
+    <text font-size="6" overflow="visible" sodipodi:linespacing="100%" style="line-height:100%;text-indent:0;text-align:start;block-progression:tb" transform="translate(-915 -435)" x="1340" y="715">
+      <tspan sodipodi:role="line" x="1340" y="715">K. Sen</tspan> <tspan sodipodi:role="line" x="1340" y="721">D. Marinov</tspan> <tspan sodipodi:role="line" x="1340" y="727">G. Agha</tspan>
+    </text>
+    <text font-size="6" overflow="visible" sodipodi:linespacing="100%" style="line-height:100%;text-indent:0;text-align:start;block-progression:tb" transform="translate(-915 -435)" x="1420" y="705">
+      <tspan sodipodi:role="line" x="1420" y="705">P. Godefroid (B)</tspan> <tspan sodipodi:role="line" x="1420" y="711">K. Sen (I)</tspan> <tspan sodipodi:role="line" x="1420" y="717">N. Klarlund (B)</tspan>
+    </text>
+    <text font-size="6" overflow="visible" sodipodi:linespacing="100%" style="line-height:100%;text-indent:0;text-align:start;block-progression:tb" transform="translate(-915 -435)" x="1340" y="790">
+      <tspan sodipodi:role="line" x="1340" y="790">K. Sen</tspan> <tspan sodipodi:role="line" x="1340" y="796">G. Agha</tspan>
+    </text>
+    <text font-size="6" overflow="visible" sodipodi:linespacing="100%" style="line-height:100%;text-indent:0;text-align:center;block-progression:tb" text-anchor="middle" transform="translate(-915 -435)" x="1505" y="752.5">
+      <tspan sodipodi:role="line" x="1505" y="752.5">K. Sen</tspan>
+    </text>
+    <text font-size="6" overflow="visible" sodipodi:linespacing="100%" style="line-height:100%;text-indent:0;text-align:start;block-progression:tb" transform="translate(-915 -435)" x="995" y="715">
+      <tspan sodipodi:role="line" x="995" y="715">N. Williams</tspan> <tspan sodipodi:role="line" x="995" y="721">B. Marre</tspan> <tspan sodipodi:role="line" x="995" y="727">P. Mouy</tspan> <tspan sodipodi:role="line" x="995" y="733">M. Roger</tspan>
+    </text>
+    <text font-size="6" overflow="visible" sodipodi:linespacing="100%" style="line-height:100%;text-indent:0;text-align:start;block-progression:tb" transform="translate(-915 -435)" x="995" y="630">
+      <tspan sodipodi:role="line" x="995" y="630">from 2004</tspan>
+    </text>
+    <text font-size="6" overflow="visible" sodipodi:linespacing="100%" style="line-height:100%;text-indent:0;text-align:start;block-progression:tb" transform="translate(-915 -435)" x="1880" y="735">
+      <tspan sodipodi:role="line" x="1880" y="735">W. Visser (N)</tspan> <tspan sodipodi:role="line" x="1880" y="741">C. Pasareanu (N)</tspan> <tspan sodipodi:role="line" x="1880" y="747">S. Khurshid (T)</tspan>
+    </text>
+    <text font-size="6" overflow="visible" sodipodi:linespacing="100%" style="line-height:100%;text-indent:0;text-align:end;block-progression:tb" text-anchor="end" transform="translate(-915 -435)" x="1850" y="1447.5">
+      <tspan sodipodi:role="line" x="1850" y="1447.5">C. Pasareanu</tspan>
+    </text>
+    <text font-size="6" overflow="visible" sodipodi:linespacing="100%" style="line-height:100%;text-indent:0;text-align:start;block-progression:tb" transform="translate(-915 -435)" x="1650" y="1130">
+      <tspan sodipodi:role="line" x="1650" y="1130">M. Kang (B, CM)</tspan> <tspan sodipodi:role="line" x="1650" y="1136">S. McCamant (B)</tspan> <tspan sodipodi:role="line" x="1650" y="1142">P. Poosankam (B, CM)</tspan> <tspan sodipodi:role="line" x="1650" y="1148">D. Song (B)</tspan>
+    </text>
+    <text font-size="6" overflow="visible" sodipodi:linespacing="100%" style="line-height:100%;text-indent:0;text-align:center;block-progression:tb" text-anchor="middle" transform="translate(-915 -435)" x="1600" y="820">
+      <tspan sodipodi:role="line" x="1600" y="820">D. Molnar</tspan>
+    </text>
+    <text font-size="6" overflow="visible" sodipodi:linespacing="100%" style="line-height:100%;text-indent:0;text-align:start;block-progression:tb" transform="translate(-915 -435)" x="1515" y="920">
+      <tspan sodipodi:role="line" x="1515" y="920">Ru-Gang Xu</tspan> <tspan sodipodi:role="line" x="1515" y="926">P. Godefroid</tspan> <tspan sodipodi:role="line" x="1515" y="932">R. Majumdar</tspan>
+    </text>
+    <text font-size="6" overflow="visible" sodipodi:linespacing="100%" style="line-height:100%;text-indent:0;text-align:start;block-progression:tb" transform="translate(-915 -435)" x="1425" y="1065">
+      <tspan sodipodi:role="line" x="1425" y="1065">P. Godefroid</tspan> <tspan sodipodi:role="line" x="1425" y="1071">D. Molnar</tspan> <tspan sodipodi:role="line" x="1425" y="1077">E. Bounimova</tspan>
+    </text>
+    <text font-size="6" overflow="visible" sodipodi:linespacing="100%" style="line-height:100%;text-indent:0;text-align:start;block-progression:tb" transform="translate(-915 -435)" x="1970" y="845">
+      <tspan sodipodi:role="line" x="1970" y="845">J. Clause</tspan> <tspan sodipodi:role="line" x="1970" y="851">W. Li</tspan> <tspan sodipodi:role="line" x="1970" y="857">A. Orso</tspan>
+    </text>
+    <text font-size="6" overflow="visible" sodipodi:linespacing="100%" style="line-height:100%;text-indent:0;text-align:start;block-progression:tb" transform="translate(-915 -435)" x="1980" y="1055">
+      <tspan sodipodi:role="line" x="1980" y="1055">I. Erete</tspan> <tspan sodipodi:role="line" x="1980" y="1061">A. Orso</tspan>
+    </text>
+    <text font-size="6" overflow="visible" sodipodi:linespacing="100%" style="line-height:100%;text-indent:0;text-align:start;block-progression:tb" transform="translate(-915 -435)" x="1880" y="845">
+      <tspan sodipodi:role="line" x="1880" y="845">W. Visser (N)</tspan> <tspan sodipodi:role="line" x="1880" y="851">C. Pasareanu (N)</tspan> <tspan sodipodi:role="line" x="1880" y="857">S. Anand (G)</tspan>
+    </text>
+    <text font-size="6" overflow="visible" sodipodi:linespacing="100%" style="line-height:100%;text-indent:0;text-align:start;block-progression:tb" transform="translate(-915 -435)" x="1525" y="645">
+      <tspan sodipodi:role="line" x="1525" y="645">N. Een</tspan> <tspan sodipodi:role="line" x="1525" y="651">N. Sorensson</tspan>
+    </text>
+    <text font-size="6" overflow="visible" sodipodi:linespacing="100%" style="line-height:100%;text-indent:0;text-align:start;block-progression:tb" transform="translate(-915 -435)" x="1525" y="345">
+      <tspan sodipodi:role="line" x="1525" y="345">J. King</tspan>
+    </text>
+    <text font-size="6" overflow="visible" sodipodi:linespacing="100%" style="line-height:100%;text-indent:0;text-align:start;block-progression:tb" transform="translate(-915 -435)" x="1650" y="985">
+      <tspan sodipodi:role="line" x="1650" y="985">P. Saxena (B)</tspan> <tspan sodipodi:role="line" x="1650" y="991">S. McCamant (B)</tspan> <tspan sodipodi:role="line" x="1650" y="997">P. Poosankam (B, CM)</tspan> <tspan sodipodi:role="line" x="1650" y="1003">D. Song (B)</tspan>
+    </text>
+    <text font-size="6" overflow="visible" sodipodi:linespacing="100%" style="line-height:100%;text-indent:0;text-align:start;block-progression:tb" transform="translate(-915 -435)" x="1340" y="915">
+      <tspan sodipodi:role="line" x="1340" y="915">N. Tillmann</tspan> <tspan sodipodi:role="line" x="1340" y="921">J. de Halleux</tspan>
+    </text>
+    <text font-size="6" overflow="visible" sodipodi:linespacing="100%" style="line-height:100%;text-indent:0;text-align:start;block-progression:tb" transform="translate(-915 -435)" x="1425" y="840">
+      <tspan sodipodi:role="line" x="1425" y="840">L. de Moura</tspan>
+    </text>
+    <text font-size="6" overflow="visible" sodipodi:linespacing="100%" style="line-height:100%;text-indent:0;text-align:start;block-progression:tb" transform="translate(-915 -435)" x="1435" y="1270">
+      <tspan sodipodi:role="line" x="1435" y="1270">L. de Moura</tspan>
+    </text>
+    <text font-size="6" overflow="visible" sodipodi:linespacing="100%" style="line-height:100%;text-indent:0;text-align:start;block-progression:tb" transform="translate(-915 -435)" x="1665" y="1445">
+      <tspan sodipodi:role="line" x="1665" y="1445">K. Sen</tspan> <tspan sodipodi:role="line" x="1665" y="1451">G. Necula</tspan> <tspan sodipodi:role="line" x="1665" y="1457">L. Gong</tspan> <tspan sodipodi:role="line" x="1665" y="1463">W. Choi</tspan>
+    </text>
+    <text font-size="6" overflow="visible" sodipodi:linespacing="100%" style="line-height:100%;text-indent:0;text-align:start;block-progression:tb" transform="translate(-915 -435)" x="1335" y="1415">
+      <tspan sodipodi:role="line" x="1335" y="1415">J. Salwan</tspan>
+    </text>
+    <text font-size="6" overflow="visible" sodipodi:linespacing="100%" style="line-height:100%;text-indent:0;text-align:start;block-progression:tb" transform="translate(-915 -435)" x="1614.382" y="1274.964">
+      <tspan sodipodi:role="line" x="1614.382" y="1274.964">K. Sen</tspan>
+    </text>
+    <text font-size="6" overflow="visible" sodipodi:linespacing="100%" style="line-height:100%;text-indent:0;text-align:start;block-progression:tb" transform="translate(-915 -435)" x="1614.382" y="1414.964">
+      <tspan sodipodi:role="line" x="1614.382" y="1414.964">K. Sen</tspan>
+    </text>
+    <text font-size="6" overflow="visible" sodipodi:linespacing="100%" style="line-height:100%;text-indent:0;text-align:start;block-progression:tb" transform="translate(-915 -435)" x="1485" y="850">
+      <tspan sodipodi:role="line" x="1485" y="850">P. Godefroid (M)</tspan>
+    </text>
+    <text font-size="6" overflow="visible" sodipodi:linespacing="100%" style="line-height:100%;text-indent:0;text-align:center;block-progression:tb" text-anchor="middle" transform="translate(-915 -435)" x="1725" y="820">
+      <tspan sodipodi:role="line" x="1725" y="820">D. Song</tspan>
+    </text>
+    <text font-size="6" overflow="visible" sodipodi:linespacing="100%" style="line-height:100%;text-indent:0;text-align:start;block-progression:tb" transform="translate(-915 -435)" x="1740" y="840">
+      <tspan sodipodi:role="line" x="1740" y="840">D. Brumley</tspan> <tspan sodipodi:role="line" x="1740" y="846">J. Caballero</tspan> <tspan sodipodi:role="line" x="1740" y="852">Z. Liang</tspan> <tspan sodipodi:role="line" x="1740" y="858">J. Newsome</tspan> <tspan sodipodi:role="line" x="1740" y="864">D. Song</tspan>
+    </text>
+    <text font-size="6" overflow="visible" sodipodi:linespacing="100%" style="line-height:100%;text-indent:0;text-align:start;block-progression:tb" transform="translate(-915 -435)" x="2192.5" y="461">
+      <tspan sodipodi:role="line" x="2192.5" y="461">concolic</tspan>
+    </text>
+    <text font-size="6" overflow="visible" sodipodi:linespacing="100%" style="line-height:100%;text-indent:0;text-align:start;block-progression:tb" transform="translate(-915 -435)" x="2192.5" y="476">
+      <tspan sodipodi:role="line" x="2192.5" y="476">black-box fuzzing</tspan>
+    </text>
+    <text font-size="6" overflow="visible" sodipodi:linespacing="100%" style="line-height:100%;text-indent:0;text-align:start;block-progression:tb" transform="translate(-915 -435)" x="2192.5" y="488.5">
+      <tspan sodipodi:role="line" x="2192.5" y="488.5">static</tspan> <tspan sodipodi:role="line" x="2192.5" y="494.5">instrumentation</tspan>
+    </text>
+    <text font-size="6" overflow="visible" sodipodi:linespacing="100%" style="line-height:100%;text-indent:0;text-align:start;block-progression:tb" transform="translate(-915 -435)" x="2267.5" y="458.5">
+      <tspan sodipodi:role="line" x="2267.5" y="458.5">dynamic</tspan> <tspan sodipodi:role="line" x="2267.5" y="464.5">instrumentation</tspan>
+    </text>
+    <text font-size="6" overflow="visible" sodipodi:linespacing="100%" style="line-height:100%;text-indent:0;text-align:start;block-progression:tb" transform="translate(-915 -435)" x="2267.5" y="476">
+      <tspan sodipodi:role="line" x="2267.5" y="476"><tspan letter-spacing=".5" style="line-height:100%">SMT</tspan>-solving</tspan>
+    </text>
+    <text font-size="6" overflow="visible" sodipodi:linespacing="100%" style="line-height:100%;text-indent:0;text-align:start;block-progression:tb" transform="translate(-915 -435)" x="2267.5" y="491">
+      <tspan sodipodi:role="line" x="2267.5" y="491">model checker</tspan>
+    </text>
+    <text font-size="6" overflow="visible" sodipodi:linespacing="100%" style="line-height:100%;text-indent:0;text-align:start;block-progression:tb" transform="translate(-915 -435)" x="2342.5" y="461">
+      <tspan sodipodi:role="line" x="2342.5" y="461">static analysis</tspan>
+    </text>
+    <text font-size="6" overflow="visible" sodipodi:linespacing="100%" style="line-height:100%;text-indent:0;text-align:start;block-progression:tb" transform="translate(-915 -435)" x="2342.5" y="473.5">
+      <tspan sodipodi:role="line" x="2342.5" y="473.5">Java virtual</tspan> <tspan sodipodi:role="line" x="2342.5" y="479.5">machine</tspan>
+    </text>
+    <text font-size="6" overflow="visible" sodipodi:linespacing="100%" style="line-height:100%;text-indent:0;text-align:start;block-progression:tb" transform="translate(-915 -435)" x="2342.5" y="491">
+      <tspan sodipodi:role="line" x="2342.5" y="491">other</tspan>
+    </text>
+    <text font-size="10" overflow="visible" sodipodi:linespacing="100%" style="line-height:100%;text-indent:0;text-align:start;block-progression:tb" transform="translate(-915 -447.4)" x="1432.5" y="782.362">
+      <tspan font-size="6" sodipodi:role="line" style="text-align:start" x="1432.5" y="782.362">P. Godefroid</tspan>
+    </text>
+  </g>
+  
+</svg>
