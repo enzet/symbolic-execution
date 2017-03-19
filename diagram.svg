@@ -5,8 +5,8 @@
     <rect height="705" opacity=".14" rx="10" ry="10" width="115" x="1205" y="655"/>
     <rect height="610" opacity=".14" rx="10" ry="10" width="110" x="1085" y="795"/>
     <path d="M1425 795h160c5.54 0 10 4.46 10 10v145c0 6-4 10-10 10h-80c-6 0-10 4-10 10v310c0 5.54-4.46 10-10 10h-60c-5.54 0-10-4.46-10-10V960c0-6-4-10-10-10h-65c-6 0-10-4-10-10v-75c0-6 4-10 10-10h65c6 0 10-4 10-10v-40c0-5.54 4.46-10 10-10z" inkscape:connector-curvature="0" opacity=".14" sodipodi:nodetypes="sssccccssssccccccccss"/>
-    <path d="M1330 665c0-6 4-10 10-10h130c6 0 10 4 10 10v55c0 6-4 10-10 10h-60c-6 0-10 4-10 10v55c0 6-4 10-10 10h-50c-6 0-10-4-10-10z" inkscape:connector-curvature="0" opacity=".14" sodipodi:nodetypes="ccccccccccccc"/>
-    <rect height="95" opacity=".14" rx="10" ry="10" width="80" x="1410" y="645"/>
+    <path d="M1330 655c0-6 4-10 10-10h130c6 0 10 4 10 10v65c0 6-4 10-10 10h-60c-6 0-10 4-10 10v55c0 6-4 10-10 10h-50c-6 0-10-4-10-10z" inkscape:connector-curvature="0" opacity=".14" sodipodi:nodetypes="ccccccccccccc"/>
+    <rect height="105" opacity=".14" rx="10" ry="10" width="80" x="1410" y="635"/>
     <rect height="780" opacity=".14" rx="10" ry="10" width="80" x="2170" y="655"/>
     <rect height="100" opacity=".14" rx="10" ry="10" width="205" x="1595" y="475"/>
     <path d="M1730 675c0-6 4-10 10-10h100c6 0 10 4 10 10v730c0 6 4 10 10 10h100c6 0 10 4 10 10v50c0 6-4 10-10 10h-220c-6 0-10-4-10-10v-245c0-6-4-10-10-10h-205c-6 0-10 4-10 10v40c0 6-4 10-10 10h-60c-6 0-10-4-10-10v-45c0-6 4-10 10-10h285c6 0 10-4 10-10v-35c0-6-4-10-10-10h-70c-6 0-10-4-10-10V875c0-6 4-10 10-10h70c6 0 10-4 10-10z" inkscape:connector-curvature="0" opacity=".14" sodipodi:nodetypes="ccccccccccccccccccccccccccccccccc"/>
@@ -168,6 +168,7 @@
     <rect fill="none" height="10" rx="1" ry="1" stroke="#b07219" transform="translate(-915 -435)" width="20" x="1880" y="792.5"/>
     <rect fill="none" height="10" rx="1.5" ry="1" stroke="#178600" width="30" x="425" y="427.5"/>
     <rect fill="none" height="10" rx="1" ry="1" stroke="#b07219" transform="translate(-915 -435)" width="20" x="2280" y="1282.5"/>
+    <rect fill="none" height="10" rx="1" ry="1" stroke="#555" width="15" x="505" y="217.5"/>
   </g>
   <g color="#000" fill="#84a1af" font-family="CMU Serif" font-size="10" font-weight="500" inkscape:groupmode="layer" inkscape:label="group_text" word-spacing="0">
     <text letter-spacing="0" overflow="visible" sodipodi:linespacing="100%" style="line-height:100%;text-indent:0;text-align:center;block-progression:tb" text-anchor="middle" transform="translate(-915 -435)" x="1790" y="1070">
@@ -185,11 +186,11 @@
     <text letter-spacing="0" overflow="visible" sodipodi:linespacing="100%" style="line-height:100%;text-indent:0;text-align:center;block-progression:tb" text-anchor="middle" transform="translate(-915 -435)" x="1505" y="780">
       <tspan sodipodi:role="line" x="1505" y="780">Microsoft</tspan><tspan sodipodi:role="line" x="1505" y="790">Research</tspan>
     </text>
-    <text letter-spacing="0" overflow="visible" sodipodi:linespacing="100%" style="line-height:100%;text-indent:0;text-align:center;block-progression:tb" text-anchor="middle" transform="translate(-915 -435)" x="1365" y="650">
-      <tspan sodipodi:role="line" x="1365" y="650">Illinois</tspan>
+    <text letter-spacing="0" overflow="visible" sodipodi:linespacing="100%" style="text-indent:0;text-align:center;line-height:100%;block-progression:tb;-inkscape-font-specification:CMU Serif" text-anchor="middle" transform="translate(-915 -435)" x="1365" y="640">
+      <tspan sodipodi:role="line" x="1365" y="640">Illinois</tspan>
     </text>
-    <text letter-spacing="0" overflow="visible" sodipodi:linespacing="100%" style="line-height:100%;text-indent:0;text-align:center;block-progression:tb" text-anchor="middle" transform="translate(-915 -435)" x="1450" y="640">
-      <tspan sodipodi:role="line" x="1450" y="640">Bell labs</tspan>
+    <text letter-spacing="0" overflow="visible" sodipodi:linespacing="100%" style="text-indent:0;text-align:center;line-height:100%;block-progression:tb;-inkscape-font-specification:CMU Serif" text-anchor="middle" transform="translate(-915 -435)" x="1450" y="630">
+      <tspan sodipodi:role="line" x="1450" y="630">Bell labs</tspan>
     </text>
     <text letter-spacing="1" overflow="visible" sodipodi:linespacing="100%" style="line-height:100%;text-indent:0;text-align:center;block-progression:tb" text-anchor="middle" transform="translate(-915 -435)" x="2212" y="650">
       <tspan sodipodi:role="line" x="2212.5" y="650">EPFL</tspan>
@@ -704,6 +705,9 @@
     </text>
     <text fill="#b07219" overflow="visible" sodipodi:linespacing="100%" style="line-height:100%;-inkscape-font-specification:'CMU Serif Bold';text-indent:0;text-align:center;block-progression:tb" transform="translate(-915 -447.362)" x="2290" y="1021.862">
       <tspan sodipodi:role="line" style="line-height:50%;-inkscape-font-specification:'CMU Serif Bold';text-align:center" x="2290" y="1021.862">Java</tspan>
+    </text>
+    <text fill="#555" overflow="visible" sodipodi:linespacing="100%" style="text-indent:0;text-align:center;line-height:100%;block-progression:tb;-inkscape-font-specification:CMU Serif Bold" x="512.5" y="225">
+      <tspan sodipodi:role="line" style="text-align:center;line-height:50%;-inkscape-font-specification:CMU Serif Bold" x="512.5" y="225">C</tspan>
     </text>
   </g>
   <g color="#000" font-family="CMU Serif" font-size="10" font-weight="500" inkscape:groupmode="layer" inkscape:label="time_text" letter-spacing="0" text-anchor="end" word-spacing="0">
