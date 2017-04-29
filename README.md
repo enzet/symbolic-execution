@@ -12,3 +12,10 @@ Preview
 -------
 
 ![Preview](https://raw.github.com/enzet/dynamic-symbolic-execution/master/diagram.png)
+
+Contribution
+------------
+
+Please, use SVGO for diagram optimization before commiting.
+
+    svgo diagram.svg --pretty --enable=sortAttrs --disable=removeEditorsNSData --indent=2
