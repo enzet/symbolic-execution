@@ -2,7 +2,7 @@
   <g fill="#50708c" fill-opacity=".498" inkscape:groupmode="layer" inkscape:label="group" stroke="#50708c" transform="translate(-915 -435)">
     <path d="M1720 515v945c0 6-4 10-10 10h-95c-6 0-10-4-10-10V960c0-6-4-10-10-10h-170c-6 0-10-4-10-10v-65c0-6 4-10 10-10h170c6 0 10-4 10-10V515c0-6 4-10 10-10h95c6 0 10 4 10 10z" inkscape:connector-curvature="0" opacity=".14" sodipodi:nodetypes="ccccccccccccccccc"/>
     <rect height="145" opacity=".14" rx="10" ry="10" width="180" x="1980" y="1355"/>
-    <rect height="705" opacity=".14" rx="10" ry="10" width="115" x="1205" y="655"/>
+    <rect height="825" opacity=".14" rx="10" ry="10" width="115" x="1205" y="535"/>
     <rect height="610" opacity=".14" rx="10" ry="10" width="110" x="1085" y="795"/>
     <path d="M1425 795h160c5.54 0 10 4.46 10 10v145c0 6-4 10-10 10h-80c-6 0-10 4-10 10v310c0 5.54-4.46 10-10 10h-60c-5.54 0-10-4.46-10-10V960c0-6-4-10-10-10h-65c-6 0-10-4-10-10v-75c0-6 4-10 10-10h65c6 0 10-4 10-10v-40c0-5.54 4.46-10 10-10z" inkscape:connector-curvature="0" opacity=".14" sodipodi:nodetypes="sssccccssssccccccccss"/>
     <path d="M1330 655c0-6 4-10 10-10h130c6 0 10 4 10 10v65c0 6-4 10-10 10h-60c-6 0-10 4-10 10v55c0 6-4 10-10 10h-50c-6 0-10-4-10-10z" inkscape:connector-curvature="0" opacity=".14" sodipodi:nodetypes="ccccccccccccc"/>
@@ -54,7 +54,7 @@
     <rect fill="#c8daa4" height="30" rx="2" ry="2" stroke="#96ae65" width="75" x="1515" y="1015"/>
     <rect fill="#c8daa4" height="30" rx="2" ry="2" stroke="#96ae65" width="30" x="1215" y="665"/>
     <rect fill="#e4d3c2" height="45" rx="2" ry="2" stroke="#bda389" width="50" x="2180" y="1380"/>
-    <rect fill="#cfb6e0" height="40" rx="2" ry="2" stroke="#9d78b6" width="70" x="1295" y="575"/>
+    <rect fill="#cfb6e0" height="40" rx="2" ry="2" stroke="#9d78b6" width="70" x="1340" y="575"/>
     <rect fill="#e0cfeb" height="35" rx="2" ry="2" stroke="#9d78b6" width="50" x="2115" y="945"/>
     <rect fill="#cfb6e0" height="35" rx="2" ry="2" stroke="#9d78b6" width="50" x="2280" y="805"/>
     <rect fill="#e4d3c2" height="30" rx="2" ry="2" stroke="#bda389" width="50" x="1650" y="875"/>
@@ -122,7 +122,7 @@
     <rect fill="#cfb6e0" height="10" rx="1" ry="1" stroke="#9d78b6" width="30" x="2115" y="982.5"/>
     <rect fill="#e4d3c2" height="40" rx="2" ry="2" stroke="#bda389" width="60" x="2280" y="735"/>
     <rect fill="#cfb6e0" height="10" rx="1" ry="1" stroke="#9d78b6" width="30" x="2342.5" y="735"/>
-    <rect fill="#e4d3c2" height="35" rx="2" ry="2" stroke="#bda389" width="39.65" x="1980" y="555"/>
+    <rect fill="#e4d3c2" height="35" rx="2" ry="2" stroke="#bda389" width="39.65" x="1215" y="555"/>
     <rect fill="#e4d3c2" height="30" rx="2" ry="2" stroke="#bda389" width="54.65" x="1615" y="1235"/>
     <rect fill="#e4d3c2" height="30" rx="2" ry="2" stroke="#bda389" width="55" x="1615" y="1375"/>
     <rect fill="#cfb6e0" height="10" rx="2" ry="2" stroke="#9d78b6" width="10" x="2250" y="455"/>
@@ -138,8 +138,8 @@
     <rect fill="#e4d3c2" height="45" rx="2" ry="2" stroke="#bda389" width="65" x="1880" y="525"/>
     <rect fill="#daa4a4" height="10" rx="1" ry="1" stroke="#ae656d" width="25" x="1880" y="572.5"/>
     <rect fill="#daa4a4" height="10" rx="2" ry="2" stroke="#ae656d" width="10" x="2250" y="485"/>
-    <rect fill="none" height="10" rx="1" ry="1" stroke="#999" width="30" x="1980" y="592.5"/>
-    <rect fill="none" height="10" rx="1" ry="1" stroke="#999" width="30" x="1980" y="605"/>
+    <rect fill="none" height="10" rx="1" ry="1" stroke="#999" width="30" x="1215" y="592.5"/>
+    <rect fill="none" height="10" rx="1" ry="1" stroke="#999" width="30" x="1215" y="605"/>
     <rect fill="none" height="25" rx="2" ry="2" stroke="#999" width="100" x="1740" y="805"/>
     <rect fill="none" height="30" rx="2" ry="2" stroke="#999" width="40" x="1980" y="1015"/>
     <rect fill="none" height="25" rx="2" ry="2" stroke="#999" width="40" x="1665" y="1410"/>
@@ -148,7 +148,7 @@
     <rect fill="none" height="35" rx="2" ry="2" stroke="#999" width="60" x="1650" y="940"/>
   </g>
   <g inkscape:groupmode="layer" inkscape:label="language" stroke-width=".7">
-    <rect fill="none" height="10" rx="1" ry="1" stroke="#b07219" transform="translate(-915 -435)" width="20" x="1980" y="542.5"/>
+    <rect fill="none" height="10" rx="1" ry="1" stroke="#b07219" width="20" x="300" y="107.5"/>
     <rect fill="#f1e05a" height="10" rx="1" ry="1" stroke="#f1e05a" transform="translate(-915 -435)" width="35" x="1615" y="1222.5"/>
     <rect fill="#f1e05a" height="10" rx="1" ry="1" stroke="#f1e05a" transform="translate(-915 -435)" width="35" x="1615" y="1362.5"/>
     <rect fill="none" height="10" rx="1" ry="1" stroke="#b07219" transform="translate(-915 -435)" width="20" x="2040" y="622.5"/>
@@ -177,8 +177,8 @@
     <text letter-spacing="0" overflow="visible" sodipodi:linespacing="100%" style="line-height:100%;text-indent:0;text-align:center;block-progression:tb" text-anchor="middle" transform="translate(-915 -435)" x="2025" y="1415">
       <tspan sodipodi:role="line" x="2025" y="1415">Shellphish</tspan>
     </text>
-    <text letter-spacing="0" overflow="visible" sodipodi:linespacing="100%" style="line-height:100%;text-indent:0;text-align:center;block-progression:tb" text-anchor="middle" transform="translate(-915 -435)" x="1262.5" y="650">
-      <tspan sodipodi:role="line" x="1262.5" y="650">Stanford</tspan>
+    <text letter-spacing="0" overflow="visible" sodipodi:linespacing="100%" style="text-indent:0;text-align:center;line-height:100%;block-progression:tb;" text-anchor="middle" transform="translate(-915 -435)" x="1262.5" y="530">
+      <tspan sodipodi:role="line" x="1262.5" y="530">Stanford</tspan>
     </text>
     <text letter-spacing="0" overflow="visible" sodipodi:linespacing="100%" style="line-height:100%;text-indent:0;text-align:center;block-progression:tb" text-anchor="middle" transform="translate(-915 -435)" x="1140" y="790">
       <tspan sodipodi:role="line" x="1140" y="790">Google</tspan>
@@ -186,10 +186,10 @@
     <text letter-spacing="0" overflow="visible" sodipodi:linespacing="100%" style="line-height:100%;text-indent:0;text-align:center;block-progression:tb" text-anchor="middle" transform="translate(-915 -435)" x="1505" y="780">
       <tspan sodipodi:role="line" x="1505" y="780">Microsoft</tspan><tspan sodipodi:role="line" x="1505" y="790">Research</tspan>
     </text>
-    <text letter-spacing="0" overflow="visible" sodipodi:linespacing="100%" style="text-indent:0;text-align:center;line-height:100%;block-progression:tb;-inkscape-font-specification:CMU Serif" text-anchor="middle" transform="translate(-915 -435)" x="1365" y="640">
+    <text letter-spacing="0" overflow="visible" sodipodi:linespacing="100%" style="text-indent:0;text-align:center;line-height:100%;block-progression:tb;" text-anchor="middle" transform="translate(-915 -435)" x="1365" y="640">
       <tspan sodipodi:role="line" x="1365" y="640">Illinois</tspan>
     </text>
-    <text letter-spacing="0" overflow="visible" sodipodi:linespacing="100%" style="text-indent:0;text-align:center;line-height:100%;block-progression:tb;-inkscape-font-specification:CMU Serif" text-anchor="middle" transform="translate(-915 -435)" x="1450" y="630">
+    <text letter-spacing="0" overflow="visible" sodipodi:linespacing="100%" style="text-indent:0;text-align:center;line-height:100%;block-progression:tb;" text-anchor="middle" transform="translate(-915 -435)" x="1450" y="630">
       <tspan sodipodi:role="line" x="1450" y="630">Bell labs</tspan>
     </text>
     <text letter-spacing="1" overflow="visible" sodipodi:linespacing="100%" style="line-height:100%;text-indent:0;text-align:center;block-progression:tb" text-anchor="middle" transform="translate(-915 -435)" x="2212" y="650">
@@ -395,8 +395,8 @@
     <text font-size="10" letter-spacing="0" sodipodi:linespacing="100%" style="line-height:100%;text-align:start" transform="translate(-915 -447.362)" x="2184.087" y="1407.198">
       <tspan sodipodi:role="line" x="2184.087" y="1407.198">Galactica</tspan>
     </text>
-    <text color="#000" font-size="6" letter-spacing="0" overflow="visible" sodipodi:linespacing="100%" style="line-height:100%;text-indent:0;text-align:start;block-progression:tb" transform="translate(-915 -447.362)" x="1300" y="602.362">
-      <tspan font-size="10" sodipodi:role="line" style="line-height:100%;" x="1300" y="602.362">Dynamo<tspan letter-spacing="1">RIO</tspan></tspan><tspan sodipodi:role="line" x="1300" y="609.662">2002</tspan><tspan sodipodi:role="line" x="1300" y="615.662">dynamic binary</tspan><tspan sodipodi:role="line" x="1300" y="621.662"> instrumentator</tspan>
+    <text color="#000" font-size="6" letter-spacing="0" overflow="visible" sodipodi:linespacing="100%" style="text-indent:0;text-align:start;line-height:100%;block-progression:tb;" transform="translate(-915 -447.362)" x="1345" y="602.362">
+      <tspan font-size="10" sodipodi:role="line" style="line-height:100%;" x="1345" y="602.362">Dynamo<tspan letter-spacing="1">RIO</tspan></tspan><tspan sodipodi:role="line" x="1345" y="609.662">2002</tspan><tspan sodipodi:role="line" x="1345" y="615.662">dynamic binary</tspan><tspan sodipodi:role="line" x="1345" y="621.662"> instrumentator</tspan>
     </text>
     <text color="#000" font-size="6" letter-spacing="0" overflow="visible" sodipodi:linespacing="100%" style="line-height:100%;text-indent:0;text-align:start;block-progression:tb" transform="translate(-915 -447.362)" x="2120" y="972.362">
       <tspan font-size="10" letter-spacing="1" sodipodi:role="line" style="line-height:100%;" x="2120" y="972.362">PEBIL</tspan><tspan sodipodi:role="line" x="2120" y="979.662">static binary</tspan><tspan sodipodi:role="line" x="2120" y="985.662">instrumentator</tspan>
@@ -611,8 +611,8 @@
     <text color="#000" font-size="6" letter-spacing="0" overflow="visible" sodipodi:linespacing="100%" style="line-height:100%;text-indent:0;text-align:start;block-progression:tb" transform="translate(-915 -447.362)" x="1670" y="1432.362">
       <tspan font-size="8" sodipodi:role="line" style="line-height:100%;" x="1670" y="1432.362">Multi<tspan letter-spacing=".5">SE</tspan></tspan><tspan sodipodi:role="line" style="line-height:100%;" x="1670" y="1439.012">2015</tspan>
     </text>
-    <text color="#000" font-size="6" letter-spacing="0" overflow="visible" sodipodi:linespacing="100%" style="line-height:100%;text-indent:0;text-align:start;block-progression:tb" transform="translate(-915 -447.362)" x="1985" y="582.362">
-      <tspan font-size="10" sodipodi:role="line" style="line-height:100%;" x="1985" y="582.362">Chord</tspan><tspan sodipodi:role="line" x="1985" y="589.662">2001</tspan>
+    <text color="#000" font-size="6" letter-spacing="0" overflow="visible" sodipodi:linespacing="100%" style="text-indent:0;text-align:start;line-height:100%;block-progression:tb;" transform="translate(-915 -447.362)" x="1220" y="582.362">
+      <tspan font-size="10" sodipodi:role="line" style="line-height:100%;" x="1220" y="582.362">Chord</tspan><tspan sodipodi:role="line" x="1220" y="589.662">2001</tspan>
     </text>
     <text color="#000" font-size="6" letter-spacing="0" overflow="visible" sodipodi:linespacing="100%" style="line-height:100%;text-indent:0;text-align:start;block-progression:tb" transform="translate(-915 -447.362)" x="1620" y="1262.362">
       <tspan font-size="10" sodipodi:role="line" style="line-height:100%;" x="1620" y="1262.362">Jalangi</tspan><tspan sodipodi:role="line" x="1620" y="1269.662">2013</tspan>
@@ -632,11 +632,11 @@
     <text color="#000" font-size="6" letter-spacing="0" overflow="visible" sodipodi:linespacing="100%" style="line-height:100%;text-indent:0;text-align:center;block-progression:tb" text-anchor="middle" transform="translate(-915 -447.362)" x="1892.5" y="591.862">
       <tspan sodipodi:role="line" style="line-height:50%;text-align:center" x="1892.5" y="591.862">Spin</tspan>
     </text>
-    <text color="#000" font-size="6" letter-spacing="0" overflow="visible" sodipodi:linespacing="100%" style="line-height:100%;text-indent:0;text-align:center;block-progression:tb" text-anchor="middle" transform="translate(-915 -447.362)" x="1995" y="611.862">
-      <tspan sodipodi:role="line" style="line-height:50%;text-align:center" x="1995" y="611.862">Javassist</tspan>
+    <text color="#000" font-size="6" letter-spacing="0" overflow="visible" sodipodi:linespacing="100%" style="text-indent:0;text-align:center;line-height:100%;block-progression:tb;" text-anchor="middle" transform="translate(-915 -447.362)" x="1230" y="611.862">
+      <tspan sodipodi:role="line" style="text-align:center;line-height:50%;" x="1230" y="611.862">Javassist</tspan>
     </text>
-    <text color="#000" font-size="6" letter-spacing="0" overflow="visible" sodipodi:linespacing="100%" style="line-height:100%;text-indent:0;text-align:center;block-progression:tb" text-anchor="middle" transform="translate(-915 -447.362)" x="1995" y="624.362">
-      <tspan sodipodi:role="line" style="line-height:50%;text-align:center" x="1995" y="624.362">bddbddb</tspan>
+    <text color="#000" font-size="6" letter-spacing="0" overflow="visible" sodipodi:linespacing="100%" style="text-indent:0;text-align:center;line-height:100%;block-progression:tb;" text-anchor="middle" transform="translate(-915 -447.362)" x="1230" y="624.362">
+      <tspan sodipodi:role="line" style="text-align:center;line-height:50%;" x="1230" y="624.362">bddbddb</tspan>
     </text>
     <text color="#000" font-size="10" letter-spacing="0" overflow="visible" sodipodi:linespacing="100%" style="line-height:100%;text-indent:0;text-align:start;block-progression:tb" transform="translate(-915 -447.362)" x="1745" y="827.362">
       <tspan font-size="8" sodipodi:role="line" x="1745" y="827.362">Discovery of Deviations</tspan><tspan font-size="6" sodipodi:role="line" style="line-height:100%;" x="1745" y="834.012">2007</tspan>
@@ -646,8 +646,8 @@
     </text>
   </g>
   <g color="#000" font-family="CMU Serif" font-size="6" font-weight="bold" inkscape:groupmode="layer" inkscape:label="language_text" letter-spacing="0" text-anchor="middle" word-spacing="0">
-    <text fill="#b07219" overflow="visible" sodipodi:linespacing="100%" style="line-height:100%;-inkscape-font-specification:'CMU Serif Bold';text-indent:0;text-align:center;block-progression:tb" transform="translate(-915 -447.362)" x="1990" y="561.862">
-      <tspan sodipodi:role="line" style="line-height:50%;-inkscape-font-specification:'CMU Serif Bold';text-align:center" x="1990" y="561.862">Java</tspan>
+    <text fill="#b07219" overflow="visible" sodipodi:linespacing="100%" style="text-indent:0;text-align:center;line-height:100%;block-progression:tb; Bold" x="310" y="114.5">
+      <tspan sodipodi:role="line" style="text-align:center;line-height:50%; Bold" x="310" y="114.5">Java</tspan>
     </text>
     <text fill="#b07219" overflow="visible" sodipodi:linespacing="100%" style="line-height:100%;-inkscape-font-specification:'CMU Serif Bold';text-indent:0;text-align:center;block-progression:tb" transform="translate(-915 -447.362)" x="2050" y="641.862">
       <tspan sodipodi:role="line" style="line-height:50%;-inkscape-font-specification:'CMU Serif Bold';text-align:center" x="2050" y="641.862">Java</tspan>
@@ -706,8 +706,8 @@
     <text fill="#b07219" overflow="visible" sodipodi:linespacing="100%" style="line-height:100%;-inkscape-font-specification:'CMU Serif Bold';text-indent:0;text-align:center;block-progression:tb" transform="translate(-915 -447.362)" x="2290" y="1021.862">
       <tspan sodipodi:role="line" style="line-height:50%;-inkscape-font-specification:'CMU Serif Bold';text-align:center" x="2290" y="1021.862">Java</tspan>
     </text>
-    <text fill="#555" overflow="visible" sodipodi:linespacing="100%" style="text-indent:0;text-align:center;line-height:100%;block-progression:tb;-inkscape-font-specification:CMU Serif Bold" x="512.5" y="225">
-      <tspan sodipodi:role="line" style="text-align:center;line-height:50%;-inkscape-font-specification:CMU Serif Bold" x="512.5" y="225">C</tspan>
+    <text fill="#555" overflow="visible" sodipodi:linespacing="100%" style="text-indent:0;text-align:center;line-height:100%;block-progression:tb; Bold" x="512.5" y="225">
+      <tspan sodipodi:role="line" style="text-align:center;line-height:50%; Bold" x="512.5" y="225">C</tspan>
     </text>
   </g>
   <g color="#000" font-family="CMU Serif" font-size="10" font-weight="500" inkscape:groupmode="layer" inkscape:label="time_text" letter-spacing="0" text-anchor="end" word-spacing="0">
