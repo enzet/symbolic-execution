@@ -43,7 +43,7 @@
     <path d="M1730 675c0-6 4-10 10-10h100c6 0 10 4 10 10v730c0 6 4 10 10 10h100c6 0 10 4 10 10v50c0 6-4 10-10 10h-220c-6 0-10-4-10-10v-245c0-6-4-10-10-10h-205c-6 0-10 4-10 10v40c0 6-4 10-10 10h-60c-6 0-10-4-10-10v-45c0-6 4-10 10-10h285c6 0 10-4 10-10v-35c0-6-4-10-10-10h-70c-6 0-10-4-10-10V875c0-6 4-10 10-10h70c6 0 10-4 10-10z" opacity=".14" inkscape:connector-curvature="0" sodipodi:nodetypes="ccccccccccccccccccccccccccccccccc"/>
     <rect width="90" height="750" x="985" y="595" opacity=".14" rx="10" ry="10"/>
     <rect width="90" height="990" x="1870" y="505" opacity=".14" rx="10" ry="10"/>
-    <path d="M1870 785h150c5.54 0 10 4.46 10 10v265c0 5.54-4.46 10-10 10h-40c-6 0-10-4-10-10V880c0-6-4-10-10-10h-90c-5.54 0-10-4.46-10-10v-65c0-5.54 4.46-10 10-10z" opacity=".14" inkscape:connector-curvature="0" sodipodi:nodetypes="ccsssccccsssc"/>
+    <path d="M1870 785h150c5.54 0 10 4.46 10 10v345c0 5.54-4.46 10-10 10h-40c-6 0-10-4-10-10V880c0-6-4-10-10-10h-90c-5.54 0-10-4.46-10-10v-65c0-5.54 4.46-10 10-10z" opacity=".14" inkscape:connector-curvature="0" sodipodi:nodetypes="ccsssccccsssc"/>
     <rect width="110" height="285" x="2270" y="795" opacity=".14" rx="10" ry="10"/>
     <rect width="100" height="195" x="2050" y="1140" opacity=".14" rx="10" ry="10"/>
   </g>
@@ -177,6 +177,7 @@
     <rect width="80" height="25" x="1525" y="310" fill="none" stroke="#999" rx="2" ry="2"/>
     <rect width="50" height="30" x="2080" y="535" fill="none" stroke="#816647" rx="2" ry="2"/>
     <rect width="60" height="35" x="1650" y="940" fill="none" stroke="#999" rx="2" ry="2"/>
+    <rect width="40" height="40" x="1980" y="1085" fill="#e4d3c2" stroke="#bda389" rx="2" ry="2"/>
   </g>
   <g stroke-width=".7" inkscape:groupmode="layer" inkscape:label="language">
     <rect width="20" height="10" x="300" y="107.5" fill="none" stroke="#b07219" rx="1" ry="1"/>
@@ -200,6 +201,7 @@
     <rect width="30" height="10" x="425" y="427.5" fill="none" stroke="#178600" rx="1" ry="1"/>
     <rect width="20" height="10" x="2280" y="1282.5" fill="none" stroke="#b07219" rx="1" ry="1" transform="translate(-915 -435)"/>
     <rect width="15" height="10" x="505" y="217.5" fill="none" stroke="#555" rx="1" ry="1"/>
+    <rect width="20" height="10" x="1065" y="637.5" fill="none" stroke="#b07219" rx="1" ry="1"/>
   </g>
   <g fill="#84a1af" color="#000" font-family="CMU Serif" font-size="10" font-weight="500" word-spacing="0" inkscape:groupmode="layer" inkscape:label="group_text">
     <text x="1790" y="1070" letter-spacing="0" overflow="visible" style="line-height:100%;-inkscape-font-specification:'CMU Serif';text-indent:0;text-align:center;text-decoration-line:none;text-transform:none;block-progression:tb;marker:none" text-anchor="middle" transform="translate(-915 -435)" sodipodi:linespacing="100%">
@@ -675,6 +677,9 @@
     <text x="1250.056" y="504.53" color="#000" font-size="24" letter-spacing="0" overflow="visible" style="line-height:100%;-inkscape-font-specification:'CMU Serif';text-indent:0;text-align:center;text-decoration-line:none;text-transform:none;block-progression:tb;marker:none" text-anchor="middle" transform="translate(-915 -447.362)" sodipodi:linespacing="100%">
       <tspan x="1250.056" y="504.53" sodipodi:role="line">Dynamic Symbolic Execution</tspan>
     </text>
+    <text x="1070" y="665" color="#000" font-size="10" letter-spacing="0" overflow="visible" style="text-indent:0;text-align:start;line-height:100%;text-transform:none;block-progression:tb;marker:none;-inkscape-font-specification:CMU Serif" sodipodi:linespacing="100%">
+      <tspan x="1070" y="665" style="-inkscape-font-specification:CMU Serif" sodipodi:role="line">Cinger</tspan> <tspan x="1070" y="672.3" font-size="6" style="line-height:100%;-inkscape-font-specification:CMU Serif" sodipodi:role="line">2011</tspan> <tspan x="1070" y="678.3" font-size="6" style="line-height:100%;-inkscape-font-specification:CMU Serif" sodipodi:role="line">heap</tspan> <tspan x="1070" y="684.3" font-size="6" style="line-height:100%;-inkscape-font-specification:CMU Serif" sodipodi:role="line">cloning</tspan>
+    </text>
   </g>
   <g color="#000" font-family="CMU Serif" font-size="6" font-weight="700" letter-spacing="0" text-anchor="middle" word-spacing="0" inkscape:groupmode="layer" inkscape:label="language_text">
     <text x="310" y="114.5" fill="#b07219" overflow="visible" style="text-indent:0;text-align:center;line-height:100%;text-transform:none;block-progression:tb;marker:none;-inkscape-font-specification:CMU Serif Bold" sodipodi:linespacing="100%">
@@ -739,6 +744,9 @@
     </text>
     <text x="512.5" y="225" fill="#555" overflow="visible" style="text-indent:0;text-align:center;line-height:100%;text-transform:none;block-progression:tb;marker:none;-inkscape-font-specification:CMU Serif Bold" sodipodi:linespacing="100%">
       <tspan x="512.5" y="225" style="text-align:center;line-height:50%;-inkscape-font-specification:CMU Serif Bold" sodipodi:role="line">C</tspan>
+    </text>
+    <text x="1075" y="644.5" fill="#b07219" overflow="visible" style="text-indent:0;text-align:center;line-height:100%;text-transform:none;block-progression:tb;marker:none;-inkscape-font-specification:CMU Serif Bold" sodipodi:linespacing="100%">
+      <tspan x="1075" y="644.5" style="text-align:center;line-height:50%;-inkscape-font-specification:CMU Serif Bold" sodipodi:role="line">Java</tspan>
     </text>
   </g>
   <g color="#000" font-family="CMU Serif" font-size="10" font-weight="500" letter-spacing="0" text-anchor="end" word-spacing="0" inkscape:groupmode="layer" inkscape:label="time_text">
@@ -993,6 +1001,9 @@
     </text>
     <text x="1432.5" y="782.362" font-size="10" overflow="visible" style="text-indent:0;text-align:start;line-height:100%;text-transform:none;block-progression:tb;marker:none;-inkscape-font-specification:CMU Serif" transform="translate(-915 -447.362)" sodipodi:linespacing="100%">
       <tspan x="1432.5" y="782.362" font-size="6" style="text-align:start;-inkscape-font-specification:CMU Serif" sodipodi:role="line">P. Godefroid</tspan>
+    </text>
+    <text x="1065" y="700" font-size="6" overflow="visible" style="text-indent:0;text-align:start;line-height:100%;text-transform:none;block-progression:tb;marker:none;-inkscape-font-specification:CMU Serif" sodipodi:linespacing="100%">
+      <tspan x="1065" y="700" sodipodi:role="line">S. Anand</tspan> <tspan x="1065" y="706" sodipodi:role="line">M. J. Harrold</tspan>
     </text>
   </g>
 </svg>
