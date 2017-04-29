@@ -6,7 +6,7 @@ Diagram highlights some major tools and ideas of dynamic symbolic execution.
 Requirements
 ------------
 
-Please, install [Computer Modern font](http://cm-unicode.sourceforge.net/download.html) (CMU Serif) for correct SVG display.
+Please, install font Roboto for correct SVG display.
 
 Preview
 -------
@@ -16,6 +16,6 @@ Preview
 Contribution
 ------------
 
-Please, use SVGO for diagram optimization before commiting.
+Please, use [SVGO](https://github.com/svg/svgo) for diagram optimization before commiting.
 
-    svgo diagram.svg --pretty --enable=sortAttrs --disable=removeEditorsNSData --indent=2
+    svgo diagram.svg --pretty --enable=sortAttrs --disable=removeEditorsNSData --disable=cleanupIDs --indent=2
