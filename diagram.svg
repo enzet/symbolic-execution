@@ -198,6 +198,7 @@
     <rect id="rect4082" width="25" height="10" x="2152.5" y="815" fill="#adc57d" rx="1" ry="1"/>
     <rect id="rect4094" width="50" height="30" x="1420" y="515" fill="#e0bbbb" rx="2" ry="2"/>
     <rect id="rect4124" width="40" height="30" x="1330" y="515" fill="#e0bbbb" rx="2" ry="2"/>
+    <rect id="rect4111" width="40" height="35" x="1800" y="1225" fill="#c8daa4" rx="2" ry="2"/>
   </g>
   <g id="g366" stroke-width=".7" transform="translate(0 65)" inkscape:groupmode="layer" inkscape:label="language">
     <rect id="rect368" width="20" height="10" x="300" y="107.5" fill="#b07219" rx="1" ry="1"/>
@@ -748,6 +749,9 @@
     <text id="text4126" x="420" y="95" fill="#363228" color="#000" font-family="Roboto" font-size="6" font-weight="300" letter-spacing="0" overflow="visible" style="text-indent:0;text-align:start;line-height:100%;text-transform:none;block-progression:tb;marker:none;-inkscape-font-specification:Roboto Light" sodipodi:linespacing="100%">
       <tspan id="tspan4128" x="420" y="95" font-size="10" style="line-height:100%;-inkscape-font-specification:Roboto Light" sodipodi:role="line">SPIN</tspan> <tspan id="tspan4130" x="420" y="101.833" style="line-height:100%;-inkscape-font-specification:Roboto Light" sodipodi:role="line">1997</tspan>
     </text>
+    <text id="text4113" x="890" y="805" fill="#363228" font-family="Roboto" font-size="10" font-weight="300" letter-spacing="0" style="text-align:start;line-height:100%;-inkscape-font-specification:Roboto Light" sodipodi:linespacing="100%">
+      <tspan id="tspan4116" x="890" y="805" sodipodi:role="line">dReal</tspan> <tspan id="tspan4118" x="890" y="811.833" font-size="6" style="-inkscape-font-specification:Roboto Light" sodipodi:role="line">2013</tspan>
+    </text>
   </g>
   <g id="g1514" color="#000" font-family="Roboto" font-size="6" font-weight="700" letter-spacing="0" text-anchor="middle" transform="translate(0 65)" word-spacing="0" inkscape:groupmode="layer" inkscape:label="language_text">
     <text id="text1516" x="310" y="114.5" fill="#fff" overflow="visible" style="text-indent:0;text-align:center;line-height:100%;text-transform:none;block-progression:tb;marker:none;-inkscape-font-specification:Roboto Bold" sodipodi:linespacing="100%">
@@ -1111,6 +1115,9 @@
     </text>
     <text id="text4132" x="415" y="120" font-size="6" overflow="visible" style="text-indent:0;text-align:start;line-height:100%;text-transform:none;block-progression:tb;marker:none;-inkscape-font-specification:Roboto Light" sodipodi:linespacing="100%">
       <tspan id="tspan4134" x="415" y="120" sodipodi:role="line">G. Holzmann</tspan>
+    </text>
+    <text id="text4120" x="885" y="835" font-size="6" overflow="visible" style="text-indent:0;text-align:start;line-height:100%;text-transform:none;block-progression:tb;marker:none;-inkscape-font-specification:Roboto Light" sodipodi:linespacing="100%">
+      <tspan id="tspan4122" x="885" y="835" sodipodi:role="line">S. Kong</tspan>
     </text>
   </g>
   <g id="g2096" transform="translate(0 65)" inkscape:label="preview">
