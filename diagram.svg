@@ -40,7 +40,7 @@
     <rect id="rect68" width="180" height="145" x="1990" y="1355" opacity=".14" rx="10" ry="10"/>
     <rect id="rect70" width="115" height="840" x="1205" y="535" opacity=".14" rx="10" ry="10"/>
     <rect id="rect72" width="110" height="610" x="1085" y="795" opacity=".14" rx="10" ry="10"/>
-    <path id="path74" d="M1425 795h160c5.54 0 10 4.46 10 10v145c0 6-4 10-10 10h-80c-6 0-10 4-10 10v310c0 5.54-4.46 10-10 10h-60c-5.54 0-10-4.46-10-10V970c0-6-4-10-10-10h-65c-6 0-10-4-10-10v-85c0-6 4-10 10-10h65c6 0 10-4 10-10v-40c0-5.54 4.46-10 10-10z" opacity=".14" inkscape:connector-curvature="0" sodipodi:nodetypes="sssccccssssccccccccss"/>
+    <path id="path74" d="M1425 795h160c5.54 0 10 4.46 10 10v145c0 6-4 10-10 10h-80c-6 0-10 4-10 10v510c0 5.54-4.46 10-10 10h-60c-5.54 0-10-4.46-10-10V970c0-6-4-10-10-10h-65c-6 0-10-4-10-10v-85c0-6 4-10 10-10h65c6 0 10-4 10-10v-40c0-5.54 4.46-10 10-10z" opacity=".14" inkscape:connector-curvature="0" sodipodi:nodetypes="sssccccssssccccccccss"/>
     <path id="path76" d="M1330 655c0-6 4-10 10-10h130c6 0 10 4 10 10v75c0 6-4 10-10 10h-60c-6 0-10 4-10 10v45c0 6-4 10-10 10h-50c-6 0-10-4-10-10z" opacity=".14" inkscape:connector-curvature="0" sodipodi:nodetypes="ccccccccccccc"/>
     <rect id="rect78" width="80" height="245" x="1410" y="505" opacity=".14" rx="10" ry="10"/>
     <rect id="rect80" width="80" height="780" x="2210" y="655" opacity=".14" rx="10" ry="10"/>
@@ -199,6 +199,7 @@
     <rect id="rect4094" width="50" height="30" x="1420" y="515" fill="#e0bbbb" rx="2" ry="2"/>
     <rect id="rect4124" width="40" height="30" x="1330" y="515" fill="#e0bbbb" rx="2" ry="2"/>
     <rect id="rect4111" width="40" height="35" x="1800" y="1225" fill="#c8daa4" rx="2" ry="2"/>
+    <rect id="rect4095" width="50" height="30" x="1425" y="1435" fill="#e4d3c2" rx="2" ry="2"/>
   </g>
   <g id="g366" stroke-width=".7" transform="translate(0 65)" inkscape:groupmode="layer" inkscape:label="language">
     <rect id="rect368" width="20" height="10" x="300" y="107.5" fill="#b07219" rx="1" ry="1"/>
@@ -230,6 +231,7 @@
     <rect id="rect4054" width="25" height="10" x="1305" y="637.5" fill="#887f73" rx="1" ry="1"/>
     <rect id="rect4060" width="25" height="10" x="825" y="847.5" fill="#887f73" rx="1" ry="1"/>
     <rect id="rect4088" width="15" height="10" x="1175" y="367.5" fill="#555" rx="1" ry="1"/>
+    <rect id="rect4097" width="25" height="10" x="510" y="987.5" fill="#3572a5" rx="1" ry="1"/>
   </g>
   <g id="g420" fill="#565248" color="#000" font-family="Roboto" font-size="10" font-weight="300" transform="translate(0 65)" word-spacing="0" inkscape:groupmode="layer" inkscape:label="group_text">
     <text id="text422" x="1790" y="1070" letter-spacing="0" overflow="visible" style="text-indent:0;text-align:center;line-height:100%;text-transform:none;block-progression:tb;marker:none;-inkscape-font-specification:Roboto Light" text-anchor="middle" transform="translate(-915 -435)" sodipodi:linespacing="100%">
@@ -345,6 +347,9 @@
     </text>
     <text id="text4078" x="1205" y="350" letter-spacing="0" overflow="visible" style="text-indent:0;text-align:center;line-height:100%;text-transform:none;block-progression:tb;marker:none;-inkscape-font-specification:Roboto Light" text-anchor="middle" sodipodi:linespacing="100%">
       <tspan id="tspan4080" x="1205" y="350" sodipodi:role="line">Mellanox Tech.</tspan>
+    </text>
+    <text id="text4884" x="535" y="980" letter-spacing="0" overflow="visible" style="text-indent:0;text-align:center;line-height:100%;text-transform:none;block-progression:tb;marker:none;-inkscape-font-specification:Roboto Light" text-anchor="middle" sodipodi:linespacing="100%">
+      <tspan id="tspan4886" x="535" y="980" sodipodi:role="line">Charles</tspan>
     </text>
   </g>
   <g id="g582" font-weight="500" transform="translate(0 65)" word-spacing="0" inkscape:groupmode="layer" inkscape:label="box_text">
@@ -752,6 +757,9 @@
     <text id="text4113" x="890" y="805" fill="#363228" font-family="Roboto" font-size="10" font-weight="300" letter-spacing="0" style="text-align:start;line-height:100%;-inkscape-font-specification:Roboto Light" sodipodi:linespacing="100%">
       <tspan id="tspan4116" x="890" y="805" sodipodi:role="line">dReal</tspan> <tspan id="tspan4118" x="890" y="811.833" font-size="6" style="-inkscape-font-specification:Roboto Light" sodipodi:role="line">2013</tspan>
     </text>
+    <text id="text4099" x="515" y="1015" fill="#363228" color="#000" font-family="Roboto" font-size="6" font-weight="300" letter-spacing="0" overflow="visible" style="text-indent:0;text-align:start;line-height:100%;text-transform:none;block-progression:tb;marker:none;-inkscape-font-specification:Roboto Light" sodipodi:linespacing="100%">
+      <tspan id="tspan4101" x="515" y="1015" font-size="10" style="line-height:100%;-inkscape-font-specification:Roboto Light" sodipodi:role="line">PyExZ3</tspan> <tspan id="tspan4103" x="515" y="1021.833" style="line-height:100%;-inkscape-font-specification:Roboto Light" sodipodi:role="line">2016</tspan>
+    </text>
   </g>
   <g id="g1514" color="#000" font-family="Roboto" font-size="6" font-weight="700" letter-spacing="0" text-anchor="middle" transform="translate(0 65)" word-spacing="0" inkscape:groupmode="layer" inkscape:label="language_text">
     <text id="text1516" x="310" y="114.5" fill="#fff" overflow="visible" style="text-indent:0;text-align:center;line-height:100%;text-transform:none;block-progression:tb;marker:none;-inkscape-font-specification:Roboto Bold" sodipodi:linespacing="100%">
@@ -840,6 +848,9 @@
     </text>
     <text id="text4090" x="1182.5" y="374.5" fill="#fff" overflow="visible" style="text-indent:0;text-align:center;line-height:100%;text-transform:none;block-progression:tb;marker:none;-inkscape-font-specification:Roboto Bold" sodipodi:linespacing="100%">
       <tspan id="tspan4092" x="1182.5" y="374.5" style="text-align:center;line-height:50%;-inkscape-font-specification:Roboto Bold" sodipodi:role="line">C</tspan>
+    </text>
+    <text id="text4105" x="522.5" y="994.5" fill="#fff" overflow="visible" style="text-indent:0;text-align:center;line-height:100%;text-transform:none;block-progression:tb;marker:none;-inkscape-font-specification:Roboto Bold" sodipodi:linespacing="100%">
+      <tspan id="tspan4107" x="522.5" y="994.5" style="text-align:center;line-height:50%;-inkscape-font-specification:Roboto Bold" sodipodi:role="line">Python</tspan>
     </text>
   </g>
   <g id="g1622" fill="#565248" color="#000" font-family="Roboto" font-size="10" font-weight="300" letter-spacing="0" text-anchor="end" transform="translate(-915 -370)" word-spacing="0" inkscape:groupmode="layer" inkscape:label="time_text">
@@ -1118,6 +1129,9 @@
     </text>
     <text id="text4120" x="885" y="835" font-size="6" overflow="visible" style="text-indent:0;text-align:start;line-height:100%;text-transform:none;block-progression:tb;marker:none;-inkscape-font-specification:Roboto Light" sodipodi:linespacing="100%">
       <tspan id="tspan4122" x="885" y="835" sodipodi:role="line">S. Kong</tspan>
+    </text>
+    <text id="text4110" x="510" y="1040" font-size="6" overflow="visible" style="text-indent:0;text-align:start;line-height:100%;text-transform:none;block-progression:tb;marker:none;-inkscape-font-specification:Roboto Light" sodipodi:linespacing="100%">
+      <tspan id="tspan4112" x="510" y="1040" sodipodi:role="line">T. Ball</tspan> <tspan id="tspan4882" x="510" y="1046" sodipodi:role="line">J. Daniel</tspan>
     </text>
   </g>
   <g id="g2096" transform="translate(0 65)" inkscape:label="preview">
