@@ -11,12 +11,14 @@ Please, install [Roboto font](https://fonts.google.com/specimen/Roboto) for corr
 Preview
 -------
 
+:warning: Below is PNG preview generated from the main SVG file. It could be outdated. See [`diagram.svg`](diagram.svg) for the latest version.
+
 ![Preview](https://raw.github.com/enzet/dynamic-symbolic-execution/master/diagram.png)
 
 Contribution
 ------------
 
-Feel free to suggest changes or add new information. If your change is minor (like typo), you can just edit source code of `diagram.svg`. If change is major, you are encouraged to either create new issue, or edit `diagram.svg` ([Inkscape](https://inkscape.org/en/) editor is strongly recommended due to source code issues).
+Feel free to suggest changes or add new information. If your change is minor (like typo), you can just edit source code of [`diagram.svg`](diagram.svg). If change is major, you are encouraged to either create new issue, or edit `diagram.svg` ([Inkscape](https://inkscape.org/en/) editor is strongly recommended due to source code issues).
 
 ### Before commiting ###
 
