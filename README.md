@@ -1,17 +1,19 @@
 Symbolic execution timeline
 ===========================
 
-Diagram highlights some major tools and ideas of symbolic execution: pure SE as well as dynamic symbolic execution (concolic).
+Diagram highlights some major tools and ideas of pure symbolic execution, dynamic symbolic execution (concolic) as well as related ideas of model checking, SAT/SMT solving, black-box fuzzing, taint data tracking, and other dynamic analysis techniques.
 
 Requirements
 ------------
 
-Please, install [Roboto font](https://fonts.google.com/specimen/Roboto) for correct SVG display.
+Please, install fonts for correct SVG display:
+  * [Roboto](https://fonts.google.com/specimen/Roboto) (regular and italic) and
+  * [Fira Code](https://github.com/tonsky/FiraCode).
 
 Preview
 -------
 
-:warning: Below is PNG preview generated from the main SVG file. It could be outdated. See [`diagram.svg`](diagram.svg) for the latest version.
+:warning: PNG preview could be outdated. See [`diagram.svg`](diagram.svg) for the latest version.
 
 ![Preview](https://raw.github.com/enzet/dynamic-symbolic-execution/master/diagram.png)
 
