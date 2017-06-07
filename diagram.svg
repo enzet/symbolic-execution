@@ -135,7 +135,7 @@
     <rect id="rect248" width="40" height="30" x="1960" y="805" fill="#e4d3c2" rx="2" ry="2"/>
     <rect id="rect250" width="20" height="10" x="1970" y="1482.5" fill="#fff" opacity=".5" rx="1" ry="1"/>
     <rect id="rect252" width="25" height="10" x="1992.5" y="1482.5" fill="#fff" opacity=".5" rx="1" ry="1"/>
-    <rect id="rect254" width="30" height="10" x="1970" y="1495" fill="#fff" opacity=".5" rx="1" ry="1"/>
+    <rect id="rect254" width="15" height="10" x="1970" y="1495" fill="#c8daa4" rx="1" ry="1"/>
     <rect id="rect256" width="20" height="10" x="1812.5" y="1327.5" fill="#cfb6e0" rx="1" ry="1"/>
     <a id="box_z3" transform="matrix(1.6666 0 0 1.60004 -1034.9 -413.033)" xlink:href="http://dl.acm.org/citation.cfm?id=1792766" xlink:title="Z3: an efficient SMT solver">
       <rect id="rect260" width="30" height="25" x="1425" y="805" fill="#c8daa4" rx="1.2" ry="1.25"/>
@@ -818,8 +818,8 @@
     <text id="text1248" x="1090" y="1054.5" fill="#363228" color="#000" font-family="Roboto" font-size="6" font-weight="300" letter-spacing="0" overflow="visible" style="text-indent:0;text-align:center;line-height:100%;text-transform:none;block-progression:tb;marker:none;-inkscape-font-specification:Roboto Light" text-anchor="middle" sodipodi:linespacing="100%">
       <tspan id="tspan1250" x="1090" y="1054.5" style="text-align:center;line-height:50%;-inkscape-font-specification:Roboto Light" sodipodi:role="line">Unicorn</tspan>
     </text>
-    <text id="text1252" x="1070" y="1067" fill="#363228" color="#000" font-family="Roboto" font-size="6" font-weight="300" letter-spacing="0" overflow="visible" style="text-indent:0;text-align:center;line-height:100%;text-transform:none;block-progression:tb;marker:none;-inkscape-font-specification:Roboto Light" text-anchor="middle" sodipodi:linespacing="100%">
-      <tspan id="tspan1254" x="1070" y="1067" style="text-align:center;line-height:50%;-inkscape-font-specification:Roboto Light" sodipodi:role="line">Capstone</tspan>
+    <text id="text1252" x="1062.5" y="1067" fill="#363228" color="#000" font-family="Roboto" font-size="6" font-weight="300" letter-spacing="0" overflow="visible" style="text-indent:0;text-align:center;line-height:100%;text-transform:none;block-progression:tb;marker:none;-inkscape-font-specification:Roboto Light" text-anchor="middle" sodipodi:linespacing="100%">
+      <tspan id="tspan1254" x="1062.5" y="1067" style="text-align:center;line-height:50%;-inkscape-font-specification:Roboto Light" sodipodi:role="line">Z3</tspan>
     </text>
     <a id="text_z3" transform="translate(-85 70)" xlink:href="http://dl.acm.org/citation.cfm?id=1792766" xlink:title="Z3: an efficient SMT solver">
       <text id="text1258" x="1430" y="832.362" fill="#363228" color="#000" font-family="Roboto" font-size="6" font-weight="300" letter-spacing="0" overflow="visible" style="text-indent:0;text-align:start;line-height:100%;text-transform:none;block-progression:tb;marker:none;-inkscape-font-specification:Roboto Light" transform="translate(-915 -447.362)" sodipodi:linespacing="100%">
