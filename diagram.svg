@@ -289,7 +289,6 @@
     <rect id="rect386" width="20" height="10" x="1415" y="567.5" fill="#b07219" rx="1" ry="1"/>
     <rect id="rect388" width="20" height="10" x="1495" y="567.5" fill="#b07219" rx="1" ry="1"/>
     <rect id="rect390" width="20" height="10" x="1325" y="707.5" fill="#b07219" rx="1" ry="1"/>
-    <rect id="rect392" width="20" height="10" x="1325" y="987.5" fill="#b07219" rx="1" ry="1"/>
     <rect id="rect394" width="20" height="10" x="955" y="987.5" fill="#b07219" rx="1" ry="1"/>
     <rect id="rect396" width="20" height="10" x="1740" y="1422.5" fill="#b07219" rx="1" ry="1" transform="translate(-915 -435)"/>
     <rect id="rect398" width="45" height="10" x="145" y="567.5" fill="#b07219" rx="1" ry="1"/>
@@ -342,6 +341,7 @@
     <rect id="rect5539" width="15" height="10" x="612.5" y="952.5" fill="#887f73" rx="1" ry="1"/>
     <rect id="rect4796" width="20" height="10" x="1115" y="-22.5" fill="#3fb68b" rx="1" ry="1"/>
     <rect id="rect5583" width="20" height="10" x="1035" y="-23" fill="#4d41b1" rx="1" ry="1"/>
+    <rect id="rect5589" width="25" height="10" x="1325" y="987.5" fill="#887f73" rx="1" ry="1"/>
   </g>
   <g id="g420" fill="#565248" color="#000" font-family="Roboto" font-size="10" font-weight="300" text-anchor="middle" transform="translate(0 65)" word-spacing="0" inkscape:groupmode="layer" inkscape:label="group_text">
     <text id="text422" x="870" y="620" font-style="italic" letter-spacing="0" overflow="visible" style="text-indent:0;text-align:center;line-height:100%;text-transform:none;block-progression:tb;marker:none;-inkscape-font-specification:Roboto Light Italic" sodipodi:linespacing="100%">
@@ -1256,9 +1256,6 @@
     <text id="text1548" x="1335" y="714.5" fill="#fff" overflow="visible" style="text-indent:0;text-align:center;line-height:100%;text-transform:none;block-progression:tb;marker:none;-inkscape-font-specification:Roboto Bold" sodipodi:linespacing="100%">
       <tspan id="tspan1550" x="1335" y="714.5" style="text-align:center;line-height:50%;-inkscape-font-specification:Roboto Bold" sodipodi:role="line">Java</tspan>
     </text>
-    <text id="text1552" x="1335" y="994.5" fill="#fff" overflow="visible" style="text-indent:0;text-align:center;line-height:100%;text-transform:none;block-progression:tb;marker:none;-inkscape-font-specification:Roboto Bold" sodipodi:linespacing="100%">
-      <tspan id="tspan1554" x="1335" y="994.5" style="text-align:center;line-height:50%;-inkscape-font-specification:Roboto Bold" sodipodi:role="line">Java</tspan>
-    </text>
     <text id="text1556" x="1425" y="854.5" fill="#fff" overflow="visible" style="text-indent:0;text-align:center;line-height:100%;text-transform:none;block-progression:tb;marker:none;-inkscape-font-specification:Roboto Bold" sodipodi:linespacing="100%">
       <tspan id="tspan1558" x="1425" y="854.5" style="text-align:center;line-height:50%;-inkscape-font-specification:Roboto Bold" sodipodi:role="line">Java</tspan>
     </text>
@@ -1420,6 +1417,9 @@
     </text>
     <text id="text5585" x="1045" y="-16" fill="#fff" overflow="visible" style="text-indent:0;text-align:center;line-height:100%;text-transform:none;block-progression:tb;marker:none;-inkscape-font-specification:Roboto Bold" sodipodi:linespacing="100%">
       <tspan id="tspan5587" x="1045.25" y="-16" letter-spacing=".5" style="text-align:center;line-height:50%;-inkscape-font-specification:Roboto Bold" sodipodi:role="line">PL/I</tspan>
+    </text>
+    <text id="text5591" x="1337.25" y="994.5" fill="#fff" overflow="visible" style="text-indent:0;text-align:center;line-height:100%;text-transform:none;block-progression:tb;marker:none;-inkscape-font-specification:Roboto Bold" sodipodi:linespacing="100%">
+      <tspan id="tspan5594" x="1337.25" y="994.5" style="text-align:center;line-height:50%;-inkscape-font-specification:Roboto Bold" sodipodi:role="line">binary</tspan>
     </text>
   </g>
   <g id="g1622" fill="#565248" color="#000" font-family="Roboto" font-size="10" font-weight="300" letter-spacing="0" text-anchor="end" transform="translate(-915 -370)" word-spacing="0" inkscape:groupmode="layer" inkscape:label="time_text">
