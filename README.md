@@ -6,9 +6,9 @@ Diagram highlights some major tools and ideas of pure symbolic execution, dynami
 Preview
 -------
 
-:warning: PNG preview could be outdated. See [`diagram.svg`](diagram.svg) for the latest version.
+:warning: PNG preview could be outdated. See [`diagram/symbolic-execution.svg`](symbolic-execution.svg) for the latest version.
 
-![Preview](https://raw.github.com/enzet/dynamic-symbolic-execution/master/diagram.png)
+![Preview](https://raw.github.com/enzet/dynamic-symbolic-execution/master/diagram/symbolic-execution.png)
 
 Building PNG or PDF
 -------------------
@@ -19,19 +19,19 @@ Please, install fonts for correct SVG display:
 
 Use Inkscape to build:
 
-  * PNG: `inkscape diagram.svg --export-png diagram.png --export-dpi 150`,
-  * PDF: `inkscape diagram.svg --export-pdf diagram.pdf`.
+  * PNG: `inkscape diagram/symbolic-execution.svg --export-png diagram/symbolic-execution.png --export-dpi 150`,
+  * PDF: `inkscape diagram/symbolic-execution.svg --export-pdf diagram/symbolic-execution.pdf`.
 
 Contribution
 ------------
 
-Feel free to suggest changes or add new information. If your change is minor (like typo), you can just edit source code of [`diagram.svg`](diagram.svg). If change is major, you are encouraged to either create new issue, or edit `diagram.svg` ([Inkscape](https://inkscape.org/en/) editor is strongly recommended due to source code issues).
+Feel free to suggest changes or add new information. If your change is minor (like typo), you can just edit source code of [`symbolic-execution.svg`](diagram/symbolic-execution.svg). If change is major, you are encouraged to either create new issue, or edit `symbolic-execution.svg` ([Inkscape](https://inkscape.org/en/) editor is strongly recommended due to source code issues).
 
 ### Before commiting ###
 
 Please, use [SVGO](https://github.com/svg/svgo) for diagram optimization before commiting (to get more clean diff):
 
-    svgo diagram.svg \
+    svgo diagram/symbolic-execution.svg \
         --pretty \
         --enable=sortAttrs \
         --disable=removeEditorsNSData \
