@@ -6,7 +6,7 @@ Diagram highlights some major tools and ideas of pure symbolic execution, dynami
 Preview
 -------
 
-:warning: PNG preview could be outdated. See [`diagram/symbolic-execution.svg`](symbolic-execution.svg) for the latest version.
+:warning: PNG preview could be outdated. See [`symbolic-execution.svg`](diagram/symbolic-execution.svg) for the latest version.
 
 ![Preview](https://raw.github.com/enzet/dynamic-symbolic-execution/master/diagram/symbolic-execution.png)
 
