@@ -1,5 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:xlink="http://www.w3.org/1999/xlink" id="svg2" width="1695" height="1225" inkscape:version="0.91 r13725" sodipodi:docname="symbolic-execution.svg">
-  <sodipodi:namedview id="namedview4" bordercolor="#aeaeae" borderopacity="1" fit-margin-bottom="0" fit-margin-left="0" fit-margin-right="0" fit-margin-top="0" pagecolor="#ffffff" showborder="true" showgrid="false" showguides="false" inkscape:bbox-nodes="false" inkscape:current-layer="g96" inkscape:cx="689.653" inkscape:cy="679.859" inkscape:document-units="px" inkscape:guide-bbox="true" inkscape:object-nodes="true" inkscape:object-paths="true" inkscape:pageopacity="1" inkscape:pageshadow="2" inkscape:showpageshadow="false" inkscape:snap-bbox="true" inkscape:snap-center="false" inkscape:snap-global="true" inkscape:snap-intersection-paths="true" inkscape:snap-nodes="true" inkscape:snap-page="true" inkscape:snap-smooth-nodes="true" inkscape:snap-text-baseline="true" inkscape:window-height="788" inkscape:window-maximized="0" inkscape:window-width="1369" inkscape:window-x="26" inkscape:window-y="55" inkscape:zoom="1.414">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:xlink="http://www.w3.org/1999/xlink" id="svg2" width="1695" height="1225" inkscape:version="0.48.5 r10040" sodipodi:docname="symbolic-execution.svg">
+  <sodipodi:namedview id="namedview4" bordercolor="#aeaeae" borderopacity="1" fit-margin-bottom="0" fit-margin-left="0" fit-margin-right="0" fit-margin-top="0" pagecolor="#ffffff" showborder="true" showgrid="false" showguides="false" inkscape:bbox-nodes="false" inkscape:current-layer="g1762" inkscape:cx="1396.867" inkscape:cy="679.859" inkscape:document-units="px" inkscape:guide-bbox="true" inkscape:object-nodes="true" inkscape:object-paths="true" inkscape:pageopacity="1" inkscape:pageshadow="2" inkscape:showpageshadow="false" inkscape:snap-bbox="true" inkscape:snap-center="false" inkscape:snap-global="true" inkscape:snap-intersection-paths="true" inkscape:snap-nodes="true" inkscape:snap-page="true" inkscape:snap-smooth-nodes="true" inkscape:snap-text-baseline="true" inkscape:window-height="981" inkscape:window-maximized="0" inkscape:window-width="929" inkscape:window-x="953" inkscape:window-y="35" inkscape:zoom="2.828">
     <inkscape:grid id="grid6" empspacing="5" enabled="true" originx="-915" originy="555" snapvisiblegridlinesonly="true" type="xygrid" visible="true"/>
     <sodipodi:guide id="guide8" orientation="0,1" position="15,935"/>
     <sodipodi:guide id="guide10" orientation="0,1" position="15,965"/>
@@ -284,6 +284,7 @@
     <rect id="rect5603" width="60" height="40" x="2340" y="1225" fill="#c4dad2" rx="2" ry="2"/>
     <rect id="rect5640" width="25" height="10" x="2340" y="1102.5" fill="#c8daa4" rx="1" ry="1"/>
     <rect id="rect5650" width="10" height="10" x="2520" y="445" fill="#9bc0b4" rx="2" ry="2"/>
+    <rect id="rect4868" width="60" height="35" x="2270" y="945" fill="#c8daa4" rx="2" ry="2"/>
   </g>
   <g id="g366" stroke-width=".7" transform="translate(0 65)" inkscape:groupmode="layer" inkscape:label="language">
     <rect id="rect368" width="20" height="10" x="355" y="107.5" fill="#b07219" rx="1" ry="1"/>
@@ -607,6 +608,9 @@
     </text>
     <text id="text5614" x="1455" y="605" letter-spacing="0" overflow="visible" style="text-indent:0;text-align:center;line-height:100%;text-transform:none;block-progression:tb;marker:none;-inkscape-font-specification:Roboto Light" sodipodi:linespacing="100%">
       <tspan id="tspan5616" x="1455" y="605" style="text-align:center;-inkscape-font-specification:Roboto Light" sodipodi:role="line">Immunity</tspan>
+    </text>
+    <text id="text4870" x="1385" y="505" letter-spacing="0" overflow="visible" style="text-indent:0;text-align:center;line-height:100%;text-transform:none;block-progression:tb;marker:none;-inkscape-font-specification:Roboto Light" sodipodi:linespacing="100%">
+      <tspan id="tspan4872" x="1385" y="505" style="text-align:center;-inkscape-font-specification:Roboto Light" sodipodi:role="line">Linz</tspan>
     </text>
   </g>
   <g id="g582" font-weight="500" transform="translate(0 65)" word-spacing="0" inkscape:groupmode="layer" inkscape:label="box_text">
@@ -1259,6 +1263,9 @@
     </text>
     <text id="text5642" x="1437.25" y="674.5" fill="#363228" color="#000" font-family="Roboto" font-size="6" font-weight="300" letter-spacing=".5" overflow="visible" style="text-indent:0;text-align:center;line-height:100%;text-transform:none;block-progression:tb;marker:none;-inkscape-font-specification:Roboto Light" text-anchor="middle" sodipodi:linespacing="100%">
       <tspan id="tspan5644" x="1437.5" y="674.5" style="text-align:center;line-height:50%;-inkscape-font-specification:Roboto Light" sodipodi:role="line">CVC3</tspan>
+    </text>
+    <text id="text4874" x="1360" y="525" fill="#363228" color="#000" font-family="Roboto" font-size="6" font-weight="300" letter-spacing="0" overflow="visible" style="text-indent:0;text-align:start;line-height:100%;text-transform:none;block-progression:tb;marker:none;-inkscape-font-specification:Roboto Light" sodipodi:linespacing="100%">
+      <tspan id="tspan4876" x="1360" y="525" font-size="10" style="line-height:100%;-inkscape-font-specification:Roboto Light" sodipodi:role="line">Boolector</tspan> <tspan id="tspan4878" x="1360" y="531.833" sodipodi:role="line">2006</tspan> <tspan id="tspan4880" x="1360" y="537.833" sodipodi:role="line"><tspan id="tspan4883" letter-spacing=".5">SMT</tspan> solver</tspan>
     </text>
   </g>
   <g id="g1514" color="#000" font-family="Roboto" font-size="6" font-weight="700" letter-spacing="0" text-anchor="middle" transform="translate(0 65)" word-spacing="0" inkscape:groupmode="layer" inkscape:label="language_text">
@@ -1923,6 +1930,9 @@
     </text>
     <text id="text4866" x="1432.5" y="587.5" font-size="10" overflow="visible" style="text-indent:0;text-align:start;line-height:100%;text-transform:none;block-progression:tb;marker:none;-inkscape-font-specification:Roboto Light" sodipodi:linespacing="100%">
       <tspan id="tspan4868" x="1432.5" y="587.5" font-size="6" style="text-align:start;-inkscape-font-specification:Roboto Light" sodipodi:role="line">S. Heelan</tspan>
+    </text>
+    <text id="text4885" x="1355" y="555" font-size="6" overflow="visible" style="text-indent:0;text-align:start;line-height:100%;text-transform:none;block-progression:tb;marker:none;-inkscape-font-specification:Roboto Light" sodipodi:linespacing="100%">
+      <tspan id="tspan4889" x="1355" y="555" sodipodi:role="line">R. Brummayer</tspan> <tspan id="tspan4893" x="1355" y="561" sodipodi:role="line">A. Biere</tspan>
     </text>
   </g>
   <g id="g2096" transform="translate(0 65)" inkscape:label="preview">
