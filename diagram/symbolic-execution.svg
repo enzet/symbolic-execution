@@ -1,5 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:xlink="http://www.w3.org/1999/xlink" id="svg2" width="1695" height="1225" inkscape:version="0.48.3.1 r9886" sodipodi:docname="symbolic-execution.svg">
-  <sodipodi:namedview id="namedview4" bordercolor="#aeaeae" borderopacity="1" fit-margin-bottom="0" fit-margin-left="0" fit-margin-right="0" fit-margin-top="0" pagecolor="#ffffff" showborder="true" showgrid="false" showguides="false" inkscape:bbox-nodes="false" inkscape:current-layer="g420" inkscape:cx="1060.268" inkscape:cy="668.314" inkscape:document-units="px" inkscape:guide-bbox="true" inkscape:object-nodes="true" inkscape:object-paths="true" inkscape:pageopacity="1" inkscape:pageshadow="2" inkscape:showpageshadow="false" inkscape:snap-bbox="true" inkscape:snap-center="false" inkscape:snap-global="true" inkscape:snap-intersection-paths="true" inkscape:snap-nodes="true" inkscape:snap-page="true" inkscape:snap-smooth-nodes="true" inkscape:snap-text-baseline="true" inkscape:window-height="1003" inkscape:window-maximized="0" inkscape:window-width="1652" inkscape:window-x="138" inkscape:window-y="70" inkscape:zoom=".707">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:xlink="http://www.w3.org/1999/xlink" id="svg2" width="1695" height="1225" inkscape:version="0.91 r13725" sodipodi:docname="symbolic-execution.svg">
+  <sodipodi:namedview id="namedview4" bordercolor="#aeaeae" borderopacity="1" fit-margin-bottom="0" fit-margin-left="0" fit-margin-right="0" fit-margin-top="0" pagecolor="#ffffff" showborder="true" showgrid="false" showguides="false" inkscape:bbox-nodes="false" inkscape:current-layer="g96" inkscape:cx="689.653" inkscape:cy="679.859" inkscape:document-units="px" inkscape:guide-bbox="true" inkscape:object-nodes="true" inkscape:object-paths="true" inkscape:pageopacity="1" inkscape:pageshadow="2" inkscape:showpageshadow="false" inkscape:snap-bbox="true" inkscape:snap-center="false" inkscape:snap-global="true" inkscape:snap-intersection-paths="true" inkscape:snap-nodes="true" inkscape:snap-page="true" inkscape:snap-smooth-nodes="true" inkscape:snap-text-baseline="true" inkscape:window-height="788" inkscape:window-maximized="0" inkscape:window-width="1369" inkscape:window-x="26" inkscape:window-y="55" inkscape:zoom="1.414">
     <inkscape:grid id="grid6" empspacing="5" enabled="true" originx="-915" originy="555" snapvisiblegridlinesonly="true" type="xygrid" visible="true"/>
     <sodipodi:guide id="guide8" orientation="0,1" position="15,935"/>
     <sodipodi:guide id="guide10" orientation="0,1" position="15,965"/>
@@ -77,7 +77,7 @@
     <rect id="rect136" width="70" height="45" x="1510" y="1295" fill="#e4d3c2" rx="2" ry="2"/>
     <rect id="rect138" width="60" height="40" x="2200" y="805" fill="#e0bbbb" rx="2" ry="2"/>
     <rect id="rect140" width="60" height="45" x="2430" y="1125" fill="#e4d3c2" rx="2" ry="2"/>
-    <rect id="rect142" width="40" height="40" x="1510" y="1400" fill="#e4d3c2" rx="2" ry="2"/>
+    <rect id="rect142" width="40" height="40" x="1510" y="1400" fill="#cab7a3" rx="2" ry="2"/>
     <rect id="rect144" width="50" height="45" x="1430" y="665" fill="#e4d3c2" rx="2" ry="2"/>
     <rect id="box_egt" width="30" height="30" x="1280" y="665" fill="#e4d3c2" rx="2" ry="2"/>
     <rect id="rect148" width="50" height="35" x="1540" y="665" fill="#e4d3c2" rx="2" ry="2"/>
@@ -168,8 +168,8 @@
     <rect id="rect312" width="50" height="30" x="1600" y="1280" fill="#e4d3c2" rx="2" ry="2"/>
     <rect id="rect316" width="10" height="10" x="2400" y="430" fill="#cfb6e0" rx="2" ry="2"/>
     <rect id="rect318" width="10" height="10" x="2250" y="415" fill="#e4d3c2" rx="2" ry="2"/>
-    <rect id="rect320" width="10" height="10" x="2520" y="415" fill="none" stroke="#b07219" rx="1" ry="1"/>
-    <rect id="rect322" width="10" height="10" x="2520" y="460" fill="#e0dad5" rx="1" ry="1"/>
+    <rect id="rect320" width="10" height="10" x="2520" y="415" fill="none" stroke="#b07219" rx="2" ry="2"/>
+    <rect id="rect322" width="10" height="10" x="2520" y="460" fill="#e0dad5" rx="2" ry="2"/>
     <rect id="rect324" width="10" height="10" x="2250" y="430" fill="#cab7a3" rx="2" ry="2"/>
     <rect id="rect326" width="10" height="10" x="2470" y="430" fill="#adc57d" rx="2" ry="2"/>
     <rect id="rect330" width="10" height="10" x="2400" y="415" fill="#e0cfeb" rx="2" ry="2"/>
@@ -1140,8 +1140,8 @@
     <text id="text12966" x="300" y="225" fill="#363228" color="#000" font-family="Roboto" font-size="6" font-weight="300" letter-spacing="0" overflow="visible" style="text-indent:0;text-align:start;line-height:100%;text-transform:none;block-progression:tb;marker:none;-inkscape-font-specification:Roboto Light" sodipodi:linespacing="100%">
       <tspan id="tspan12968" x="300" y="225" font-size="10" letter-spacing="1" style="line-height:100%;-inkscape-font-specification:Roboto Light" sodipodi:role="line">CVC</tspan> <tspan id="tspan12986" x="300" y="235" font-size="10" letter-spacing="1" style="line-height:100%;-inkscape-font-specification:Roboto Light" sodipodi:role="line"> <tspan id="tspan12988" letter-spacing="0">Lite</tspan> </tspan> <tspan id="tspan12970" x="300" y="241.833" sodipodi:role="line">2004</tspan> <tspan id="tspan12972" x="300" y="247.833" sodipodi:role="line">SMT solver</tspan>
     </text>
-    <text id="text12992" x="230" y="385" fill="#363228" color="#000" font-family="Roboto" font-size="6" font-weight="300" letter-spacing="0" overflow="visible" style="text-indent:0;text-align:start;line-height:100%;text-transform:none;block-progression:tb;marker:none;-inkscape-font-specification:Roboto Light" sodipodi:linespacing="100%">
-      <tspan id="tspan12994" x="230" y="385" font-size="10" letter-spacing="1" style="line-height:100%;-inkscape-font-specification:Roboto Light" sodipodi:role="line">CVC3</tspan> <tspan id="tspan13000" x="230" y="391.833" sodipodi:role="line">2011</tspan>
+    <text id="text12992" x="230" y="385" fill="#363228" color="#000" font-family="Roboto" font-size="6" font-weight="300" letter-spacing="0" overflow="visible" style="line-height:100%;-inkscape-font-specification:'Roboto Light';text-indent:0;text-align:start;text-transform:none;block-progression:tb;marker:none" sodipodi:linespacing="100%">
+      <tspan id="tspan12994" x="230" y="385" font-size="10" letter-spacing="1" style="line-height:100%;-inkscape-font-specification:'Roboto Light'" sodipodi:role="line">CVC3</tspan> <tspan id="tspan13000" x="230" y="391.833" sodipodi:role="line">2007</tspan>
     </text>
     <text id="text13016" x="300" y="85" fill="#363228" color="#000" font-family="Roboto" font-size="6" font-weight="300" letter-spacing="0" overflow="visible" style="text-indent:0;text-align:start;line-height:100%;text-transform:none;block-progression:tb;marker:none;-inkscape-font-specification:Roboto Light" sodipodi:linespacing="100%">
       <tspan id="tspan13018" x="300" y="85" font-size="10" letter-spacing="1" style="line-height:100%;-inkscape-font-specification:Roboto Light" sodipodi:role="line">SVC</tspan> <tspan id="tspan13020" x="300" y="91.833" sodipodi:role="line">1996</tspan> <tspan id="tspan13022" x="300" y="97.833" sodipodi:role="line">validity checker</tspan>
