@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:xlink="http://www.w3.org/1999/xlink" id="svg2" width="925" height="975" inkscape:version="0.48.3.1 r9886" sodipodi:docname="solving.svg">
-  <sodipodi:namedview id="namedview4" bordercolor="#aeaeae" borderopacity="1" fit-margin-bottom="0" fit-margin-left="0" fit-margin-right="0" fit-margin-top="0" pagecolor="#ffffff" showborder="true" showgrid="false" showguides="false" inkscape:bbox-nodes="false" inkscape:current-layer="g1762" inkscape:cx="16.509" inkscape:cy="536.043" inkscape:document-units="px" inkscape:guide-bbox="true" inkscape:object-nodes="true" inkscape:object-paths="true" inkscape:pageopacity="1" inkscape:pageshadow="2" inkscape:showpageshadow="false" inkscape:snap-bbox="true" inkscape:snap-center="false" inkscape:snap-global="true" inkscape:snap-intersection-paths="true" inkscape:snap-nodes="true" inkscape:snap-page="true" inkscape:snap-smooth-nodes="true" inkscape:snap-text-baseline="true" inkscape:window-height="979" inkscape:window-maximized="0" inkscape:window-width="1583" inkscape:window-x="126" inkscape:window-y="138" inkscape:zoom=".5">
+  <sodipodi:namedview id="namedview4" bordercolor="#aeaeae" borderopacity="1" fit-margin-bottom="0" fit-margin-left="0" fit-margin-right="0" fit-margin-top="0" pagecolor="#ffffff" showborder="true" showgrid="false" showguides="false" inkscape:bbox-nodes="false" inkscape:current-layer="g420" inkscape:cx="383.776" inkscape:cy="241.148" inkscape:document-units="px" inkscape:guide-bbox="true" inkscape:object-nodes="true" inkscape:object-paths="true" inkscape:pageopacity="1" inkscape:pageshadow="2" inkscape:showpageshadow="false" inkscape:snap-bbox="true" inkscape:snap-center="false" inkscape:snap-global="true" inkscape:snap-intersection-paths="true" inkscape:snap-nodes="true" inkscape:snap-page="true" inkscape:snap-smooth-nodes="true" inkscape:snap-text-baseline="true" inkscape:window-height="1148" inkscape:window-maximized="0" inkscape:window-width="960" inkscape:window-x="961" inkscape:window-y="24" inkscape:zoom="1.414">
     <inkscape:grid id="grid6" color="#9bc2cd" empcolor="#abc7d1" empopacity=".251" empspacing="5" enabled="true" opacity=".125" originx="-915" originy="555" snapvisiblegridlinesonly="true" type="xygrid" visible="true"/>
     <sodipodi:guide id="guide8" orientation="0,1" position="15,705"/>
     <sodipodi:guide id="guide10" orientation="0,1" position="15,735"/>
@@ -35,7 +35,7 @@
     <sodipodi:guide id="guide3506" orientation="0,1" position="15,955"/>
   </sodipodi:namedview>
   <g id="g64" fill="#816647" fill-opacity=".498" transform="translate(-915 -620)" inkscape:groupmode="layer" inkscape:label="group">
-    <path id="path74" d="M1388.572 1035c6.857 0 11.428 3.843 11.428 9.608v470.784c0 5.765-4.572 9.608-11.428 9.608h-57.143c-6.858 0-11.429-3.843-11.429-9.608v-470.784c0-5.765 4.572-9.608 11.428-9.608z" opacity=".14" inkscape:connector-curvature="0" sodipodi:nodetypes="cccsscccc"/>
+    <path id="path74" d="M1388.572 1035c6.857 0 11.428 3.843 11.428 9.608v305.784c0 5.765-4.572 9.608-11.428 9.608h-57.143c-6.858 0-11.429-3.843-11.429-9.608v-305.784c0-5.765 4.572-9.608 11.428-9.608z" opacity=".14" inkscape:connector-curvature="0" sodipodi:nodetypes="cccsscccc"/>
     <rect id="rect3573" width="80" height="300" x="1120" y="1265" opacity=".14" rx="10" ry="8.243"/>
     <path id="path66" d="M1560 1130v220c0 6-4 10-9 10h-231c-6 0-10-4-10-10v-65c0-6 4-10 10-10h80c6 0 10-4 10-10v-135c0-6 4-10 10-10h130c6 0 10 4 10 10z" opacity=".14" inkscape:connector-curvature="0" sodipodi:nodetypes="ccccccccccccc"/>
     <rect id="rect70" width="80" height="440" x="1120" y="725" opacity=".14" rx="5.833" ry="7.416"/>
@@ -105,9 +105,6 @@
     <rect id="rect13778" width="60" height="40" x="1020" y="945" fill="#e0dad5" rx="2" ry="2"/>
     <rect id="rect13810" width="60" height="40" x="1020" y="1145" fill="#e0dad5" rx="2" ry="2"/>
     <rect id="rect3553" width="60" height="30" x="1210" y="1485" fill="#c8daa4" rx="2" ry="2"/>
-    <a id="a3579" transform="matrix(1.99983 0 0 1.20003 -1519.757 518.973)" xlink:href="http://dl.acm.org/citation.cfm?id=1792766" xlink:title="Z3: an efficient SMT solver">
-      <rect id="rect3581" width="30" height="25" x="1425" y="805" fill="#c8daa4" rx="1" ry="1.667"/>
-    </a>
   </g>
   <g id="g366" stroke-width=".7" transform="translate(0 -185)" inkscape:groupmode="layer" inkscape:label="language">
     <rect id="rect5066" width="35" height="10" x="505" y="697.5" fill="#f1e05a" rx="1" ry="1"/>
@@ -138,8 +135,8 @@
     <text id="text4989" x="245" y="1045" letter-spacing="0" overflow="visible" style="text-indent:0;text-align:center;line-height:100%;text-transform:none;block-progression:tb;marker:none;-inkscape-font-specification:Roboto Light" sodipodi:linespacing="100%">
       <tspan id="tspan4991" x="245" y="1045" sodipodi:role="line">Google</tspan>
     </text>
-    <text id="text4993" x="378.97" y="1115" letter-spacing="0" overflow="visible" style="text-indent:0;text-align:start;line-height:100%;text-transform:none;block-progression:tb;marker:none;-inkscape-font-specification:Roboto Light" text-anchor="start" sodipodi:linespacing="100%">
-      <tspan id="tspan4995" x="378.97" y="1115" letter-spacing="1" style="text-align:start" sodipodi:role="line">IBM</tspan>
+    <text id="text4993" x="378.97" y="1050" letter-spacing="0" overflow="visible" style="text-indent:0;text-align:start;line-height:100%;text-transform:none;block-progression:tb;marker:none;-inkscape-font-specification:Roboto Light" text-anchor="start" sodipodi:linespacing="100%">
+      <tspan id="tspan4995" x="378.97" y="1050" letter-spacing="1" style="text-align:start" sodipodi:role="line">IBM</tspan>
     </text>
     <text id="text4267" x="245" y="635" letter-spacing="0" overflow="visible" style="text-indent:0;text-align:center;line-height:100%;text-transform:none;block-progression:tb;marker:none;-inkscape-font-specification:Roboto Light" sodipodi:linespacing="100%">
       <tspan id="tspan4269" x="245.5" y="635" letter-spacing="1" sodipodi:role="line">MIT</tspan>
@@ -351,11 +348,6 @@
     <text id="text3555" x="300" y="1065" fill="#363228" font-family="Roboto" font-size="10" font-weight="300" letter-spacing="0" style="text-align:start;line-height:100%;-inkscape-font-specification:Roboto Light" sodipodi:linespacing="100%">
       <tspan id="tspan3557" x="300" y="1065" sodipodi:role="line">Z3str3</tspan> <tspan id="tspan3559" x="300" y="1071.833" font-size="6" style="-inkscape-font-specification:Roboto Light" sodipodi:role="line">2017</tspan>
     </text>
-    <a id="a3583" transform="translate(-95 680)" xlink:href="http://dl.acm.org/citation.cfm?id=1792766" xlink:title="Z3: an efficient SMT solver">
-      <text id="text3585" x="1430" y="832.362" fill="#363228" color="#000" font-family="Roboto" font-size="6" font-weight="300" letter-spacing="0" overflow="visible" style="text-indent:0;text-align:start;line-height:100%;text-transform:none;block-progression:tb;marker:none;-inkscape-font-specification:Roboto Light" transform="translate(-915 -447.362)" sodipodi:linespacing="100%">
-        <tspan id="tspan3595" x="1430" y="832.362" font-size="10" letter-spacing="1" style="line-height:100%;-inkscape-font-specification:Roboto Light" sodipodi:role="line">Z3</tspan>
-      </text>
-    </a>
   </g>
   <g id="g1514" color="#000" font-family="Roboto" font-size="6" font-weight="700" letter-spacing="0" text-anchor="middle" transform="translate(0 -185)" word-spacing="0" inkscape:groupmode="layer" inkscape:label="language_text">
     <text id="text5068" x="522.5" y="704.5" opacity=".85" overflow="visible" style="text-indent:0;text-align:center;line-height:100%;text-transform:none;block-progression:tb;marker:none;-inkscape-font-specification:Roboto Bold" sodipodi:linespacing="100%">
@@ -448,8 +440,8 @@
     <path id="path15829" stroke-linejoin="round" d="M297 842c-2 1-2 3-2 3s0-2-2-3" inkscape:connector-curvature="0" sodipodi:nodetypes="ccc"/>
     <path id="path3610" d="M275 1020h10c6 0 10 4 10 10v10" inkscape:connector-curvature="0" sodipodi:nodetypes="cccc"/>
     <path id="path3612" stroke-linejoin="round" d="M297 1037c-2 1-2 3-2 3s0-2-2-3" inkscape:connector-curvature="0" sodipodi:nodetypes="ccc"/>
-    <path id="path3569" stroke="#adc57d" d="M355 1065h60" inkscape:connector-curvature="0" sodipodi:nodetypes="cc"/>
-    <path id="path3571" stroke="#adc57d" stroke-linejoin="round" d="M412 1067c1-2 3-2 3-2s-2 0-3-2" inkscape:connector-curvature="0" sodipodi:nodetypes="ccc"/>
+    <path id="path3569" stroke="#adc57d" d="M355 1065h30" inkscape:connector-curvature="0" sodipodi:nodetypes="cc"/>
+    <path id="path3571" stroke="#adc57d" stroke-linejoin="round" d="M382 1067c1-2 3-2 3-2s-2 0-3-2" inkscape:connector-curvature="0" sodipodi:nodetypes="ccc"/>
   </g>
   <g id="g1762" fill="#363228" color="#000" font-family="Roboto" font-weight="300" letter-spacing="0" transform="translate(0 -185)" word-spacing="0" inkscape:groupmode="layer" inkscape:label="people">
     <text id="text1788" x="215" y="610" font-size="6" overflow="visible" style="text-indent:0;text-align:start;line-height:100%;text-transform:none;block-progression:tb;marker:none;-inkscape-font-specification:Roboto Light" sodipodi:linespacing="100%">
@@ -580,6 +572,9 @@
     </text>
     <text id="text3614" x="285" y="1015" font-size="6" overflow="visible" style="text-indent:0;text-align:center;line-height:100%;text-transform:none;block-progression:tb;marker:none;-inkscape-font-specification:Roboto Light" text-anchor="middle" sodipodi:linespacing="100%">
       <tspan id="tspan3616" x="285" y="1015" sodipodi:role="line">Y. Zheng</tspan>
+    </text>
+    <text id="text3569" x="389.514" y="1066.433" font-size="6" font-style="italic" overflow="visible" style="text-indent:0;text-align:start;line-height:100%;text-transform:none;block-progression:tb;marker:none;-inkscape-font-specification:Roboto Light Italic" sodipodi:linespacing="100%">
+      <tspan id="tspan3571" x="389.514" y="1066.433" sodipodi:role="line">As part of Z3</tspan>
     </text>
   </g>
   <g id="g2096" transform="translate(-80 -185)" inkscape:label="preview">
