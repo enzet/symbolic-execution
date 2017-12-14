@@ -513,9 +513,6 @@
     <text id="text4546" x="1715" y="505" letter-spacing="0" overflow="visible" style="text-indent:0;text-align:center;line-height:100%;text-transform:none;block-progression:tb;marker:none;-inkscape-font-specification:Roboto Light" sodipodi:linespacing="100%">
       <tspan id="tspan4548" x="1715.5" y="505" style="text-align:center;-inkscape-font-specification:Roboto Light" sodipodi:role="line">Sogeti <tspan id="tspan4550" letter-spacing="1">ESEC</tspan> </tspan>
     </text>
-    <text id="text4554" x="1575" y="800" letter-spacing="0" overflow="visible" style="text-indent:0;text-align:center;line-height:100%;text-transform:none;block-progression:tb;marker:none;-inkscape-font-specification:Roboto Light" sodipodi:linespacing="100%">
-      
-    </text>
     <text id="text4559" x="1575" y="810" letter-spacing="0" overflow="visible" style="text-indent:0;text-align:center;line-height:100%;text-transform:none;block-progression:tb;marker:none;-inkscape-font-specification:Roboto Light" sodipodi:linespacing="100%">
       <tspan id="tspan4561" x="1575" y="810" sodipodi:role="line">Amsterdam, Vienna</tspan>
     </text>
@@ -1817,8 +1814,8 @@
     <text id="text5624" x="1265" y="840" font-size="6" overflow="visible" style="text-indent:0;text-align:start;line-height:100%;text-transform:none;block-progression:tb;marker:none;-inkscape-font-specification:Roboto Light" sodipodi:linespacing="100%">
       <tspan id="tspan5628" x="1265" y="840" sodipodi:role="line">S. Heelan</tspan> <tspan id="tspan5634" x="1265" y="846" sodipodi:role="line">P. Sole</tspan> <tspan id="tspan5632" x="1265" y="852" sodipodi:role="line">R. Huizer</tspan>
     </text>
-    <text id="text5652" x="1700" y="14" font-size="6" overflow="visible" style="text-indent:0;text-align:start;line-height:100%;text-transform:none;block-progression:tb;marker:none;-inkscape-font-specification:Roboto Light" sodipodi:linespacing="100%">
-      <tspan id="tspan5654" x="1700" y="14" sodipodi:role="line">static symbolic</tspan> <tspan id="tspan5656" x="1700" y="20" sodipodi:role="line">execution</tspan>
+    <text id="text5652" x="1700" y="16.5" font-size="6" overflow="visible" style="text-indent:0;text-align:start;line-height:100%;text-transform:none;block-progression:tb;marker:none;-inkscape-font-specification:Roboto Light" sodipodi:linespacing="100%">
+      <tspan id="tspan5656" x="1700" y="16.5" sodipodi:role="line">static analysis</tspan>
     </text>
     <text id="text4866" x="1275" y="587.5" font-size="10" overflow="visible" style="text-indent:0;text-align:start;line-height:100%;text-transform:none;block-progression:tb;marker:none;-inkscape-font-specification:Roboto Light" sodipodi:linespacing="100%">
       <tspan id="tspan4868" x="1275" y="587.5" font-size="6" style="text-align:start;-inkscape-font-specification:Roboto Light" sodipodi:role="line">S. Heelan</tspan>
