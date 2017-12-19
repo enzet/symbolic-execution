@@ -1,10 +1,13 @@
-Symbolic execution timeline
-===========================
+Timelines
+=========
 
-Diagram highlights some major tools and ideas of pure symbolic execution, dynamic symbolic execution (concolic) as well as related ideas of model checking, SAT/SMT solving, black-box fuzzing, taint data tracking, and other dynamic analysis techniques.
+* [Symbolic execution timeline](diagram/symbolic-execution.svg) highlights some major tools and ideas of pure symbolic execution, dynamic symbolic execution (concolic) as well as related ideas of model checking, SAT/SMT solving, black-box fuzzing, taint data tracking, and other dynamic analysis techniques.
+* [Solving timeline](diagram/solving.svg) highlights major SAT and SMT techniques and solvers (including solvers not related to symbolic execution).
 
-Preview
--------
+There is also [temporary timeline](diagram/other.svg) of some tools not displayed in the diagrams above.
+
+Symbolic execution
+------------------
 
 :warning: PNG preview could be outdated. See [`symbolic-execution.svg`](diagram/symbolic-execution.svg) for the latest version.
 
