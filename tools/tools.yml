@@ -1,0 +1,85 @@
+# Program analysis, instrumentation, and solver tools.
+
+tools:
+  ABsolver:
+    os: Linux
+    license: CPL
+    input: [SMT-LIB 1.2, DIMACS]
+    api: C++
+    technique: DPLL
+    description: DPLL-based SMT solver
+  Alt-Ergo:
+    os: [Linux, macOS, Windows]
+    license: CeCILL-C
+    input: [SMT-LIB 1.2, SMT-LIB 2, polymorphic first-order language]
+    api: OCaml
+    technique: SAT
+    description: SAT-based SMT solver, Shostak-like and Nelson-Oppen
+  Barcelogic:
+    os: Linux
+    license: Proprietary
+    input: [SMT-LIB 1.2]
+    api: C++
+    technique: DPLL
+  Beaver:
+    os: [Linux, Windows]
+  Boolector:
+    description: SMT solver
+    paper: boolector
+    type: SMT
+  CVC3:
+    description: SMT solver
+    paper: cvc3
+    type: SMT
+    based: minisat
+  Dyninst:
+    paper: dyninst
+    type: dynamic instrumentation
+    description: dynamic binary instrumentator
+    creator: ParaDyn
+  DynamoRIO:
+    paper: dynamorio
+    description: dynamic binary instrumentator
+  Flayer:
+    input: binary
+    based: [valgrind, memcheck]
+    paper: flayer
+  GSAT:
+    description: stochastic local search
+    paper: gsat
+  threadsanitizer:
+    input: [c, cpp, go]
+    based: valgrind
+  javathreadsanitizer:
+    input: javabc
+  MiniSAT:
+    input: DIMACS-CNF
+    paper: minisat
+    type: SAT
+  STP:
+    paper: stp
+  Valgrind:
+    paper: valgrind
+    description: dynamic binary instrumentator
+    ir: VEX
+  WSAT:
+    alias: Walksat
+    description: stochastic local search
+    paper: gsat
+  Yices:
+    paper: yices
+
+# There are only languages uses as input or output format for the tools
+# described above.
+
+languages:
+  cnf:
+    - DIMACS-CNF
+  programming:
+    - Java
+    - Java bytecode
+    - JavaScript
+    - C
+    - C++
+    - Go
+    - Rosette
