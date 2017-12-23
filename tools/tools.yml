@@ -27,11 +27,25 @@ tools:
     description: SMT solver
     paper: boolector
     type: SMT
+  CVC:
+    since: 2002
+    type: SMT
+    description: SMT solver
+    based: Chaff
+  CVC Lite:
+    since: 2004
+    type: SMT
+    description: SMT solver
   CVC3:
     description: SMT solver
     paper: cvc3
     type: SMT
-    based: minisat
+    based: MiniSat
+  CVC4:
+    since: 2011
+    type: SMT
+    description: DPLL(T) SMT solver
+    based: MiniSat
   Dyninst:
     paper: dyninst
     type: dynamic instrumentation
@@ -58,6 +72,10 @@ tools:
     type: SAT
   STP:
     paper: stp
+  SVC:
+    since: 1996
+    description: validity checker
+    type: SMT
   Valgrind:
     paper: valgrind
     description: dynamic binary instrumentator
