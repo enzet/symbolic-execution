@@ -40,3 +40,17 @@ Please, use [SVGO](https://github.com/svg/svgo) for diagram optimization before 
         --disable=removeEditorsNSData \
         --disable=cleanupIDs \
         --indent=2
+
+Tools structure
+===============
+
+File [`tools.yml`](tools/tools.yml) contains tools YAML description. E.g.:
+
+```
+Dart:
+  since: 2005
+  input: C
+  uses: lp_solve
+  based: CIL
+  description: random testing and direct execution
+```
