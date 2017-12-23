@@ -27,6 +27,10 @@ tools:
     description: SMT solver
     paper: boolector
     type: SMT
+  Chord:
+    uses: [Javassist, bddbddb]
+    since: 2001
+    input: Java
   CVC:
     since: 2002
     type: SMT
@@ -46,6 +50,12 @@ tools:
     type: SMT
     description: DPLL(T) SMT solver
     based: MiniSat
+  Dart:
+    since: 2005
+    input: C
+    uses: lp_solve
+    based: CIL
+    description: random testing and direct execution
   Dyninst:
     paper: dyninst
     type: dynamic instrumentation
@@ -54,6 +64,12 @@ tools:
   DynamoRIO:
     paper: dynamorio
     description: dynamic binary instrumentator
+  EGT:
+    since: 2005
+  EXE:
+    since: 2006
+    uses: STP
+    input: binary
   Flayer:
     input: binary
     based: [valgrind, memcheck]
@@ -61,11 +77,20 @@ tools:
   GSAT:
     description: stochastic local search
     paper: gsat
-  threadsanitizer:
+  ThreadSanitizer:
     input: [c, cpp, go]
     based: valgrind
-  javathreadsanitizer:
+  Java ThreadSanitizer:
     input: javabc
+  KLEE:
+    since: 2008
+    description: online DSE, constraint optimizations
+    based: LLVM
+    input: bitcode LLVM
+  MINESTRONE:
+    based: KLEE
+    uses: Pin
+    input: [C, C++]
   MiniSAT:
     input: DIMACS-CNF
     paper: minisat
@@ -76,6 +101,9 @@ tools:
     since: 1996
     description: validity checker
     type: SMT
+  UC-KLEE:
+    since: 2014
+    based: KLEE
   Valgrind:
     paper: valgrind
     description: dynamic binary instrumentator
@@ -93,6 +121,9 @@ tools:
 languages:
   cnf:
     - DIMACS-CNF
+  smt:
+    - SMT-LIB
+    - SMT-LIB 2
   programming:
     - Java
     - Java bytecode
