@@ -31,6 +31,12 @@ tools:
     uses: [Javassist, bddbddb]
     since: 2001
     input: Java
+  CUTE:
+    since: 2005
+    type: DSE
+    uses: [CIL, lp_solve]
+    input: C
+    description: concolic testing
   CVC:
     since: 2002
     type: SMT
@@ -50,7 +56,7 @@ tools:
     type: SMT
     description: DPLL(T) SMT solver
     based: MiniSat
-  Dart:
+  DART:
     since: 2005
     input: C
     uses: lp_solve
@@ -77,11 +83,13 @@ tools:
   GSAT:
     description: stochastic local search
     paper: gsat
-  ThreadSanitizer:
-    input: [c, cpp, go]
-    based: valgrind
   Java ThreadSanitizer:
-    input: javabc
+    input: Java bytecode
+  jCUTE:
+    since: 2006
+    uses: [Soot, lp_solve]
+    input: Java
+    type: DSE
   KLEE:
     since: 2008
     description: online DSE, constraint optimizations
@@ -95,12 +103,21 @@ tools:
     input: DIMACS-CNF
     paper: minisat
     type: SAT
+  SMART:
+    since: 2007
+    type: DSE
   STP:
     paper: stp
+  SPIN:
+    type: model checker
+    since: 1997
   SVC:
     since: 1996
     description: validity checker
     type: SMT
+  ThreadSanitizer:
+    input: [c, cpp, go]
+    based: valgrind
   UC-KLEE:
     since: 2014
     based: KLEE
@@ -108,12 +125,18 @@ tools:
     paper: valgrind
     description: dynamic binary instrumentator
     ir: VEX
+  VeriSoft:
+    since: 1997
+    type: model checker
   WSAT:
     alias: Walksat
     description: stochastic local search
     paper: gsat
   Yices:
     paper: yices
+    since: 2006
+    type: SMT solver
+    description: SMT solver
 
 # There are only languages uses as input or output format for the tools
 # described above.

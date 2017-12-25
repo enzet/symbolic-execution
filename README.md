@@ -25,6 +25,11 @@ Use Inkscape to build:
   * PNG: `inkscape diagram/symbolic-execution.svg --export-png diagram/symbolic-execution.png --export-dpi 150`,
   * PDF: `inkscape diagram/symbolic-execution.svg --export-pdf diagram/symbolic-execution.pdf`.
 
+Design
+------
+
+We use colors from [GitHub Linguist](https://github.com/github/linguist/blob/master/lib/linguist/languages.yml) for input languages.
+
 Contribution
 ------------
 
