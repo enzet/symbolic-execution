@@ -18,6 +18,12 @@ tools:
     api: OCaml
     technique: SAT
     description: SAT-based SMT solver, Shostak-like and Nelson-Oppen
+  angr:
+    input: binary
+    url: http://angr.io/
+  BAP:
+    input: binary
+    github: BinaryAnalysisPlatform/bap
   Barcelogic:
     os: Linux
     license: Proprietary
@@ -26,6 +32,9 @@ tools:
     technique: DPLL
   Beaver:
     os: [Linux, Windows]
+  BitBlaze:
+    input: binary
+    url: http://bitblaze.cs.berkeley.edu/
   Boolector:
     description: SMT solver
     paper: boolector
@@ -96,6 +105,9 @@ tools:
     input: binary
     based: [valgrind, memcheck]
     paper: flayer
+  FuzzBALL:
+    input: binary
+    url: http://bitblaze.cs.berkeley.edu/fuzzball.html
   GSAT:
     description: stochastic local search
     paper: gsat
@@ -134,6 +146,12 @@ tools:
   LimeTB:
     input: Java
     url: http://www.tcs.hut.fi/Software/lime/
+  Mayhem:
+    input: binary
+    uses: [Pin, BAP]
+  miasm:
+    input: binary
+    github: cea-sec/miasm
   MINESTRONE:
     based: KLEE
     uses: Pin
@@ -145,17 +163,28 @@ tools:
   Otter:
     input: C
     bitbucket: khooyp/otter
+  PathGrind:
+    input: binary
+    github: codelion/pathgrind
   PEX:
     input: .NET
     url: http://pex4fun.com/About.aspx
   PyExZ3:
     input: Python
     github: thomasjball/PyExZ3
+  pysymemu:
+    input: [x86, x64]
+    github: feliam/pysymemu
   Rubyx:
     input: Ruby
+  SAGE:
+    input: x86
   SMART:
     since: 2007
     type: DSE
+  S2E:
+    input: binary
+    url: http://s2e.epfl.ch/
   STP:
     paper: stp
   SPIN:
@@ -173,6 +202,9 @@ tools:
   ThreadSanitizer:
     input: [c, cpp, go]
     based: valgrind
+  Triton:
+    input: binary
+    url: https://triton.quarkslab.com/
   UC-KLEE:
     since: 2014
     based: KLEE
