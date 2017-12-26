@@ -37,15 +37,22 @@ tools:
     uses: [Javassist, bddbddb]
     since: 2001
     input: Java
+  CIVL:
+    input: C
+    url: http://vsl.cis.udel.edu/civl/
   Cloud9:
     input: LLVM bitcode
     url: http://cloud9.epfl.ch/
+  CREST:
+    input: C
+    github: jburnim/crest
   CUTE:
     since: 2005
     type: DSE
     uses: [CIL, lp_solve]
     input: C
     description: concolic testing
+    url: http://lpsolve.sourceforge.net/
   CVC:
     since: 2002
     type: SMT
@@ -94,6 +101,9 @@ tools:
     paper: gsat
   Java ThreadSanitizer:
     input: Java bytecode
+  Jalangi2:
+    input: JavaScript
+    github: Samsung/jalangi2
   JBSE:
     input: Java
     url: http://pietrobraione.github.io/jbse/
@@ -132,9 +142,17 @@ tools:
     input: DIMACS-CNF
     paper: minisat
     type: SAT
+  Otter:
+    input: C
+    bitbucket: khooyp/otter
   PEX:
     input: .NET
     url: http://pex4fun.com/About.aspx
+  PyExZ3:
+    input: Python
+    github: thomasjball/PyExZ3
+  Rubyx:
+    input: Ruby
   SMART:
     since: 2007
     type: DSE
@@ -150,6 +168,8 @@ tools:
   Symbolic Java Pathfinder:
     input: Java
     url: https://babelfish.arc.nasa.gov/trac/jpf/wiki/projects/jpf-symbc
+  SymJS:
+    input: JavaScript
   ThreadSanitizer:
     input: [c, cpp, go]
     based: valgrind
