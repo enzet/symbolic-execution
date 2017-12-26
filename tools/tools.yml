@@ -1,6 +1,9 @@
 # Program analysis, instrumentation, and solver tools.
 
 tools:
+  ATOM:
+    since: 1994
+    type: instrumentator
   ABsolver:
     os: Linux
     license: CPL
@@ -97,6 +100,10 @@ tools:
     description: dynamic binary instrumentator
   EGT:
     since: 2005
+  Eraser:
+    since: 1997
+    based: ATOM
+    description: data race detector, lockset and happens-before, binary rewriting
   EXE:
     since: 2006
     uses: STP
@@ -111,6 +118,10 @@ tools:
   GSAT:
     description: stochastic local search
     paper: gsat
+  HAMPI:
+    type: SMT solver
+    description: string constraints
+    since: 2009
   Java ThreadSanitizer:
     input: Java bytecode
   Jalangi2:
@@ -125,6 +136,7 @@ tools:
     input: Java
     type: DSE
     url: http://osl.cs.illinois.edu/software/jcute/
+    description: concolic testing
   JDart:
     input: Java
     github: psycopaths/jdart
@@ -167,8 +179,14 @@ tools:
     input: binary
     github: codelion/pathgrind
   PEX:
+    since: 2008
     input: .NET
     url: http://pex4fun.com/About.aspx
+    uses: Z3
+  Rex:
+    type: SMT solver
+    uses: Z3
+    description: regular expressions
   PyExZ3:
     input: Python
     github: thomasjball/PyExZ3
@@ -178,7 +196,10 @@ tools:
   Rubyx:
     input: Ruby
   SAGE:
+    since: 2008
     input: x86
+    description: concolic, fuzzing
+    uses: Z3
   SMART:
     since: 2007
     type: DSE
@@ -190,6 +211,11 @@ tools:
   SPIN:
     type: model checker
     since: 1997
+  Splat:
+    input: C
+    since: 2008
+    uses: STP
+    description: symbolic length
   SVC:
     since: 1996
     description: validity checker
@@ -224,6 +250,10 @@ tools:
     since: 2006
     type: SMT solver
     description: SMT solver
+  Z3:
+    type: SMT solver
+    description: SMT solver, SAT: DPLL
+    since: 2008
 
 # There are only languages uses as input or output format for the tools
 # described above.
