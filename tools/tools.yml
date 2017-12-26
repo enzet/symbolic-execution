@@ -8,6 +8,9 @@ tools:
     api: C++
     technique: DPLL
     description: DPLL-based SMT solver
+  Acteve:
+    input: Java
+    url: https://code.google.com/archive/p/acteve/
   Alt-Ergo:
     os: [Linux, macOS, Windows]
     license: CeCILL-C
@@ -27,10 +30,16 @@ tools:
     description: SMT solver
     paper: boolector
     type: SMT
+  CATG:
+    input: Java
+    github: ksen007/janala2
   Chord:
     uses: [Javassist, bddbddb]
     since: 2001
     input: Java
+  Cloud9:
+    input: LLVM bitcode
+    url: http://cloud9.epfl.ch/
   CUTE:
     since: 2005
     type: DSE
@@ -85,16 +94,36 @@ tools:
     paper: gsat
   Java ThreadSanitizer:
     input: Java bytecode
+  JBSE:
+    input: Java
+    url: http://pietrobraione.github.io/jbse/
   jCUTE:
     since: 2006
     uses: [Soot, lp_solve]
     input: Java
     type: DSE
+    url: http://osl.cs.illinois.edu/software/jcute/
+  JDart:
+    input: Java
+    github: psycopaths/jdart
+  JFuzz:
+    input: Java
+    url: http://people.csail.mit.edu/akiezun/jfuzz/
+  Key:
+    input: Java
+    url: https://www.key-project.org/
+  Kite:
+    input: LLVM bitcode
+    url: http://www.cs.ubc.ca/labs/isd/Projects/Kite/
   KLEE:
     since: 2008
     description: online DSE, constraint optimizations
     based: LLVM
     input: bitcode LLVM
+    url: http://klee.github.io/
+  LimeTB:
+    input: Java
+    url: http://www.tcs.hut.fi/Software/lime/
   MINESTRONE:
     based: KLEE
     uses: Pin
@@ -103,6 +132,9 @@ tools:
     input: DIMACS-CNF
     paper: minisat
     type: SAT
+  PEX:
+    input: .NET
+    url: http://pex4fun.com/About.aspx
   SMART:
     since: 2007
     type: DSE
@@ -115,6 +147,9 @@ tools:
     since: 1996
     description: validity checker
     type: SMT
+  Symbolic Java Pathfinder:
+    input: Java
+    url: https://babelfish.arc.nasa.gov/trac/jpf/wiki/projects/jpf-symbc
   ThreadSanitizer:
     input: [c, cpp, go]
     based: valgrind

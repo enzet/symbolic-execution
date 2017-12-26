@@ -52,7 +52,7 @@ Tools structure
 File [`tools.yml`](tools/tools.yml) contains tools YAML description. E.g.:
 
 ```
-Dart:
+DART:
   since: 2005
   input: C
   uses: lp_solve
