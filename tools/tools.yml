@@ -200,6 +200,14 @@ tools:
     github: feliam/pysymemu
   Rubyx:
     input: Ruby
+  S3:
+    type: SMT solver
+    based: Z3-str
+    description: string solver
+  S3P:
+    type: SMT-solver
+    based: Z3
+    description: string solver, progressive S3P
   SAGE:
     since: 2008
     input: x86
