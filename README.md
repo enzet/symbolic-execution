@@ -11,7 +11,14 @@ Symbolic execution
 
 :warning: PNG preview could be outdated. See [`symbolic-execution.svg`](diagram/symbolic-execution.svg) for the latest version.
 
-![Preview](https://raw.github.com/enzet/dynamic-symbolic-execution/master/diagram/symbolic-execution.png)
+![Preview](https://raw.github.com/enzet/symbolic-execution/master/diagram/symbolic-execution.png)
+
+SAT and SMT solving
+-------------------
+
+:warning: PNG preview could be outdated. See [`solving.svg`](diagram/solving.svg) for the latest version.
+
+![Preview](https://raw.github.com/enzet/symbolic-execution/master/diagram/solving.png)
 
 Building PNG or PDF
 -------------------
@@ -20,7 +27,7 @@ Please, install fonts for correct SVG display:
   * [Roboto](https://fonts.google.com/specimen/Roboto) (regular and italic) and
   * [Fira Code](https://github.com/tonsky/FiraCode).
 
-Use Inkscape to build:
+Use Inkscape to build PNG or PDF. Example for `symbolic-execution` diagram:
 
   * PNG: `inkscape diagram/symbolic-execution.svg --export-png diagram/symbolic-execution.png --export-dpi 150`,
   * PDF: `inkscape diagram/symbolic-execution.svg --export-pdf diagram/symbolic-execution.pdf`.
