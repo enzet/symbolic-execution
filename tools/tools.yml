@@ -171,7 +171,12 @@ tools:
   MiniSAT:
     input: DIMACS-CNF
     paper: minisat
-    type: SAT
+    type: SAT solver
+  Nort:
+    since: 2014
+    url: http://user.it.uu.se/~jarst116/norn/
+    type: SMT solver
+    description: string constraints
   Otter:
     input: C
     bitbucket: khooyp/otter
