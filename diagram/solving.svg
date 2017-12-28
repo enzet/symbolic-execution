@@ -1,5 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:xlink="http://www.w3.org/1999/xlink" id="svg2" width="995" height="975" inkscape:version="0.48.5 r10040" sodipodi:docname="solving.svg">
-  <sodipodi:namedview id="namedview4" bordercolor="#aeaeae" borderopacity="1" fit-margin-bottom="0" fit-margin-left="0" fit-margin-right="0" fit-margin-top="0" pagecolor="#ffffff" showborder="true" showgrid="false" showguides="false" inkscape:bbox-nodes="false" inkscape:current-layer="g1762" inkscape:cx="851.603" inkscape:cy="389.159" inkscape:document-units="px" inkscape:guide-bbox="true" inkscape:object-nodes="true" inkscape:object-paths="true" inkscape:pageopacity="1" inkscape:pageshadow="2" inkscape:showpageshadow="false" inkscape:snap-bbox="true" inkscape:snap-center="false" inkscape:snap-global="true" inkscape:snap-intersection-paths="true" inkscape:snap-nodes="true" inkscape:snap-page="true" inkscape:snap-smooth-nodes="true" inkscape:snap-text-baseline="true" inkscape:window-height="1035" inkscape:window-maximized="1" inkscape:window-width="1920" inkscape:window-x="0" inkscape:window-y="1" inkscape:zoom="1">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:xlink="http://www.w3.org/1999/xlink" id="svg2" width="995" height="975" inkscape:version="0.48.3.1 r9886" sodipodi:docname="solving.svg">
+  <sodipodi:namedview id="namedview4" bordercolor="#aeaeae" borderopacity="1" fit-margin-bottom="0" fit-margin-left="0" fit-margin-right="0" fit-margin-top="0" pagecolor="#ffffff" showborder="true" showgrid="false" showguides="false" inkscape:bbox-nodes="false" inkscape:current-layer="g1762" inkscape:cx="716.939" inkscape:cy="470.35" inkscape:document-units="px" inkscape:guide-bbox="true" inkscape:object-nodes="true" inkscape:object-paths="true" inkscape:pageopacity="1" inkscape:pageshadow="2" inkscape:showpageshadow="false" inkscape:snap-bbox="true" inkscape:snap-center="false" inkscape:snap-global="true" inkscape:snap-intersection-paths="true" inkscape:snap-nodes="true" inkscape:snap-page="true" inkscape:snap-smooth-nodes="true" inkscape:snap-text-baseline="true" inkscape:window-height="1091" inkscape:window-maximized="0" inkscape:window-width="634" inkscape:window-x="1211" inkscape:window-y="53" inkscape:zoom="1">
     <inkscape:grid id="grid6" color="#9bc2cd" empcolor="#abc7d1" empopacity=".251" empspacing="5" enabled="true" opacity=".125" originx="-915" originy="555" snapvisiblegridlinesonly="true" type="xygrid" visible="true"/>
     <sodipodi:guide id="guide8" orientation="0,1" position="14.999998,705"/>
     <sodipodi:guide id="guide10" orientation="0,1" position="14.999998,735"/>
@@ -113,6 +113,9 @@
     <rect id="rect3619" width="60" height="35" x="1310" y="1435" fill="#c8daa4" rx="2" ry="2"/>
     <rect id="rect3621" width="25" height="10" x="1310" y="1485" fill="#c8daa4" rx="1" ry="1"/>
     <rect id="rect3623" width="25" height="10" x="1310" y="1472.5" fill="#c8daa4" rx="1" ry="1"/>
+    <a id="a3617" transform="matrix(1.99976 0 0 2.00026 -1349.648 -215.214)" xlink:href="http://dl.acm.org/citation.cfm?id=1792766" xlink:title="Z3: an efficient SMT solver">
+      <rect id="rect3620" width="30" height="25" x="1425" y="805" fill="#c8daa4" rx="1.201" ry="1"/>
+    </a>
   </g>
   <g id="g366" stroke-width=".7" transform="translate(0 -185)" inkscape:groupmode="layer" inkscape:label="language">
     <rect id="rect5066" width="35" height="10" x="585" y="697.5" fill="#f1e05a" rx="1" ry="1"/>
@@ -214,6 +217,9 @@
     </text>
     <text id="text3603" x="425" y="885" letter-spacing="0" overflow="visible" style="text-indent:0;text-align:center;line-height:100%;text-transform:none;block-progression:tb;marker:none;-inkscape-font-specification:Roboto Light" sodipodi:linespacing="100%">
       <tspan id="tspan3605" x="425" y="885" sodipodi:role="line">Singapore</tspan>
+    </text>
+    <text id="text3646" x="615" y="955" letter-spacing="0" overflow="visible" style="text-indent:0;text-align:center;line-height:100%;text-transform:none;block-progression:tb;marker:none;-inkscape-font-specification:Roboto Light" sodipodi:linespacing="100%">
+      <tspan id="tspan3648" x="615" y="955" sodipodi:role="line">California, Santa Barbara</tspan>
     </text>
   </g>
   <g id="g582" font-weight="500" transform="translate(0 -185)" word-spacing="0" inkscape:groupmode="layer" inkscape:label="box_text">
@@ -392,6 +398,11 @@
     <text id="text3641" x="407.25" y="1044.5" fill="#363228" color="#000" font-family="Roboto" font-size="6" font-weight="300" letter-spacing="0" overflow="visible" style="text-indent:0;text-align:center;line-height:100%;text-transform:none;block-progression:tb;marker:none;-inkscape-font-specification:Roboto Light" text-anchor="middle" sodipodi:linespacing="100%">
       <tspan id="tspan3643" x="407.5" y="1044.5" letter-spacing=".5" style="text-align:center;line-height:50%;-inkscape-font-specification:Roboto Light" sodipodi:role="line">Z3</tspan>
     </text>
+    <a id="a3622" transform="translate(75 590)" xlink:href="http://dl.acm.org/citation.cfm?id=1792766" xlink:title="Z3: an efficient SMT solver">
+      <text id="text3624" x="1430" y="832.362" fill="#363228" color="#000" font-family="Roboto" font-size="6" font-weight="300" letter-spacing="0" overflow="visible" style="text-indent:0;text-align:start;line-height:100%;text-transform:none;block-progression:tb;marker:none;-inkscape-font-specification:Roboto Light" transform="translate(-915 -447.362)" sodipodi:linespacing="100%">
+        <tspan id="tspan3628" x="1430" y="832.362" font-size="10" letter-spacing="1" style="line-height:100%;-inkscape-font-specification:Roboto Light" sodipodi:role="line">ABC</tspan> <tspan id="tspan3630" x="1430" y="839.195" style="line-height:100%;-inkscape-font-specification:Roboto Light" sodipodi:role="line">2015</tspan> <tspan id="tspan3632" x="1430" y="845.195" style="line-height:100%;-inkscape-font-specification:Roboto Light" sodipodi:role="line">Automata-based</tspan> <tspan id="tspan3650" x="1430" y="851.195" style="line-height:100%;-inkscape-font-specification:Roboto Light" sodipodi:role="line">model counting for</tspan> <tspan id="tspan3652" x="1430" y="857.195" style="line-height:100%;-inkscape-font-specification:Roboto Light" sodipodi:role="line">string constraints</tspan>
+      </text>
+    </a>
   </g>
   <g id="g1514" color="#000" font-family="Roboto" font-size="6" font-weight="700" letter-spacing="0" text-anchor="middle" transform="translate(0 -185)" word-spacing="0" inkscape:groupmode="layer" inkscape:label="language_text">
     <text id="text5068" x="602.5" y="704.5" opacity=".85" overflow="visible" style="text-indent:0;text-align:center;line-height:100%;text-transform:none;block-progression:tb;marker:none;-inkscape-font-specification:Roboto Bold" sodipodi:linespacing="100%">
@@ -628,6 +639,9 @@
     </text>
     <text id="text3645" x="395" y="1070" font-size="6" overflow="visible" style="text-indent:0;text-align:start;line-height:100%;text-transform:none;block-progression:tb;marker:none;-inkscape-font-specification:Roboto Light" sodipodi:linespacing="100%">
       <tspan id="tspan3647" x="395" y="1070" sodipodi:role="line">Minh-Tai Trinh</tspan> <tspan id="tspan3649" x="395" y="1076" sodipodi:role="line">Duc-Hiep Chu</tspan> <tspan id="tspan3651" x="395" y="1082" sodipodi:role="line">J. Jaffar</tspan>
+    </text>
+    <text id="text3636" x="586.529" y="1019.324" font-size="6" overflow="visible" style="text-indent:0;text-align:start;line-height:100%;text-transform:none;block-progression:tb;marker:none;-inkscape-font-specification:Roboto Light" sodipodi:linespacing="100%">
+      <tspan id="tspan3638" x="586.529" y="1019.324" sodipodi:role="line">A. Niemetz</tspan> <tspan id="tspan3640" x="586.529" y="1025.324" sodipodi:role="line">M. Preiner</tspan> <tspan id="tspan3642" x="586.529" y="1031.324" sodipodi:role="line">A. Biere</tspan>
     </text>
   </g>
   <g id="g2096" transform="translate(-80 -185)" inkscape:label="preview">

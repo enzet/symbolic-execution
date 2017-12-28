@@ -1,9 +1,12 @@
 # Program analysis, instrumentation, and solver tools.
 
 tools:
-  ATOM:
-    since: 1994
-    type: instrumentator
+  ABC:
+    since: 2015
+    description: string constraint solver and model counter
+    url: https://vlab.cs.ucsb.edu/ABC/
+    github: vlab-cs-ucsb/ABC
+    type: SMT solver
   ABsolver:
     os: Linux
     license: CPL
@@ -11,6 +14,9 @@ tools:
     api: C++
     technique: DPLL
     description: DPLL-based SMT solver
+  ATOM:
+    since: 1994
+    type: instrumentator
   Acteve:
     input: Java
     url: https://code.google.com/archive/p/acteve/
@@ -29,12 +35,19 @@ tools:
     github: BinaryAnalysisPlatform/bap
   Barcelogic:
     os: Linux
-    license: Proprietary
+    license: proprietary
     input: [SMT-LIB 1.2]
     api: C++
     technique: DPLL
+    type: SMT solver
   Beaver:
+    url: http://uclid.eecs.berkeley.edu/jha/beaver-dist/beaver.html
     os: [Linux, Windows]
+    license: proprietary
+    input: [SMT-LIB 1.2]
+    description: SAT-based SMT solver
+    type: SMT solver
+    api: C++
   BitBlaze:
     input: binary
     url: http://bitblaze.cs.berkeley.edu/
