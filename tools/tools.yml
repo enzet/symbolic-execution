@@ -103,6 +103,10 @@ tools:
     uses: lp_solve
     based: CIL
     description: random testing and direct execution
+  DPrle:
+    url: http://www.cs.virginia.edu/~ph4u/dprle/
+    github: seliopou/dprle
+    description: decision procedure for systems of equations that consist of regular languages, concatenation, and grounded subset constraints
   Dyninst:
     paper: dyninst
     type: dynamic instrumentation
