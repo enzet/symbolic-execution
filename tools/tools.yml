@@ -8,12 +8,14 @@ tools:
     github: vlab-cs-ucsb/ABC
     type: SMT solver
   ABsolver:
+    since: 2007
+    url: http://absolver.sourceforge.net
     os: Linux
     license: CPL
     input: [SMT-LIB 1.2, DIMACS]
     api: C++
     technique: DPLL
-    description: DPLL-based SMT solver
+    description: arithmetic and Boolean solver, DPLL-based SMT solver
   ATOM:
     since: 1994
     type: instrumentator
@@ -40,6 +42,7 @@ tools:
     api: C++
     technique: DPLL
     type: SMT solver
+    description: DPLL-based SMT solver, congruence closure
   Beaver:
     url: http://uclid.eecs.berkeley.edu/jha/beaver-dist/beaver.html
     os: [Linux, Windows]
@@ -51,10 +54,16 @@ tools:
   BitBlaze:
     input: binary
     url: http://bitblaze.cs.berkeley.edu/
+  BLT:
+    type: SMT solver
   Boolector:
     description: SMT solver
     paper: boolector
-    type: SMT
+    type: SMT solver
+    input: [SMT-LIB, SMT-LIB 2]
+    license: GPL 3
+    os: Linux
+    api: C
   CATG:
     input: Java
     github: ksen007/janala2
@@ -68,6 +77,10 @@ tools:
   Cloud9:
     input: LLVM bitcode
     url: http://cloud9.epfl.ch/
+  clsat:
+    type: SMT solver
+  CORAL:
+    type: SMT solver
   CREST:
     input: C
     github: jburnim/crest
@@ -80,23 +93,27 @@ tools:
     url: http://lpsolve.sourceforge.net/
   CVC:
     since: 2002
-    type: SMT
-    description: SMT solver
+    type: SMT solver
+    description: SMT solver, SAT-based (Chaff algorithm), Nelson-Oppen, no quantifiers
     based: Chaff
   CVC Lite:
     since: 2004
-    type: SMT
+    type: SMT solver
     description: SMT solver
   CVC3:
     description: SMT solver
     paper: cvc3
-    type: SMT
+    type: SMT solver
     based: MiniSat
   CVC4:
     since: 2011
-    type: SMT
+    type: SMT solver
     description: DPLL(T) SMT solver
     based: MiniSat
+    input: [SMT-LIB 2, CVC]
+    license: BSD
+    os: [Linux, macOS, Windows]
+    api: C++
   DART:
     since: 2005
     input: C
@@ -125,10 +142,14 @@ tools:
     since: 2006
     uses: STP
     input: binary
+  ExtSAT:
+    type: SMT solver
   Flayer:
     input: binary
     based: [valgrind, memcheck]
     paper: flayer
+  Fx7:
+    type: SMT solver
   FuzzBALL:
     input: binary
     url: http://bitblaze.cs.berkeley.edu/fuzzball.html
@@ -139,11 +160,15 @@ tools:
     type: SMT solver
     description: string constraints
     since: 2009
+  HTP:
+    type: SMT solver
   Java ThreadSanitizer:
     input: Java bytecode
   Jalangi2:
     input: JavaScript
     github: Samsung/jalangi2
+  Jat:
+    type: SMT solver
   JBSE:
     input: Java
     url: http://pietrobraione.github.io/jbse/
@@ -175,6 +200,12 @@ tools:
   LimeTB:
     input: Java
     url: http://www.tcs.hut.fi/Software/lime/
+  MathSAT:
+    type: SMT solver
+    input: [SMT-LIB 2]
+    license: proprietary
+    os: [Linux, macOs, Windows]
+    api: [C, C++, Python]
   Mayhem:
     input: binary
     uses: [Pin, BAP]
@@ -189,11 +220,18 @@ tools:
     input: DIMACS-CNF
     paper: minisat
     type: SAT solver
+  MiniSMT:
+    type: SMT solver
   Nort:
     since: 2014
     url: http://user.it.uu.se/~jarst116/norn/
     type: SMT solver
     description: string constraints
+  NuSMV:
+    type: SMT solver
+  OpenSMT:
+    type: SMT solver
+    input: [Princess native language, SMT-LIB 2, TPTP]
   Otter:
     input: C
     bitbucket: khooyp/otter
@@ -284,6 +322,12 @@ tools:
     type: SMT solver
     description: SMT solver, SAT: DPLL
     since: 2008
+  zChaff:
+    description: SMT solver based on Chaff algorithm
+    url: http://www.princeton.edu/~chaff/zchaff.html
+    type: SMT solver
+    since: 2001
+    license: free for noncommercial
 
 # There are only languages uses as input or output format for the tools
 # described above.
