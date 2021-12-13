@@ -1,0 +1,628 @@
+{
+    "tools": [
+        {
+            "name": "ABC",
+            "since": 2015,
+            "description": "string constraint solver and model counter",
+            "url": "https://vlab.cs.ucsb.edu/ABC/",
+            "github": "vlab-cs-ucsb/ABC",
+            "type": "SMT"
+        },
+        {
+            "name": "ABsolver",
+            "since": 2007,
+            "url": "http://absolver.sourceforge.net",
+            "os": "Linux",
+            "license": "CPL",
+            "input": [
+                "SMT-LIB 1.2",
+                "DIMACS"
+            ],
+            "api": "C++",
+            "technique": "DPLL",
+            "description": "arithmetic and Boolean solver, DPLL-based SMT solver"
+        },
+        {
+            "name": "ATOM",
+            "since": 1994,
+            "description": "instrumentation\nframework\n",
+            "affiliations": [
+                "Digital Equipment",
+                "California, Berkeley"
+            ]
+        },
+        {
+            "name": "Acteve",
+            "input": "Java",
+            "url": "https://code.google.com/archive/p/acteve/"
+        },
+        {
+            "name": "Alt Ergo",
+            "os": [
+                "Linux",
+                "macOS",
+                "Windows"
+            ],
+            "license": "CeCILL-C",
+            "input": [
+                "SMT-LIB 1.2",
+                "SMT-LIB 2",
+                "polymorphic first-order language"
+            ],
+            "api": "OCaml",
+            "technique": "SAT",
+            "description": "SAT-based SMT solver, Shostak-like and Nelson-Oppen"
+        },
+        {
+            "name": "angr",
+            "input": "binary",
+            "url": "http://angr.io/"
+        },
+        {
+            "name": "BAP",
+            "input": "binary",
+            "github": "BinaryAnalysisPlatform/bap"
+        },
+        {
+            "name": "Barcelogic",
+            "os": "Linux",
+            "license": "proprietary",
+            "input": [
+                "SMT-LIB 1.2"
+            ],
+            "api": "C++",
+            "technique": "DPLL",
+            "type": "SMT",
+            "description": "DPLL-based SMT solver, congruence closure"
+        },
+        {
+            "name": "Beaver",
+            "url": "http://uclid.eecs.berkeley.edu/jha/beaver-dist/beaver.html",
+            "os": [
+                "Linux",
+                "Windows"
+            ],
+            "license": "proprietary",
+            "input": [
+                "SMT-LIB 1.2"
+            ],
+            "description": "SAT-based SMT solver",
+            "type": "SMT",
+            "api": "C++"
+        },
+        {
+            "name": "BitBlaze",
+            "input": "binary",
+            "url": "http://bitblaze.cs.berkeley.edu/"
+        },
+        {
+            "name": "BLT",
+            "type": "SMT"
+        },
+        {
+            "name": "Boolector",
+            "description": "SMT solver",
+            "paper": "boolector",
+            "type": "SMT",
+            "input": [
+                "SMT-LIB",
+                "SMT-LIB 2"
+            ],
+            "license": "GPL 3",
+            "os": "Linux",
+            "api": "C"
+        },
+        {
+            "name": "CATG",
+            "input": "Java",
+            "github": "ksen007/janala2"
+        },
+        {
+            "name": "Chord",
+            "uses": [
+                "Javassist",
+                "bddbddb"
+            ],
+            "since": 2001,
+            "input": "Java"
+        },
+        {
+            "name": "CIVL",
+            "input": "C",
+            "url": "http://vsl.cis.udel.edu/civl/"
+        },
+        {
+            "name": "Cloud9",
+            "input": "LLVM bitcode",
+            "url": "http://cloud9.epfl.ch/"
+        },
+        {
+            "name": "clsat",
+            "type": "SMT"
+        },
+        {
+            "name": "CORAL",
+            "type": "SMT"
+        },
+        {
+            "name": "CREST",
+            "input": "C",
+            "github": "jburnim/crest"
+        },
+        {
+            "name": "CUTE",
+            "since": 2005,
+            "type": "DSE",
+            "uses": [
+                "CIL",
+                "lp_solve"
+            ],
+            "input": "C",
+            "description": "concolic testing",
+            "url": "http://lpsolve.sourceforge.net/"
+        },
+        {
+            "name": "CVC",
+            "since": 2002,
+            "type": "SMT",
+            "description": "SMT solver, SAT-based (Chaff algorithm), Nelson-Oppen, no quantifiers",
+            "based": "Chaff"
+        },
+        {
+            "name": "CVC Lite",
+            "since": 2004,
+            "type": "SMT",
+            "description": "SMT solver"
+        },
+        {
+            "name": "CVC3",
+            "description": "SMT solver",
+            "paper": "cvc3",
+            "type": "SMT",
+            "based": "MiniSat"
+        },
+        {
+            "name": "CVC4",
+            "since": 2011,
+            "type": "SMT",
+            "description": "DPLL(T) SMT solver",
+            "based": "MiniSat",
+            "input": [
+                "SMT-LIB 2",
+                "CVC"
+            ],
+            "license": "BSD",
+            "os": [
+                "Linux",
+                "macOS",
+                "Windows"
+            ],
+            "api": "C++"
+        },
+        {
+            "name": "DART",
+            "since": 2005,
+            "input": "C",
+            "uses": "lp_solve",
+            "based": "CIL",
+            "description": "random testing and direct execution"
+        },
+        {
+            "name": "DPrle",
+            "url": "http://www.cs.virginia.edu/~ph4u/dprle/",
+            "github": "seliopou/dprle",
+            "description": "decision procedure for systems of equations that consist of regular languages, concatenation, and grounded subset constraints"
+        },
+        {
+            "name": "Dyninst",
+            "paper": "dyninst",
+            "type": "dynamic instrumentation",
+            "description": "dynamic binary instrumentator",
+            "creator": "ParaDyn"
+        },
+        {
+            "name": "DynamoRIO",
+            "paper": "dynamorio",
+            "description": "dynamic binary instrumentator"
+        },
+        {
+            "name": "EFFIGY",
+            "since": 1976,
+            "descripton": "symbolic execution",
+            "language": "PL/I",
+            "affiliations": [
+                "IBM"
+            ],
+            "authors": [
+                "J. King"
+            ],
+            "type": "concolic"
+        },
+        {
+            "name": "EGT",
+            "since": 2005
+        },
+        {
+            "name": "Eraser",
+            "since": 1997,
+            "based": "ATOM",
+            "description": "data race detector, lockset and happens-before, binary rewriting"
+        },
+        {
+            "name": "EXE",
+            "since": 2006,
+            "uses": "STP",
+            "input": "binary"
+        },
+        {
+            "name": "ExtSAT",
+            "type": "SMT"
+        },
+        {
+            "name": "Flayer",
+            "input": "binary",
+            "based": [
+                "valgrind",
+                "memcheck"
+            ],
+            "paper": "flayer"
+        },
+        {
+            "name": "Fx7",
+            "type": "SMT"
+        },
+        {
+            "name": "FuzzBALL",
+            "input": "binary",
+            "url": "http://bitblaze.cs.berkeley.edu/fuzzball.html"
+        },
+        {
+            "name": "GSAT",
+            "description": "stochastic local search",
+            "paper": "gsat"
+        },
+        {
+            "name": "HAMPI",
+            "type": "SMT",
+            "description": "string constraints",
+            "since": 2009
+        },
+        {
+            "name": "HTP",
+            "type": "SMT"
+        },
+        {
+            "name": "Java ThreadSanitizer",
+            "input": "Java bytecode"
+        },
+        {
+            "name": "Jalangi2",
+            "input": "JavaScript",
+            "github": "Samsung/jalangi2"
+        },
+        {
+            "name": "Jat",
+            "type": "SMT"
+        },
+        {
+            "name": "JBSE",
+            "input": "Java",
+            "url": "http://pietrobraione.github.io/jbse/"
+        },
+        {
+            "name": "jCUTE",
+            "since": 2006,
+            "uses": [
+                "Soot",
+                "lp_solve"
+            ],
+            "input": "Java",
+            "type": "DSE",
+            "url": "http://osl.cs.illinois.edu/software/jcute/",
+            "description": "concolic testing"
+        },
+        {
+            "name": "JDart",
+            "input": "Java",
+            "github": "psycopaths/jdart"
+        },
+        {
+            "name": "JFuzz",
+            "input": "Java",
+            "url": "http://people.csail.mit.edu/akiezun/jfuzz/"
+        },
+        {
+            "name": "Key",
+            "input": "Java",
+            "url": "https://www.key-project.org/"
+        },
+        {
+            "name": "Kite",
+            "input": "LLVM bitcode",
+            "url": "http://www.cs.ubc.ca/labs/isd/Projects/Kite/"
+        },
+        {
+            "name": "KLEE",
+            "since": 2008,
+            "description": "online DSE, constraint optimizations",
+            "based": "LLVM",
+            "input": "bitcode LLVM",
+            "url": "http://klee.github.io/"
+        },
+        {
+            "name": "LimeTB",
+            "input": "Java",
+            "url": "http://www.tcs.hut.fi/Software/lime/"
+        },
+        {
+            "name": "massachusetts_fortran",
+            "since": 1976,
+            "descritption": "test generation,\nsymbolic execution\n",
+            "authors": [
+                "L. Clarke"
+            ],
+            "name": "",
+            "language": "Fortran",
+            "type": "concolic",
+            "affiliation": [
+                "Massachusetts"
+            ]
+        },
+        {
+            "name": "MathSAT",
+            "type": "SMT",
+            "input": [
+                "SMT-LIB 2"
+            ],
+            "license": "proprietary",
+            "os": [
+                "Linux",
+                "macOs",
+                "Windows"
+            ],
+            "api": [
+                "C",
+                "C++",
+                "Python"
+            ]
+        },
+        {
+            "name": "Mayhem",
+            "input": "binary",
+            "uses": [
+                "Pin",
+                "BAP"
+            ]
+        },
+        {
+            "name": "miasm",
+            "input": "binary",
+            "github": "cea-sec/miasm"
+        },
+        {
+            "name": "MINESTRONE",
+            "based": "KLEE",
+            "uses": "Pin",
+            "input": [
+                "C",
+                "C++"
+            ]
+        },
+        {
+            "name": "MiniSAT",
+            "input": "DIMACS-CNF",
+            "paper": "minisat",
+            "type": "SAT"
+        },
+        {
+            "name": "MiniSMT",
+            "type": "SMT"
+        },
+        {
+            "name": "Nort",
+            "since": 2014,
+            "url": "http://user.it.uu.se/~jarst116/norn/",
+            "type": "SMT",
+            "description": "string constraints"
+        },
+        {
+            "name": "NuSMV",
+            "type": "SMT"
+        },
+        {
+            "name": "OpenSMT",
+            "type": "SMT",
+            "input": [
+                "Princess native language",
+                "SMT-LIB 2",
+                "TPTP"
+            ]
+        },
+        {
+            "name": "Otter",
+            "input": "C",
+            "bitbucket": "khooyp/otter"
+        },
+        {
+            "name": "PathGrind",
+            "input": "binary",
+            "github": "codelion/pathgrind"
+        },
+        {
+            "name": "PEX",
+            "since": 2008,
+            "input": ".NET",
+            "url": "http://pex4fun.com/About.aspx",
+            "uses": "Z3"
+        },
+        {
+            "name": "Rex",
+            "type": "SMT",
+            "uses": "Z3",
+            "description": "regular expressions"
+        },
+        {
+            "name": "PyExZ3",
+            "input": "Python",
+            "github": "thomasjball/PyExZ3"
+        },
+        {
+            "name": "pysymemu",
+            "input": [
+                "x86",
+                "x64"
+            ],
+            "github": "feliam/pysymemu"
+        },
+        {
+            "name": "Rubyx",
+            "input": "Ruby"
+        },
+        {
+            "name": "S3",
+            "type": "SMT",
+            "based": "Z3-str",
+            "description": "string solver"
+        },
+        {
+            "name": "S3P",
+            "type": "SMT",
+            "based": "Z3",
+            "description": "string solver, progressive S3P"
+        },
+        {
+            "name": "SAGE",
+            "since": 2008,
+            "input": "x86",
+            "description": "concolic, fuzzing",
+            "uses": "Z3"
+        },
+        {
+            "name": "SELECT",
+            "since": 1976,
+            "description": "path constraints,\ntest generation,\nassertions check\n",
+            "language": "Lisp",
+            "authors": [
+                "R. S. Boyer",
+                "B. Elspas",
+                "K. N. Levitt"
+            ],
+            "type": "concolic",
+            "affiliations": [
+                "SRI"
+            ]
+        },
+        {
+            "name": "SMART",
+            "since": 2007,
+            "type": "DSE"
+        },
+        {
+            "name": "S2E",
+            "input": "binary",
+            "url": "http://s2e.epfl.ch/"
+        },
+        {
+            "name": "STP",
+            "paper": "stp"
+        },
+        {
+            "name": "SPIN",
+            "type": "model checker",
+            "since": 1997,
+            "affiliations": [
+                "Bell labs"
+            ],
+            "authors": [
+                "G. Holzmann"
+            ]
+        },
+        {
+            "name": "Splat",
+            "input": "C",
+            "since": 2008,
+            "uses": "STP",
+            "description": "symbolic length"
+        },
+        {
+            "name": "SVC",
+            "since": 1996,
+            "description": "validity checker",
+            "type": "SMT",
+            "affiliations": "Stanford",
+            "authors": "C. W. Barrett\nD. L. Dill\nJ. Levitt\n"
+        },
+        {
+            "name": "Symbolic Java Pathfinder",
+            "input": "Java",
+            "url": "https://babelfish.arc.nasa.gov/trac/jpf/wiki/projects/jpf-symbc"
+        },
+        {
+            "name": "SymJS",
+            "input": "JavaScript"
+        },
+        {
+            "name": "ThreadSanitizer",
+            "input": [
+                "c",
+                "cpp",
+                "go"
+            ],
+            "based": "valgrind"
+        },
+        {
+            "name": "Triton",
+            "input": "binary",
+            "url": "https://triton.quarkslab.com/"
+        },
+        {
+            "name": "UC KLEE",
+            "since": 2014,
+            "based": "KLEE"
+        },
+        {
+            "name": "Valgrind",
+            "paper": "valgrind",
+            "description": "dynamic binary instrumentator",
+            "ir": "VEX"
+        },
+        {
+            "name": "VeriSoft",
+            "since": 1997,
+            "type": "model checker",
+            "authors": [
+                "P. Godefroid"
+            ],
+            "affiliations": [
+                "Bell labs"
+            ]
+        },
+        {
+            "name": "WSAT",
+            "alias": "Walksat",
+            "description": "stochastic local search",
+            "paper": "gsat"
+        },
+        {
+            "name": "Yices",
+            "paper": "yices",
+            "since": 2006,
+            "type": "SMT",
+            "description": "SMT solver"
+        },
+        {
+            "name": "Z3",
+            "type": "SMT",
+            "description": "SMT solver, SAT: DPLL",
+            "since": 2008
+        },
+        {
+            "name": "zChaff",
+            "description": "SMT solver based on Chaff algorithm",
+            "url": "http://www.princeton.edu/~chaff/zchaff.html",
+            "type": "SMT",
+            "since": 2001,
+            "license": "free for noncommercial"
+        }
+    ]
+}
