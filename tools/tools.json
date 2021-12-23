@@ -14,13 +14,19 @@
             "url": "http://absolver.sourceforge.net",
             "os": "Linux",
             "license": "CPL",
-            "input": [
+            "languages": [
                 "SMT-LIB 1.2",
                 "DIMACS"
             ],
             "api": "C++",
             "technique": "DPLL",
             "description": "arithmetic and Boolean solver, DPLL-based SMT solver"
+        },
+        {
+            "name": "AEG",
+            "languages": ["C"],
+            "since": 2011,
+            "description": "exploit generator"
         },
         {
             "name": "ATOM",
@@ -33,7 +39,7 @@
         },
         {
             "name": "Acteve",
-            "input": "Java",
+            "languages": ["Java"],
             "url": "https://code.google.com/archive/p/acteve/"
         },
         {
@@ -44,7 +50,7 @@
                 "Windows"
             ],
             "license": "CeCILL-C",
-            "input": [
+            "languages": [
                 "SMT-LIB 1.2",
                 "SMT-LIB 2",
                 "polymorphic first-order language"
@@ -55,19 +61,21 @@
         },
         {
             "name": "angr",
-            "input": "binary",
-            "url": "http://angr.io/"
+            "languages": ["binary"],
+            "url": "http://angr.io/",
+            "since": 2016
         },
         {
             "name": "BAP",
-            "input": "binary",
-            "github": "BinaryAnalysisPlatform/bap"
+            "languages": ["binary"],
+            "github": "BinaryAnalysisPlatform/bap",
+            "since": 2011
         },
         {
             "name": "Barcelogic",
             "os": "Linux",
             "license": "proprietary",
-            "input": [
+            "languages": [
                 "SMT-LIB 1.2"
             ],
             "api": "C++",
@@ -83,7 +91,7 @@
                 "Windows"
             ],
             "license": "proprietary",
-            "input": [
+            "languages": [
                 "SMT-LIB 1.2"
             ],
             "description": "SAT-based SMT solver",
@@ -92,8 +100,9 @@
         },
         {
             "name": "BitBlaze",
-            "input": "binary",
-            "url": "http://bitblaze.cs.berkeley.edu/"
+            "languages": ["binary"],
+            "url": "http://bitblaze.cs.berkeley.edu/",
+            "since": 2008
         },
         {
             "name": "BLT",
@@ -104,7 +113,7 @@
             "description": "SMT solver",
             "paper": "boolector",
             "type": "SMT",
-            "input": [
+            "languages": [
                 "SMT-LIB",
                 "SMT-LIB 2"
             ],
@@ -114,7 +123,7 @@
         },
         {
             "name": "CATG",
-            "input": "Java",
+            "languages": ["Java"],
             "github": "ksen007/janala2"
         },
         {
@@ -124,16 +133,16 @@
                 "bddbddb"
             ],
             "since": 2001,
-            "input": "Java"
+            "languages": ["Java"]
         },
         {
             "name": "CIVL",
-            "input": "C",
+            "languages": ["C"],
             "url": "http://vsl.cis.udel.edu/civl/"
         },
         {
             "name": "Cloud9",
-            "input": "LLVM bitcode",
+            "languages": ["LLVM bitcode"],
             "url": "http://cloud9.epfl.ch/"
         },
         {
@@ -146,18 +155,18 @@
         },
         {
             "name": "CREST",
-            "input": "C",
+            "languages": ["C"],
             "github": "jburnim/crest"
         },
         {
             "name": "CUTE",
             "since": 2005,
-            "type": "DSE",
+            "type": "concolic",
             "uses": [
                 "CIL",
                 "lp_solve"
             ],
-            "input": "C",
+            "languages": ["C"],
             "description": "concolic testing",
             "url": "http://lpsolve.sourceforge.net/"
         },
@@ -179,7 +188,8 @@
             "description": "SMT solver",
             "paper": "cvc3",
             "type": "SMT",
-            "based": "MiniSat"
+            "based": "MiniSat",
+            "since": 2007
         },
         {
             "name": "CVC4",
@@ -187,7 +197,7 @@
             "type": "SMT",
             "description": "DPLL(T) SMT solver",
             "based": "MiniSat",
-            "input": [
+            "languages": [
                 "SMT-LIB 2",
                 "CVC"
             ],
@@ -202,10 +212,10 @@
         {
             "name": "DART",
             "since": 2005,
-            "input": "C",
+            "languages": ["C"],
             "uses": "lp_solve",
             "based": "CIL",
-            "description": "random testing and direct execution"
+            "description": "random testing\nand direct\nexecution"
         },
         {
             "name": "DPrle",
@@ -214,22 +224,29 @@
             "description": "decision procedure for systems of equations that consist of regular languages, concatenation, and grounded subset constraints"
         },
         {
+            "name": "DTA++",
+            "since": 2011,
+            "languages": ["binary"]
+        },
+        {
             "name": "Dyninst",
             "paper": "dyninst",
             "type": "dynamic instrumentation",
             "description": "dynamic binary instrumentator",
-            "creator": "ParaDyn"
+            "creator": "ParaDyn",
+            "since": 1999
         },
         {
             "name": "DynamoRIO",
             "paper": "dynamorio",
-            "description": "dynamic binary instrumentator"
+            "description": "dynamic binary instrumentator",
+            "since": 2002
         },
         {
             "name": "EFFIGY",
             "since": 1976,
-            "descripton": "symbolic execution",
-            "language": "PL/I",
+            "description": "symbolic execution",
+            "languages": ["PL/I"],
             "affiliations": [
                 "IBM"
             ],
@@ -252,7 +269,7 @@
             "name": "EXE",
             "since": 2006,
             "uses": "STP",
-            "input": "binary"
+            "languages": ["binary"]
         },
         {
             "name": "ExtSAT",
@@ -260,12 +277,13 @@
         },
         {
             "name": "Flayer",
-            "input": "binary",
+            "languages": ["binary"],
             "based": [
                 "valgrind",
                 "memcheck"
             ],
-            "paper": "flayer"
+            "paper": "flayer",
+            "since": 2007
         },
         {
             "name": "Fx7",
@@ -273,8 +291,33 @@
         },
         {
             "name": "FuzzBALL",
-            "input": "binary",
-            "url": "http://bitblaze.cs.berkeley.edu/fuzzball.html"
+            "languages": ["binary"],
+            "url": "http://bitblaze.cs.berkeley.edu/fuzzball.html",
+            "since": 2012
+        },
+        {
+            "name": "Galactica",
+            "since": 2016,
+            "type": "concolic"
+        },
+        {
+            "name": "ISSTAC",
+            "since": 2016,
+            "type": "concolic"
+        },
+        {
+            "name": "dReal",
+            "since": 2013,
+            "type": "SMT"
+        },
+        {
+            "name": "Java PathFinder",
+            "since": 1998
+        },
+        {
+            "name": "UC-KLEE",
+            "since": 2014,
+            "type": "concolic"
         },
         {
             "name": "GSAT",
@@ -293,11 +336,16 @@
         },
         {
             "name": "Java ThreadSanitizer",
-            "input": "Java bytecode"
+            "languages": ["Java bytecode"]
+        },
+        {
+            "name": "Jalangi",
+            "languages": ["JavaScript"],
+            "since": 2013
         },
         {
             "name": "Jalangi2",
-            "input": "JavaScript",
+            "languages": ["JavaScript"],
             "github": "Samsung/jalangi2"
         },
         {
@@ -306,7 +354,7 @@
         },
         {
             "name": "JBSE",
-            "input": "Java",
+            "languages": ["Java"],
             "url": "http://pietrobraione.github.io/jbse/"
         },
         {
@@ -316,29 +364,31 @@
                 "Soot",
                 "lp_solve"
             ],
-            "input": "Java",
-            "type": "DSE",
+            "languages": ["Java"],
+            "type": "concolic",
             "url": "http://osl.cs.illinois.edu/software/jcute/",
             "description": "concolic testing"
         },
         {
             "name": "JDart",
-            "input": "Java",
-            "github": "psycopaths/jdart"
+            "languages": ["Java"],
+            "github": "psycopaths/jdart",
+            "since": 2016
         },
         {
-            "name": "JFuzz",
-            "input": "Java",
+            "name": "jFuzz",
+            "since": 2009,
+            "languages": ["Java"],
             "url": "http://people.csail.mit.edu/akiezun/jfuzz/"
         },
         {
             "name": "Key",
-            "input": "Java",
+            "languages": ["Java"],
             "url": "https://www.key-project.org/"
         },
         {
             "name": "Kite",
-            "input": "LLVM bitcode",
+            "languages": ["LLVM bitcode"],
             "url": "http://www.cs.ubc.ca/labs/isd/Projects/Kite/"
         },
         {
@@ -346,23 +396,33 @@
             "since": 2008,
             "description": "online DSE, constraint optimizations",
             "based": "LLVM",
-            "input": "bitcode LLVM",
+            "languages": ["bitcode LLVM"],
             "url": "http://klee.github.io/"
         },
         {
+            "name": "Lean",
+            "type": "SMT",
+            "since": 2013
+        },
+        {
+            "name": "LESE",
+            "description": "loop-based extended SE",
+            "since": 2009,
+            "languages": ["binary"]
+        },
+        {
             "name": "LimeTB",
-            "input": "Java",
+            "languages": ["Java"],
             "url": "http://www.tcs.hut.fi/Software/lime/"
         },
         {
-            "name": "massachusetts_fortran",
+            "name": "massachusetts.fortran",
             "since": 1976,
-            "descritption": "test generation,\nsymbolic execution\n",
+            "description": "test generation,\nsymbolic execution\n",
             "authors": [
                 "L. Clarke"
             ],
-            "name": "",
-            "language": "Fortran",
+            "languages": ["Fortran"],
             "type": "concolic",
             "affiliation": [
                 "Massachusetts"
@@ -371,7 +431,7 @@
         {
             "name": "MathSAT",
             "type": "SMT",
-            "input": [
+            "languages": [
                 "SMT-LIB 2"
             ],
             "license": "proprietary",
@@ -388,31 +448,34 @@
         },
         {
             "name": "Mayhem",
-            "input": "binary",
+            "languages": ["binary"],
             "uses": [
                 "Pin",
                 "BAP"
-            ]
+            ],
+            "since": 2012
         },
         {
             "name": "miasm",
-            "input": "binary",
+            "languages": ["binary"],
             "github": "cea-sec/miasm"
         },
         {
             "name": "MINESTRONE",
+            "since": 2011,
             "based": "KLEE",
             "uses": "Pin",
-            "input": [
+            "languages": [
                 "C",
                 "C++"
             ]
         },
         {
             "name": "MiniSAT",
-            "input": "DIMACS-CNF",
+            "languages": ["DIMACS-CNF"],
             "paper": "minisat",
-            "type": "SAT"
+            "type": "SAT",
+            "since": 2003
         },
         {
             "name": "MiniSMT",
@@ -426,13 +489,19 @@
             "description": "string constraints"
         },
         {
+            "name": "MergePoint",
+            "since": 2014,
+            "description": "veritesting: switch\nbetween DSE\nand SSE",
+            "languages": ["binary"]
+        },
+        {
             "name": "NuSMV",
             "type": "SMT"
         },
         {
             "name": "OpenSMT",
             "type": "SMT",
-            "input": [
+            "languages": [
                 "Princess native language",
                 "SMT-LIB 2",
                 "TPTP"
@@ -440,18 +509,20 @@
         },
         {
             "name": "Otter",
-            "input": "C",
-            "bitbucket": "khooyp/otter"
+            "languages": ["C"],
+            "bitbucket": "khooyp/otter",
+            "since": 2011
         },
         {
             "name": "PathGrind",
-            "input": "binary",
-            "github": "codelion/pathgrind"
+            "languages": ["binary"],
+            "github": "codelion/pathgrind",
+            "since": 2014
         },
         {
-            "name": "PEX",
+            "name": "Pex",
             "since": 2008,
-            "input": ".NET",
+            "languages": [".NET"],
             "url": "http://pex4fun.com/About.aspx",
             "uses": "Z3"
         },
@@ -459,16 +530,24 @@
             "name": "Rex",
             "type": "SMT",
             "uses": "Z3",
-            "description": "regular expressions"
+            "description": "regular expressions",
+            "since": 2010
+        },
+        {
+            "name": "Rosette",
+            "since": 2013,
+            "langauge": "Rosette",
+            "description": "symbolic\nvirtual\nmachine"
         },
         {
             "name": "PyExZ3",
-            "input": "Python",
-            "github": "thomasjball/PyExZ3"
+            "languages": ["Python"],
+            "github": "thomasjball/PyExZ3",
+            "since": 2016
         },
         {
             "name": "pysymemu",
-            "input": [
+            "languages": [
                 "x86",
                 "x64"
             ],
@@ -476,7 +555,7 @@
         },
         {
             "name": "Rubyx",
-            "input": "Ruby"
+            "languages": ["Ruby"]
         },
         {
             "name": "S3",
@@ -493,7 +572,7 @@
         {
             "name": "SAGE",
             "since": 2008,
-            "input": "x86",
+            "languages": ["x86"],
             "description": "concolic, fuzzing",
             "uses": "Z3"
         },
@@ -501,7 +580,7 @@
             "name": "SELECT",
             "since": 1976,
             "description": "path constraints,\ntest generation,\nassertions check\n",
-            "language": "Lisp",
+            "languages": ["Lisp"],
             "authors": [
                 "R. S. Boyer",
                 "B. Elspas",
@@ -515,16 +594,17 @@
         {
             "name": "SMART",
             "since": 2007,
-            "type": "DSE"
+            "type": "concolic"
         },
         {
             "name": "S2E",
-            "input": "binary",
+            "languages": ["binary"],
             "url": "http://s2e.epfl.ch/"
         },
         {
             "name": "STP",
-            "paper": "stp"
+            "paper": "stp",
+            "since": 2007
         },
         {
             "name": "SPIN",
@@ -539,7 +619,7 @@
         },
         {
             "name": "Splat",
-            "input": "C",
+            "languages": ["C"],
             "since": 2008,
             "uses": "STP",
             "description": "symbolic length"
@@ -550,20 +630,20 @@
             "description": "validity checker",
             "type": "SMT",
             "affiliations": "Stanford",
-            "authors": "C. W. Barrett\nD. L. Dill\nJ. Levitt\n"
+            "authors": ["C. W. Barrett", "D. L. Dill", "J. Levitt"]
         },
         {
             "name": "Symbolic Java Pathfinder",
-            "input": "Java",
+            "languages": ["Java"],
             "url": "https://babelfish.arc.nasa.gov/trac/jpf/wiki/projects/jpf-symbc"
         },
         {
             "name": "SymJS",
-            "input": "JavaScript"
+            "languages": ["JavaScript"]
         },
         {
             "name": "ThreadSanitizer",
-            "input": [
+            "languages": [
                 "c",
                 "cpp",
                 "go"
@@ -572,7 +652,7 @@
         },
         {
             "name": "Triton",
-            "input": "binary",
+            "languages": ["binary"],
             "url": "https://triton.quarkslab.com/"
         },
         {
@@ -623,6 +703,96 @@
             "type": "SMT",
             "since": 2001,
             "license": "free for noncommercial"
+        },
+        {
+            "name": "PathCrawler",
+            "since": 2005,
+            "languages": ["C"],
+            "type": "concolic"
+        },
+        {
+            "name": "GlassTT",
+            "since": 2004,
+            "type": "concolic",
+            "languages": ["Java"]
+        },
+        {
+            "name": "Peach",
+            "since": 2000,
+            "type": "fuzzer"
+        },
+        {
+            "name": "JNuke",
+            "since": 2004,
+            "type": "model checker",
+            "languages": ["Java"]
+        },
+        {
+            "name": "Autodafé",
+            "since": 2005,
+            "affiliations": ["EPFL"]
+        },
+        {
+            "name": "JPF-SE",
+            "languages": ["Java"],
+            "type": "concolic",
+            "since": 2007
+        },
+        {
+            "name": "Symbolic PathFinder",
+            "since": 2010,
+            "type": "concolic"
+        },
+        {
+            "name": "Dytan",
+            "since": 2007,
+            "type": "concolic"
+        },
+        {
+            "name": "Pathgrind",
+            "since": 2014,
+            "type": "concolic"
+        },
+        {
+            "name": "Firmalice",
+            "since": 2015,
+            "type": "concolic"
+        },
+        {
+            "name": "PIN",
+            "since": 2007,
+            "type": "dynamic instrumentation"
+        },
+        {
+            "name": "Cinger",
+            "languages": ["Java"],
+            "type": "concolic",
+            "since": 2010
+        },
+        {
+            "name": "Green Solver",
+            "type": "SMT",
+            "since": 2012
+        },
+        {
+            "name": "AXGEN",
+            "type": "concolic_one_path",
+            "description": "exploit generaton",
+            "languages": ["binary"],
+            "since": 2009
+        },
+        {
+            "name": "Debugger",
+            "type": "static symbolic execution"
+        },
+        {
+            "name": "ILLITHID",
+            "type": "static symbolic execution"
+        },
+        {
+            "name": "DISSECT",
+            "since": 1977,
+            "authors": ["W. Howden"]
         }
     ]
 }
