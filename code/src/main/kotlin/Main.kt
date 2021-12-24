@@ -212,27 +212,27 @@ private data class Timeline(val tools: List<Tool>, val scheme: ColorScheme, val 
             val parts = line.split(" ")
 
             if (parts[0] == "->") {
-                var tool = toolMap[parts[1].replace("_", " ")] ?: throw NotImplementedError(parts[1])
+                var tool = toolMap[parts[1]] ?: throw NotImplementedError(parts[1])
                 for (i in 2 until parts.size) {
-                    val tool2 = toolMap[parts[i].replace("_", " ")] ?: throw NotImplementedError(parts[i])
+                    val tool2 = toolMap[parts[i]] ?: throw NotImplementedError(parts[i])
                     tool2.position.x = tool.position.x + tool.size.x + STEP
                     tool = tool2
                 }
 
             } else if (parts[0] == "v") {
-                val tool = toolMap[parts[1].replace("_", " ")] ?: throw NotImplementedError(parts[1])
+                val tool = toolMap[parts[1]] ?: throw NotImplementedError(parts[1])
                 for (i in 2 until parts.size) {
-                    val tool2 = toolMap[parts[i].replace("_", " ")] ?: throw NotImplementedError(parts[i])
+                    val tool2 = toolMap[parts[i]] ?: throw NotImplementedError(parts[i])
                     tool2.position.x = tool.position.x
                 }
 
             } else if (parts.size == 2) {
-                val tool = toolMap[parts[0].replace("_", " ")] ?: throw NotImplementedError(parts[0])
+                val tool = toolMap[parts[0]] ?: throw NotImplementedError(parts[0])
                 tool.position.x = parts[1].toDouble()
 
             } else if (parts.size == 3) {
-                val tool = toolMap[parts[0].replace("_", " ")] ?: throw NotImplementedError(parts[0])
-                val tool2 = toolMap[parts[2].replace("_", " ")] ?: throw NotImplementedError(parts[2])
+                val tool = toolMap[parts[0]] ?: throw NotImplementedError(parts[0])
+                val tool2 = toolMap[parts[2]] ?: throw NotImplementedError(parts[2])
 
                 when (parts[1]) {
                     "->" -> tool2.position.x = tool.position.x + tool.size.x + STEP

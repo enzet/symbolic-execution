@@ -179,6 +179,7 @@
         },
         {
             "name": "CVC Lite",
+            "id": "CVC_Lite",
             "since": 2004,
             "type": "SMT",
             "description": "SMT solver"
@@ -312,6 +313,7 @@
         },
         {
             "name": "Java PathFinder",
+            "id": "Java_PathFinder",
             "since": 1998
         },
         {
@@ -740,6 +742,7 @@
         },
         {
             "name": "Symbolic PathFinder",
+            "id": "Symbolic_PathFinder",
             "since": 2010,
             "type": "concolic"
         },
@@ -771,6 +774,7 @@
         },
         {
             "name": "Green Solver",
+            "id": "Green_Solver",
             "type": "SMT",
             "since": 2012
         },
