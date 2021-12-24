@@ -1,4 +1,3 @@
-import kotlin.collections.listOf
 import kotlinx.serialization.SerialName
 import kotlinx.serialization.Serializable
 import kotlinx.serialization.decodeFromString
@@ -46,32 +45,32 @@ class ColorScheme {
         return when (type) {
             ToolType.CONCOLIC -> "#E4D3C2"
             ToolType.CONCOLIC_ONE_PATH -> "#CAB7A3"
-            ToolType.SAT -> "#ADC57D"
-            ToolType.SMT -> "#C8DAA4"
-            ToolType.MODEL_CHECKER -> "#E0BBBB"
-            ToolType.STATIC_SYMBOLIC_EXECUTION -> "#C4DAD2"
-            ToolType.STATIC_INSTRUMENTATION -> "#E0CFEB"
             ToolType.DYNAMIC_INSTRUMENTATION -> "#CFB6E0"
             ToolType.FUZZER -> "#E4E1A8"
+            ToolType.MODEL_CHECKER -> "#E0BBBB"
+            ToolType.SAT -> "#ADC57D"
+            ToolType.SMT -> "#C8DAA4"
+            ToolType.STATIC_INSTRUMENTATION -> "#E0CFEB"
+            ToolType.STATIC_SYMBOLIC_EXECUTION -> "#C4DAD2"
         }
     }
 
     fun getLanguageColor(language: String): String {
         return when (language) {
-            "binary" -> "#887f73"
+            ".NET" -> "#178600"
             "C" -> "#555555"
             "C++" -> "#f34b7d"
-            "Java" -> "#B07219"
-            "Java bytecode" -> "#B07219"
             "Fortran" -> "#4d41b1"
-            "Lisp" -> "#3fb68b"
-            ".NET" -> "#178600"
+            "Java bytecode" -> "#B07219"
+            "Java" -> "#B07219"
             "JavaScript" -> "#F1E05A"
+            "Lisp" -> "#3fb68b"
             "PL/I" -> "#6d3b9f"
             "Python" -> "#3572a5"
             "Rosette" -> "#22228f"
             "SMT-LIB 1.2" -> "#C8DAA4"
             "SMT-LIB 2" -> "#C8DAA4"
+            "binary" -> "#887f73"
             else -> "#888888"
         }
     }
@@ -96,50 +95,35 @@ data class ToolPicture(val tool: Tool, var position: Vector = Vector(), var size
         size = Vector(120.0, if (tool.description == "") 60.0 else 74.0)
     }
 
+    private fun addText(
+        svg: SVG, text: String, position: Vector, fontSize: Double = 11.0, letterSpacing: Double = 0.0
+    ) {
+        val textElement = Text(
+            text,
+            position,
+            fontFamily = "Roboto",
+            fontWeight = 300,
+            fontSize = fontSize,
+            fill = "#363228",
+            letterSpacing = letterSpacing,
+        )
+        svg.add(textElement)
+    }
+
     fun draw(svg: SVG, scheme: ColorScheme) {
-        svg.add(Rectangle(position, size, fill = scheme.getColor(tool.type)))
-        svg.add(
-            Text(
-                tool.name,
-                position + Vector(10.0, 30.0),
-                letterSpacing = if (tool.name.uppercase() == tool.name) 1.8 else 0.0,
-                fontFamily = "Roboto",
-                fontWeight = 300,
-                fontSize = 18.0,
-                fill = "#363228",
-            )
+        svg.add(Rectangle(position, size, fill = scheme.getColor(tool.type), rx = 5.0))
+        addText(
+            svg,
+            tool.name,
+            position + Vector(10.0, 30.0),
+            letterSpacing = if (tool.name.uppercase() == tool.name) 1.8 else 0.0,
+            fontSize = 18.0,
         )
-        svg.add(
-            Text(
-                tool.since.toString(),
-                position + Vector(10.0, 44.0),
-                fontFamily = "Roboto",
-                fontWeight = 300,
-                fontSize = 11.0,
-                fill = "#363228",
-            )
-        )
-        svg.add(
-            Text(
-                tool.description,
-                position + Vector(10.0, 56.0),
-                fontFamily = "Roboto",
-                fontWeight = 300,
-                fontSize = 11.0,
-                fill = "#363228",
-            )
-        )
+        addText(svg, tool.since.toString(), position + Vector(10.0, 44.0), fontSize = 11.0)
+        addText(svg, tool.description, position + Vector(10.0, 56.0), fontSize = 11.0)
+
         for (author in tool.authors) {
-            svg.add(
-                Text(
-                    author,
-                    position + Vector(0.0, size.y + 20.0),
-                    fontFamily = "Roboto",
-                    fontWeight = 300,
-                    fontSize = 11.0,
-                    fill = "#363228"
-                )
-            )
+            addText(svg, author, position + Vector(0.0, size.y + 20.0), fontSize = 11.0)
         }
         if (tool.languages.isNotEmpty()) {
             var x = 0.0
@@ -149,7 +133,8 @@ data class ToolPicture(val tool: Tool, var position: Vector = Vector(), var size
                     Rectangle(
                         position + Vector(x, -25.0),
                         Vector(width, 20.0),
-                        scheme.getLanguageColor(language)
+                        scheme.getLanguageColor(language),
+                        rx = 5.0,
                     )
                 )
                 svg.add(
@@ -196,8 +181,8 @@ private data class Timeline(val tools: List<Tool>, val scheme: ColorScheme, val 
     val toolMap: HashMap<String, ToolPicture> = HashMap()
     val affiliations: ArrayList<AffiliationPicture> = ArrayList()
 
-    var minYear = 1994;
-    var maxYear = 1994;
+    var minYear = 1994
+    var maxYear = 1994
 
     init {
         for (tool in tools) {
@@ -221,7 +206,7 @@ private data class Timeline(val tools: List<Tool>, val scheme: ColorScheme, val 
                 }
 
             } else if (parts[0] == "v") {
-                var tool = toolMap[parts[1].replace("_", " ")] ?: throw NotImplementedError(parts[1])
+                val tool = toolMap[parts[1].replace("_", " ")] ?: throw NotImplementedError(parts[1])
                 for (i in 2 until parts.size) {
                     val tool2 = toolMap[parts[i].replace("_", " ")] ?: throw NotImplementedError(parts[i])
                     tool2.position.x = tool.position.x
@@ -250,7 +235,7 @@ private data class Timeline(val tools: List<Tool>, val scheme: ColorScheme, val 
                 }
 
             } else {
-                val affiliation = parts[0]
+                // TODO: parts[0] is affiliation.
                 val picture = AffiliationPicture()
                 for (i in 2 until parts.size) {
                     toolMap[parts[i]]?.let { picture.add(it) }

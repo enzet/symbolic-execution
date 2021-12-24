@@ -22,16 +22,14 @@ class Rectangle(
     private val end: Vector,
     private val fill: String = "black",
     private val opacity: Double = 1.0,
-    private val rx: Double = 5.0,
+    private val rx: Double,
 ) : SVGElement() {
 
     override fun toSVG(): String {
         return "<rect " +
                 "rx=\"$rx\" " +
-                "x=\"${start.x}\" " +
-                "y=\"${start.y}\" " +
-                "width=\"${end.x}\" " +
-                "height=\"${end.y}\" " +
+                "${start.toSVGCoordinates()} " +
+                "${end.toSVGSize()} " +
                 "fill=\"$fill\" " +
                 "opacity=\"$opacity\" " +
                 "/>"
