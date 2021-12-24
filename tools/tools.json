@@ -793,6 +793,17 @@
             "name": "DISSECT",
             "since": 1977,
             "authors": ["W. Howden"]
+        },
+        {
+            "name": "Grammar-\nbased\nwhitebox\nfuzzing",
+            "id": "GrammarBased",
+            "since": 2008,
+            "type": "paper",
+            "authors": [
+                "P. Godefroid",
+                "A. Kiezun",
+                "M. Y. Levin"
+            ]
         }
     ]
 }

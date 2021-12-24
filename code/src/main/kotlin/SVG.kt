@@ -21,6 +21,7 @@ class Rectangle(
     private val start: Vector,
     private val end: Vector,
     private val fill: String = "black",
+    private val stroke: String = "none",
     private val opacity: Double = 1.0,
     private val rx: Double,
 ) : SVGElement() {
@@ -31,6 +32,7 @@ class Rectangle(
                 "${start.toSVGCoordinates()} " +
                 "${end.toSVGSize()} " +
                 "fill=\"$fill\" " +
+                "stroke=\"$stroke\" " +
                 "opacity=\"$opacity\" " +
                 "/>"
     }

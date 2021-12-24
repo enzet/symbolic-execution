@@ -6,8 +6,11 @@ import java.io.File
 
 const val STEP: Int = 20
 
+/**
+ * Type of diagram element: instrument or white paper.
+ */
 @Serializable
-enum class ToolType {
+enum class ElementType {
     /** Concolic (dynamic symbolic execution) with path exploration. */
     @SerialName("concolic")
     CONCOLIC,
@@ -38,20 +41,27 @@ enum class ToolType {
 
     @SerialName("fuzzer")
     FUZZER,
+
+    /**
+     * White paper without instrument.
+     */
+    @SerialName("paper")
+    PAPER
 }
 
 class ColorScheme {
-    fun getColor(type: ToolType): String {
+    fun getColor(type: ElementType): String {
         return when (type) {
-            ToolType.CONCOLIC -> "#E4D3C2"
-            ToolType.CONCOLIC_ONE_PATH -> "#CAB7A3"
-            ToolType.DYNAMIC_INSTRUMENTATION -> "#CFB6E0"
-            ToolType.FUZZER -> "#E4E1A8"
-            ToolType.MODEL_CHECKER -> "#E0BBBB"
-            ToolType.SAT -> "#ADC57D"
-            ToolType.SMT -> "#C8DAA4"
-            ToolType.STATIC_INSTRUMENTATION -> "#E0CFEB"
-            ToolType.STATIC_SYMBOLIC_EXECUTION -> "#C4DAD2"
+            ElementType.CONCOLIC -> "#E4D3C2"
+            ElementType.CONCOLIC_ONE_PATH -> "#CAB7A3"
+            ElementType.DYNAMIC_INSTRUMENTATION -> "#CFB6E0"
+            ElementType.FUZZER -> "#E4E1A8"
+            ElementType.MODEL_CHECKER -> "#E0BBBB"
+            ElementType.SAT -> "#ADC57D"
+            ElementType.SMT -> "#C8DAA4"
+            ElementType.STATIC_INSTRUMENTATION -> "#E0CFEB"
+            ElementType.STATIC_SYMBOLIC_EXECUTION -> "#C4DAD2"
+            else -> "none"
         }
     }
 
@@ -82,8 +92,9 @@ class Config(val tools: List<Tool>)
 @Serializable
 open class Tool(
     val since: Int = 1994,
-    val type: ToolType = ToolType.CONCOLIC,
+    val type: ElementType = ElementType.CONCOLIC,
     val name: String,
+    val id: String = name,
     val authors: List<String> = ArrayList(),
     val description: String = "",
     val languages: List<String> = ArrayList(),
@@ -111,7 +122,8 @@ data class ToolPicture(val tool: Tool, var position: Vector = Vector(), var size
     }
 
     fun draw(svg: SVG, scheme: ColorScheme) {
-        svg.add(Rectangle(position, size, fill = scheme.getColor(tool.type), rx = 5.0))
+        val stroke = if (tool.type == ElementType.PAPER) "#888888" else "none"
+        svg.add(Rectangle(position, size, fill = scheme.getColor(tool.type), stroke = stroke, rx = 5.0))
         addText(
             svg,
             tool.name,
@@ -186,7 +198,7 @@ private data class Timeline(val tools: List<Tool>, val scheme: ColorScheme, val 
 
     init {
         for (tool in tools) {
-            toolMap[tool.name] = ToolPicture(tool)
+            toolMap[tool.id] = ToolPicture(tool)
             minYear = minYear.coerceAtMost(tool.since)
             maxYear = maxYear.coerceAtLeast(tool.since)
         }

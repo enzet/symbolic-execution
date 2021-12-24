@@ -10,6 +10,7 @@ v Chord EGT STP
 
 HAMPI 730
 HAMPI -> jFuzz
+jFuzz ^ GrammarBased
 jFuzz -> Z3
 Z3 ^ Yices
 Z3 -> Pex
