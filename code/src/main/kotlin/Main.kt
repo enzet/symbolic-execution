@@ -134,8 +134,10 @@ data class ToolPicture(val tool: Tool, var position: Vector = Vector(), var size
         addText(svg, tool.since.toString(), position + Vector(10.0, 44.0), fontSize = 11.0)
         addText(svg, tool.description, position + Vector(10.0, 56.0), fontSize = 11.0)
 
+        var y = size.y + 15.0
         for (author in tool.authors) {
-            addText(svg, author, position + Vector(0.0, size.y + 20.0), fontSize = 11.0)
+            addText(svg, author, position + Vector(0.0, y), fontSize = 11.0)
+            y += 12
         }
         if (tool.languages.isNotEmpty()) {
             var x = 0.0
