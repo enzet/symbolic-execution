@@ -294,54 +294,6 @@ fun main() {
     val scheme = ColorScheme()
     val svg = SVG()
 
-    val timeline = Timeline(
-        config.tools, scheme, listOf(
-            "VeriSoft 1130",
-            "VeriSoft -> SPIN",
-            "SPIN v DART",
-            "DART -> CUTE",
-            "CUTE v jCUTE",
-            "SVC 410",
-            "v SVC CVC CVC_Lite EXE KLEE MINESTRONE UC-KLEE",
-            "SVC -> Chord",
-            "v Chord EGT STP",
-
-            "HAMPI 730",
-            "HAMPI -> jFuzz",
-            "jFuzz -> Z3",
-            "Z3 ^ Yices",
-            "Z3 -> Pex",
-            "Z3 v Rex",
-            "Rex -> SAGAN + JobCenter",
-            "Pex -> Splat",
-            "Pex v Lean",
-            "Pex v PyExZ3",
-            "Splat -> SAGE",
-            "SAGE -> BitBlaze",
-            "BitBlaze v LESE",
-            "LESE v DTA++",
-            "v DTA++ FuzzBALL Rosette Galactica",
-            "Rosette <- Jalangi",
-
-            "DTA++ -> AEG",
-            "AEG -> BAP",
-            "AEG v Mayhem",
-            "Mayhem v MergePoint",
-            "MergePoint v ISSTAC",
-            "BAP v dReal",
-
-            "BAP -> EFFIGY",
-            "-> EFFIGY SELECT massachusetts.fortran PathCrawler GlassTT Peach JNuke Autodafé",
-            "v EFFIGY Java_PathFinder JPF-SE Symbolic_PathFinder JDart",
-            "v SELECT Dyninst DynamoRIO Dytan Cinger Green_Solver Pathgrind Firmalice angr",
-            "v massachusetts.fortran Valgrind PIN AXGEN Debugger ILLITHID",
-
-            "Stanford [ SVC Chord UC-KLEE ]",
-            "Bell_labs [ VeriSoft SPIN DART ]",
-            "MIT [ HAMPI jFuzz ]",
-
-            "GlassTT v Flayer",
-        )
-    )
+    val timeline = Timeline(config.tools, scheme, File("diagram/config").readLines())
     timeline.draw(svg)
 }
