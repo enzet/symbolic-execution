@@ -107,8 +107,8 @@ data class ToolPicture(val tool: Tool, var position: Vector = Vector(), var size
     }
 
     private fun addText(
-        svg: SVG, text: String, position: Vector, fontSize: Double = 11.0, letterSpacing: Double = 0.0
-    ) = svg.add(
+        xml: XML, text: String, position: Vector, fontSize: Double = 11.0, letterSpacing: Double = 0.0
+    ) = xml.add(
         "text", position.toMap() + mapOf(
             "font-family" to "Roboto",
             "font-weight" to 300,
@@ -118,9 +118,9 @@ data class ToolPicture(val tool: Tool, var position: Vector = Vector(), var size
         ), text
     )
 
-    fun draw(svg: SVG, scheme: ColorScheme) {
+    fun draw(xml: XML, scheme: ColorScheme) {
         val stroke = if (tool.type == ElementType.PAPER) "#888888" else "none"
-        svg.add(
+        xml.add(
             "rect", mapOf(
                 "x" to position.x,
                 "y" to position.y,
@@ -132,30 +132,30 @@ data class ToolPicture(val tool: Tool, var position: Vector = Vector(), var size
             )
         )
         addText(
-            svg,
+            xml,
             tool.name,
             position + Vector(10.0, 30.0),
             letterSpacing = if (tool.name.uppercase() == tool.name) 1.8 else 0.0,
             fontSize = 18.0,
         )
-        addText(svg, tool.since.toString(), position + Vector(10.0, 44.0), fontSize = 11.0)
-        addText(svg, tool.description, position + Vector(10.0, 56.0), fontSize = 11.0)
+        addText(xml, tool.since.toString(), position + Vector(10.0, 44.0), fontSize = 11.0)
+        addText(xml, tool.description, position + Vector(10.0, 56.0), fontSize = 11.0)
 
         var y = size.y + 15.0
         for (author in tool.authors) {
-            addText(svg, author, position + Vector(0.0, y), fontSize = 11.0)
+            addText(xml, author, position + Vector(0.0, y), fontSize = 11.0)
             y += 12
         }
         if (tool.languages.isNotEmpty()) {
             var x = 0.0
             for (language in tool.languages) {
                 val width = language.length * 6.0 + 20.0
-                svg.add(
+                xml.add(
                     "rect", (position + Vector(x, -25.0)).toMap() + Vector(width, 20.0).toSizeMap() + mapOf(
                         "fill" to scheme.getLanguageColor(language), "rx" to 5.0
                     )
                 )
-                svg.add(
+                xml.add(
                     "text",
                     (position + Vector(width / 2.0 + x, -10.0)).toMap() + mapOf(
                         "font-size" to 12.0,
@@ -185,8 +185,8 @@ class AffiliationPicture {
         end.y = end.y.coerceAtLeast(toolEnd.y)
     }
 
-    fun draw(svg: SVG) {
-        svg.add(
+    fun draw(xml: XML) {
+        xml.add(
             "rect",
             mapOf("opacity" to 0.05, "rx" to 15.0) + (start - Vector(10.0, 10.0)).toMap() + (end - start + Vector(
                 20.0, 20.0
@@ -268,10 +268,10 @@ private data class Timeline(val tools: List<Tool>, val scheme: ColorScheme, val 
         }
     }
 
-    fun draw(svg: SVG) {
-        for (affiliationPicture in affiliations) affiliationPicture.draw(svg)
-        for (toolPicture in toolMap.values) toolPicture.draw(svg, scheme)
-        svg.write()
+    fun draw(xml: XML, filePath: String) {
+        for (affiliationPicture in affiliations) affiliationPicture.draw(xml)
+        for (toolPicture in toolMap.values) toolPicture.draw(xml, scheme)
+        xml.writeSVG(filePath)
     }
 }
 
@@ -297,14 +297,14 @@ fun main() {
 
     val toolsPath = "tools/tools.json"
     val diagramConfigurationPath = "diagram/config"
-    val outputFilePath = "diagram.svg"
+    val outputFilePath = "diagram.xml"
 
     val json = Json { ignoreUnknownKeys = true }
 
     val config = json.decodeFromString<Config>(File(toolsPath).readText(Charsets.UTF_8))
     val scheme = ColorScheme()
-    val svg = SVG(outputFilePath)
+    val xml = XML()
 
     val timeline = Timeline(config.tools, scheme, File(diagramConfigurationPath).readLines())
-    timeline.draw(svg)
+    timeline.draw(xml, outputFilePath)
 }

@@ -3,8 +3,6 @@
  */
 class Vector(var x: Double = 0.0, var y: Double = 0.0) {
 
-    override fun toString(): String = "($x, $y)"
-
     fun toMap(): Map<String, Any> = mapOf("x" to x, "y" to y)
     fun toSizeMap(): Map<String, Any> = mapOf("width" to x, "height" to y)
 
