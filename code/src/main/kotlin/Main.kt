@@ -107,7 +107,7 @@ data class ToolPicture(val tool: Tool, var position: Vector = Vector(), var size
     }
 
     private fun addText(
-        xml: XML, text: String, position: Vector, fontSize: Double = 11.0, letterSpacing: Double = 0.0
+        xml: XML, text: String, position: Vector, fontSize: Double = 12.0, letterSpacing: Double = 0.0
     ) = xml.add(
         "text", position.toMap() + mapOf(
             "font-family" to "Roboto",
@@ -136,14 +136,14 @@ data class ToolPicture(val tool: Tool, var position: Vector = Vector(), var size
             tool.name,
             position + Vector(10.0, 30.0),
             letterSpacing = if (tool.name.uppercase() == tool.name) 1.8 else 0.0,
-            fontSize = 18.0,
+            fontSize = 20.0,
         )
-        addText(xml, tool.since.toString(), position + Vector(10.0, 44.0), fontSize = 11.0)
-        addText(xml, tool.description, position + Vector(10.0, 56.0), fontSize = 11.0)
+        addText(xml, tool.since.toString(), position + Vector(10.0, 44.0))
+        addText(xml, tool.description, position + Vector(10.0, 56.0))
 
         var y = size.y + 15.0
         for (author in tool.authors) {
-            addText(xml, author, position + Vector(0.0, y), fontSize = 11.0)
+            addText(xml, author, position + Vector(0.0, y))
             y += 12
         }
         if (tool.languages.isNotEmpty()) {
@@ -157,7 +157,7 @@ data class ToolPicture(val tool: Tool, var position: Vector = Vector(), var size
                 )
                 xml.add(
                     "text",
-                    (position + Vector(width / 2.0 + x, -10.0)).toMap() + mapOf(
+                    (position + Vector(width / 2.0 + x, -11.0)).toMap() + mapOf(
                         "font-size" to 12.0,
                         "font-family" to "Roboto",
                         "fill" to "#FFFFFF",
@@ -174,8 +174,10 @@ data class ToolPicture(val tool: Tool, var position: Vector = Vector(), var size
 
 class AffiliationPicture {
 
-    private var start: Vector = Vector(3000.0, 3000.0)
-    private var end: Vector = Vector()
+    private val padding = Vector(20.0, 20.0)
+
+    private var start = Vector(3000.0, 3000.0)
+    private var end = Vector()
 
     fun add(toolPicture: ToolPicture) {
         start.x = start.x.coerceAtMost(toolPicture.position.x)
@@ -187,15 +189,10 @@ class AffiliationPicture {
 
     fun draw(xml: XML) {
         xml.add(
-            "rect",
-            mapOf("opacity" to 0.05, "rx" to 15.0) + (start - Vector(10.0, 10.0)).toMap() + (end - start + Vector(
-                20.0, 20.0
-            )).toSizeMap()
+            "rect", (start - padding).toMap() + (end - start + 2.0 * padding).toSizeMap() + mapOf(
+                "opacity" to 0.05, "rx" to 20.0
+            )
         )
-    }
-
-    override fun toString(): String {
-        return "$start -- $end"
     }
 }
 
@@ -204,17 +201,12 @@ private data class Timeline(val tools: List<Tool>, val scheme: ColorScheme, val 
     val toolMap: HashMap<String, ToolPicture> = HashMap()
     val affiliations: ArrayList<AffiliationPicture> = ArrayList()
 
-    var minYear: Int? = null
-    var maxYear: Int? = null
-
     init {
         for (tool in tools) {
             toolMap[tool.id] = ToolPicture(tool)
-            minYear = minYear?.coerceAtMost(tool.since) ?: tool.since
-            maxYear = maxYear?.coerceAtLeast(tool.since) ?: tool.since
         }
         for (toolPicture in toolMap.values) {
-            toolPicture.position.y = 20 + getY(toolPicture.tool.since).toDouble()
+            toolPicture.position.y = getY(toolPicture.tool.since).toDouble()
         }
 
         for (line in configuration) {
@@ -246,14 +238,8 @@ private data class Timeline(val tools: List<Tool>, val scheme: ColorScheme, val 
                 when (parts[1]) {
                     "->" -> tool2.position.x = tool.position.x + tool.size.x + STEP
                     "<-" -> tool2.position.x = tool.position.x - tool2.size.x - STEP
-                    "v" -> {
-                        // tool2.position.y = tool.position.y + tool2.size.y + STEP
-                        tool2.position.x = tool.position.x
-                    }
-                    "^" -> {
-                        // tool2.position.y = tool.position.y - tool2.size.y - STEP
-                        tool2.position.x = tool.position.x
-                    }
+                    "v" -> tool2.position.x = tool.position.x
+                    "^" -> tool2.position.x = tool.position.x
                     "|" -> tool2.position.y = tool.position.y
                 }
 
@@ -287,7 +273,7 @@ fun getYearHeight(year: Int): Int {
 
 fun getY(year: Int): Int {
     var y = 0
-    for (yr in 1970..year) {
+    for (yr in 1906 until year) {
         y += getYearHeight(yr)
     }
     return y
@@ -297,7 +283,7 @@ fun main() {
 
     val toolsPath = "tools/tools.json"
     val diagramConfigurationPath = "diagram/config"
-    val outputFilePath = "diagram.xml"
+    val outputFilePath = "diagram.svg"
 
     val json = Json { ignoreUnknownKeys = true }
 

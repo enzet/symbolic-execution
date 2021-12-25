@@ -9,3 +9,6 @@ class Vector(var x: Double = 0.0, var y: Double = 0.0) {
     operator fun plus(vector: Vector): Vector = Vector(x + vector.x, y + vector.y)
     operator fun minus(vector: Vector): Vector = Vector(x - vector.x, y - vector.y)
 }
+
+operator fun Double.times(vector: Vector): Vector = Vector(this * vector.x, this * vector.y)
+

@@ -36,6 +36,7 @@ open class XML() {
  */
 fun XML.writeSVG(filePath: String) = File(filePath).printWriter().use { out ->
     out.println("<svg width=\"5000\" height=\"5000\" xmlns=\"http://www.w3.org/2000/svg\">")
+    out.println("")
     for (element in elements) out.println(element)
     out.println("</svg>")
 }
