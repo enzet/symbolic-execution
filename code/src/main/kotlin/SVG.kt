@@ -1,22 +1,5 @@
 import java.io.File
 
-/**
- * Graphical object.
- */
-abstract class SVGElement {
-    abstract fun toSVG(): String
-}
-
-/**
- * SVG path element.
- */
-class Path(private val commands: String, private val fill: String = "black") : SVGElement() {
-
-    override fun toSVG(): String {
-        return "<path d=\"$commands\" fill=\"$fill\" />"
-    }
-}
-
 class XMLParameter(private val key: String, private val value: Any?) {
 
     override fun toString(): String = "$key=\"$value\""
@@ -33,55 +16,6 @@ class XMLTag(private val tag: String, private val parameters: List<XMLParameter>
     }
 }
 
-class Rectangle(
-    private val start: Vector,
-    private val end: Vector,
-    private val fill: String = "black",
-    private val stroke: String = "none",
-    private val opacity: Double = 1.0,
-    private val rx: Double,
-) : SVGElement() {
-
-    override fun toSVG(): String {
-        return XMLTag(
-            "rect",
-            listOf(
-                XMLParameter("rx", rx),
-                XMLParameter("fill", fill),
-                XMLParameter("stroke", stroke),
-                XMLParameter("opacity", opacity),
-            ) + start.toSVGCoordinates() + end.toSVGSize()).toString()
-    }
-}
-
-class Text(
-    private val text: String,
-    private val position: Vector,
-    private val letterSpacing: Double = 0.0,
-    private val fontFamily: String = "sans",
-    private val fontWeight: Int = 400,
-    private val fontSize: Double = 10.0,
-    private val opacity: Double = 1.0,
-    private val fill: String,
-    private val textAnchor: String = "start",
-) : SVGElement() {
-
-    override fun toSVG(): String {
-        return XMLTag(
-            "text",
-            listOf(
-                XMLParameter("letter-spacing", letterSpacing),
-                XMLParameter("font-family", fontFamily),
-                XMLParameter("font-weight", fontWeight),
-                XMLParameter("font-size", fontSize),
-                XMLParameter("fill", fill),
-                XMLParameter("opacity", opacity),
-                XMLParameter("text-anchor", textAnchor),
-            ) + position.toSVGCoordinates(),
-            text).toString()
-    }
-}
-
 /**
  * Simple SVG drawing.
  *
@@ -92,12 +26,16 @@ class SVG(private val filePath: String) {
     /**
      * Graphical elements.
      */
-    private var elements: ArrayList<SVGElement> = ArrayList()
+    private var elements: ArrayList<XMLTag> = ArrayList()
 
     /**
      * Add graphical element to the drawing.
      */
-    fun add(element: SVGElement) = elements.add(element)
+    fun add(tag: String, parameters: Map<String, Any>, text: String? = null) {
+
+        val xmlParameters: List<XMLParameter> = parameters.toList().map { XMLParameter(it.first, it.second) }
+        elements.add(XMLTag(tag, xmlParameters, text))
+    }
 
     /**
      * Write drawing to the file with [filePath] path.
@@ -105,7 +43,7 @@ class SVG(private val filePath: String) {
     fun write() {
         File(filePath).printWriter().use { out ->
             out.println("<svg width=\"5000\" height=\"5000\" xmlns=\"http://www.w3.org/2000/svg\">")
-            for (element in elements) out.println(element.toSVG())
+            for (element in elements) out.println(element)
             out.println("</svg>")
         }
     }

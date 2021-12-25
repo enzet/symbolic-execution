@@ -108,22 +108,29 @@ data class ToolPicture(val tool: Tool, var position: Vector = Vector(), var size
 
     private fun addText(
         svg: SVG, text: String, position: Vector, fontSize: Double = 11.0, letterSpacing: Double = 0.0
-    ) {
-        val textElement = Text(
-            text,
-            position,
-            fontFamily = "Roboto",
-            fontWeight = 300,
-            fontSize = fontSize,
-            fill = "#363228",
-            letterSpacing = letterSpacing,
-        )
-        svg.add(textElement)
-    }
+    ) = svg.add(
+        "text", position.toMap() + mapOf(
+            "font-family" to "Roboto",
+            "font-weight" to 300,
+            "font-size" to fontSize,
+            "fill" to "#363228",
+            "letter-spacing" to letterSpacing,
+        ), text
+    )
 
     fun draw(svg: SVG, scheme: ColorScheme) {
         val stroke = if (tool.type == ElementType.PAPER) "#888888" else "none"
-        svg.add(Rectangle(position, size, fill = scheme.getColor(tool.type), stroke = stroke, rx = 5.0))
+        svg.add(
+            "rect", mapOf(
+                "x" to position.x,
+                "y" to position.y,
+                "width" to size.x,
+                "height" to size.y,
+                "fill" to scheme.getColor(tool.type),
+                "stroke" to stroke,
+                "rx" to 5.0
+            )
+        )
         addText(
             svg,
             tool.name,
@@ -144,23 +151,20 @@ data class ToolPicture(val tool: Tool, var position: Vector = Vector(), var size
             for (language in tool.languages) {
                 val width = language.length * 6.0 + 20.0
                 svg.add(
-                    Rectangle(
-                        position + Vector(x, -25.0),
-                        Vector(width, 20.0),
-                        scheme.getLanguageColor(language),
-                        rx = 5.0,
+                    "rect", (position + Vector(x, -25.0)).toMap() + Vector(width, 20.0).toSizeMap() + mapOf(
+                        "fill" to scheme.getLanguageColor(language), "rx" to 5.0
                     )
                 )
                 svg.add(
-                    Text(
-                        language,
-                        position + Vector(width / 2.0 + x, -10.0),
-                        fontSize = 12.0,
-                        fontFamily = "Roboto",
-                        fill = "#FFFFFF",
-                        textAnchor = "middle",
-                        fontWeight = 700,
-                    )
+                    "text",
+                    (position + Vector(width / 2.0 + x, -10.0)).toMap() + mapOf(
+                        "font-size" to 12.0,
+                        "font-family" to "Roboto",
+                        "fill" to "#FFFFFF",
+                        "text-anchor" to "middle",
+                        "font-weight" to 700,
+                    ),
+                    language,
                 )
                 x += width + 5
             }
@@ -182,7 +186,12 @@ class AffiliationPicture {
     }
 
     fun draw(svg: SVG) {
-        svg.add(Rectangle(start - Vector(10.0, 10.0), end - start + Vector(20.0, 20.0), opacity = 0.05, rx = 15.0))
+        svg.add(
+            "rect",
+            mapOf("opacity" to 0.05, "rx" to 15.0) + (start - Vector(10.0, 10.0)).toMap() + (end - start + Vector(
+                20.0, 20.0
+            )).toSizeMap()
+        )
     }
 
     override fun toString(): String {
