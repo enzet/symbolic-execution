@@ -195,14 +195,14 @@ private data class Timeline(val tools: List<Tool>, val scheme: ColorScheme, val 
     val toolMap: HashMap<String, ToolPicture> = HashMap()
     val affiliations: ArrayList<AffiliationPicture> = ArrayList()
 
-    var minYear = 1994
-    var maxYear = 1994
+    var minYear: Int? = null
+    var maxYear: Int? = null
 
     init {
         for (tool in tools) {
             toolMap[tool.id] = ToolPicture(tool)
-            minYear = minYear.coerceAtMost(tool.since)
-            maxYear = maxYear.coerceAtLeast(tool.since)
+            minYear = minYear?.coerceAtMost(tool.since) ?: tool.since
+            maxYear = maxYear?.coerceAtLeast(tool.since) ?: tool.since
         }
         for (toolPicture in toolMap.values) {
             toolPicture.position.y = 20 + getY(toolPicture.tool.since).toDouble()
@@ -286,13 +286,16 @@ fun getY(year: Int): Int {
 
 fun main() {
 
+    val toolsPath = "tools/tools.json"
+    val diagramConfigurationPath = "diagram/config"
+    val outputFilePath = "diagram.svg"
+
     val json = Json { ignoreUnknownKeys = true }
 
-    val path = "tools/tools.json"
-    val config = json.decodeFromString<Config>(File(path).readText(Charsets.UTF_8))
+    val config = json.decodeFromString<Config>(File(toolsPath).readText(Charsets.UTF_8))
     val scheme = ColorScheme()
-    val svg = SVG()
+    val svg = SVG(outputFilePath)
 
-    val timeline = Timeline(config.tools, scheme, File("diagram/config").readLines())
+    val timeline = Timeline(config.tools, scheme, File(diagramConfigurationPath).readLines())
     timeline.draw(svg)
 }
