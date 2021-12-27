@@ -1,46 +1,88 @@
+SMT-LIB 190
+v SMT-LIB CVC3 SMT-LIB_2 CVC4 CVC4_2
+
 VeriSoft 1130
 VeriSoft -> SPIN
 SPIN v DART
-DART -> CUTE
+DART ->1 CUTE
 CUTE v jCUTE
+CUTE ->2 Eraser
+Eraser v Catchconv
 SVC 410
 v SVC CVC CVC_Lite EXE KLEE MINESTRONE UC-KLEE
 SVC -> Chord
-v Chord EGT STP
+v Chord EGT STP SurveyTestCase
 
 HAMPI 730
 HAMPI -> jFuzz
 jFuzz ^ GrammarBased
-jFuzz -> Z3
+jFuzz ->2 Z3
+v jFuzz Z3-str Z3str2
+Z3str2 -> Z3str3
 Z3 ^ Yices
 Z3 -> Pex
 Z3 v Rex
-Rex -> SAGAN + JobCenter
+Rex -> SAGAN
+SAGAN ->2 Kudzu
 Pex -> Splat
+Pex ^ SMART
 Pex v Lean
 Pex v PyExZ3
-Splat -> SAGE
-SAGE -> BitBlaze
+Splat ->1 SAGE
+SAGE ->2 BitBlaze
 BitBlaze v LESE
+BitBlaze ->2 Replayer
+BitBlaze ->1 ATOM
 LESE v DTA++
 v DTA++ FuzzBALL Rosette Galactica
 Rosette <- Jalangi
 
-DTA++ -> AEG
+DTA++ ->2 AEG
 AEG -> BAP
 AEG v Mayhem
 Mayhem v MergePoint
 MergePoint v ISSTAC
 BAP v dReal
 
-BAP -> EFFIGY
--> EFFIGY SELECT massachusetts.fortran PathCrawler GlassTT Peach JNuke Autodafé
-v EFFIGY Java_PathFinder JPF-SE Symbolic_PathFinder JDart
+BAP ->2 EFFIGY
+EFFIGY ->2 SELECT
+SELECT ->2 massachusetts.fortran
+massachusetts.fortran ->2 PathCrawler
+PathCrawler ->3 GlassTT
+PathCrawler v SANTE
+GlassTT ->2 Peach
+v Peach MiniSAT ExpliSAT Boolector S2E Dowser BORG
+S2E -> Cloud9
+v S2E Dowser BORG
+Dowser ->1 Sherlock
+Sherlock v Triton
+Sherlock -> libFuzzer
+v libFuzzer AFL OSS-Fuzz AFLFast
+-> Peach JNuke Autodafé
+v EFFIGY Java_PathFinder Java_PathFinder_2 JPF-SE Symbolic_PathFinder JDart
 v SELECT Dyninst DynamoRIO Dytan Cinger Green_Solver Pathgrind Firmalice angr
+-> angr Driller Mechanical_Phish
 v massachusetts.fortran Valgrind PIN AXGEN Debugger ILLITHID
+Mechanical_Phish ->1 SymJS
+v SymJS BLT Xandra Ponce
+BLT -> CIVL
+v CIVL Manticore
+
+v GlassTT Flayer Rubyx Otter SymDroid
 
 Stanford [ SVC Chord UC-KLEE ]
-Bell_labs [ VeriSoft SPIN DART ]
+Bell_labs [ VeriSoft SPIN ]
+Bell_labs [ SPIN DART ]
 MIT [ HAMPI jFuzz GrammarBased ]
-
-GlassTT v Flayer
+Carnegie_Mellon [ Replayer BAP ISSTAC ]
+California,_Santa_Barbara [ Firmalice Mechanical_Phish ]
+Maryland [ Rubyx SymDroid ]
+CEA_/_Saclay [ PathCrawler SANTE ]
+EPFL [ S2E Cloud9 ]
+Amsterdam,_Vienna [ Dowser BORG ]
+Immunity [ Debugger ILLITHID ]
+Digital_Equipment [ Eraser ATOM ]
+NASA [ Java_PathFinder JDart ]
+Georgia [ Dytan Cinger ]
+Microsoft_Research [ Z3 SAGE ]
+Microsoft_Research [ SMART PyExZ3 ]
