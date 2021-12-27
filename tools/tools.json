@@ -26,7 +26,8 @@
             "name": "AEG",
             "languages": ["C"],
             "since": 2011,
-            "description": "exploit generator"
+            "description": "exploit generator",
+            "type": "concolic one path"
         },
         {
             "name": "ATOM",
@@ -35,7 +36,8 @@
             "affiliations": [
                 "Digital Equipment",
                 "California, Berkeley"
-            ]
+            ],
+            "type": "static instrumentation"
         },
         {
             "name": "Acteve",
@@ -52,7 +54,7 @@
             "license": "CeCILL-C",
             "languages": [
                 "SMT-LIB 1.2",
-                "SMT-LIB 2",
+                "SMT-LIB_2",
                 "polymorphic first-order language"
             ],
             "api": "OCaml",
@@ -63,13 +65,17 @@
             "name": "angr",
             "languages": ["binary"],
             "url": "http://angr.io/",
-            "since": 2016
+            "since": 2016,
+            "uses": ["VEX", "Unicorn", "Z3"],
+            "type": "concolic",
+            "authors": ["Y. Shoshitaishvili", "R. Wang", "..."]
         },
         {
             "name": "BAP",
             "languages": ["binary"],
             "github": "BinaryAnalysisPlatform/bap",
-            "since": 2011
+            "since": 2011,
+            "type": "dynamic instrumentation"
         },
         {
             "name": "Barcelogic",
@@ -102,11 +108,28 @@
             "name": "BitBlaze",
             "languages": ["binary"],
             "url": "http://bitblaze.cs.berkeley.edu/",
-            "since": 2008
+            "since": 2008,
+            "type": "concolic",
+            "authors": ["D. Song (B)", "D. Brumley (CM)", "... (B)"]
         },
         {
             "name": "BLT",
-            "type": "SMT"
+            "type": "SMT",
+            "description": "bounded integer\nlinear constraints",
+            "since": 2015,
+            "cited": {"count": 2, "date": "2021.12.27"},
+            "paper": "Bounded integer linear constraint solving via lattice search",
+            "authors": ["J. Hendrix", "B. F. Jones"]
+        },
+        {
+            "name": "Xandra",
+            "uses": ["AFL"],
+            "description": "symbolic execution,\nfuzzing, binary\npatching",
+            "since": 2018,
+            "cited": {"count": 12, "date": "2021.12.27"},
+            "paper": "Xandra: An autonomous cyber battle system for the Cyber Grand Challenge",
+            "type": "concolic",
+            "authors": ["A. Nguyen-Tuong", "D. Melski", "JW Davidson", "..."]
         },
         {
             "name": "Boolector",
@@ -115,11 +138,38 @@
             "type": "SMT",
             "languages": [
                 "SMT-LIB",
-                "SMT-LIB 2"
+                "SMT-LIB_2"
             ],
             "license": "GPL 3",
             "os": "Linux",
-            "api": "C"
+            "api": "C",
+            "authors": ["R. Brummayer", "A. Biere"],
+            "since": 2009
+        },
+        {
+            "name": "Ponce",
+            "description": "interactive\nsymbolic\nexecution",
+            "type": "concolic",
+            "uses": ["IDA_Pro"],
+            "authors": ["A. G. Illera", "F. Oca"],
+            "languages": ["x86", "x64"],
+            "since": 2015
+        },
+        {
+            "name": "SANTE",
+            "since": 2012,
+            "description": "combination of\ndynamic\nand static analysis",
+            "based": ["PathCrawler"],
+            "languages": ["C"],
+            "authors": ["O. Chebaro", "N. Kosmatov", "A. Giorgetti", "J. Julliand"],
+            "type": "concolic"
+        },
+        {
+            "name": "PEBIL",
+            "type": "static instrumentation",
+            "based": ["ATOM"],
+            "description": "static binary\ninstrumentator",
+            "languages": ["binary"]
         },
         {
             "name": "CATG",
@@ -133,17 +183,56 @@
                 "bddbddb"
             ],
             "since": 2001,
-            "languages": ["Java"]
+            "languages": ["Java"],
+            "type": "concolic"
         },
         {
             "name": "CIVL",
             "languages": ["C"],
-            "url": "http://vsl.cis.udel.edu/civl/"
+            "url": "http://vsl.cis.udel.edu/civl/",
+            "since": 2015,
+            "description": "for concurrency",
+            "type": "concolic",
+            "authors": ["S. F. Siegel (D)", "Manchun Zheng (D)", "..."]
+        },
+        {
+            "name": "Manticore",
+            "since": 2017,
+            "description": "symbolic execution,\ntaint analysis",
+            "type": "concolic",
+            "languages": ["binary"]
+        },
+        {
+            "name": "Dowser",
+            "since": 2013,
+            "description": "guided SE to find\nbuffer overflow",
+            "uses": ["S2E"],
+            "type": "concolic",
+            "authors": ["I. Haller (A)", "A. Slowinksa (A)", "M. Neugsch-", "wandtner (V)", "H. Bos (A)"]
+        },
+        {
+            "name": "BORG",
+            "since": 2015,
+            "description": "SA and DA\ncombination,\nguided SE to find\nbuffer over-read",
+            "uses": ["S2E"],
+            "authors": ["M. Neugsch-", "wandtner (V)", "P. M. Comparetti (L)", "I. Haller (A)", "H. Bos (A)"],
+            "type": "concolic"
+        },
+        {
+            "name": "Sherlock",
+            "since": 2014,
+            "description": "static analysis and\nconcolic for\ndeadlocks,\nscheduler control",
+            "authors": ["M. Eslamimehr", "J. Palsberg"],
+            "languages": ["Java"],
+            "type": "concolic"
         },
         {
             "name": "Cloud9",
             "languages": ["LLVM bitcode"],
-            "url": "http://cloud9.epfl.ch/"
+            "url": "http://cloud9.epfl.ch/",
+            "since": 2011,
+            "type": "concolic",
+            "authors": ["S. Bucur", "V. Ureche", "..."]
         },
         {
             "name": "clsat",
@@ -163,41 +252,46 @@
             "since": 2005,
             "type": "concolic",
             "uses": [
-                "CIL",
                 "lp_solve"
             ],
+            "based": ["CIL"],
             "languages": ["C"],
             "description": "concolic testing",
-            "url": "http://lpsolve.sourceforge.net/"
+            "url": "http://lpsolve.sourceforge.net/",
+            "authors": ["K. Sen", "D. Marinov", "G.Agha"]
         },
         {
             "name": "CVC",
             "since": 2002,
             "type": "SMT",
-            "description": "SMT solver, SAT-based (Chaff algorithm), Nelson-Oppen, no quantifiers",
-            "based": "Chaff"
+            "description": "SMT solver",
+            "long_description": "SMT solver, SAT-based (Chaff algorithm), Nelson-Oppen, no quantifiers",
+            "based": ["Chaff"],
+            "authors": ["A. Stump", "C. W. Barrett", "..."]
         },
         {
             "name": "CVC Lite",
             "id": "CVC_Lite",
             "since": 2004,
             "type": "SMT",
-            "description": "SMT solver"
+            "description": "SMT solver",
+            "authors": ["C. W. Barrett (N)", "S. Berezin (S)"]
         },
         {
             "name": "CVC3",
             "description": "SMT solver",
             "paper": "cvc3",
             "type": "SMT",
-            "based": "MiniSat",
-            "since": 2007
+            "based": ["MiniSAT"],
+            "since": 2007,
+            "authors": ["C. Barrett (N)", "C. Tinelli (I)"]
         },
         {
             "name": "CVC4",
             "since": 2011,
             "type": "SMT",
-            "description": "DPLL(T) SMT solver",
-            "based": "MiniSat",
+            "description": "DPLL(T)\nSMT solver",
+            "based": ["MiniSAT"],
             "languages": [
                 "SMT-LIB 2",
                 "CVC"
@@ -208,15 +302,26 @@
                 "macOS",
                 "Windows"
             ],
-            "api": "C++"
+            "api": "C++",
+            "authors": ["C. Barrett (N)", "..."]
+        },
+        {
+            "name": "CVC4",
+            "id": "CVC4_2",
+            "since": 2016,
+            "description": "with string\nconstraints",
+            "authors": ["T. Liang (I)", "..."],
+            "type": "SMT"
         },
         {
             "name": "DART",
             "since": 2005,
             "languages": ["C"],
-            "uses": "lp_solve",
-            "based": "CIL",
-            "description": "random testing\nand direct\nexecution"
+            "uses": ["lp_solve"],
+            "based": ["CIL"],
+            "description": "random testing\nand direct\nexecution",
+            "type": "concolic",
+            "authors": ["P. Godefroid (B)", "K. Sen (I)", "N. Klarlund (B)"]
         },
         {
             "name": "DPrle",
@@ -227,21 +332,24 @@
         {
             "name": "DTA++",
             "since": 2011,
-            "languages": ["binary"]
+            "languages": ["binary"],
+            "type": "concolic",
+            "authors": ["M. Kang (B, CM)", "S. McCamant (B)", "..."]
         },
         {
             "name": "Dyninst",
             "paper": "dyninst",
             "type": "dynamic instrumentation",
-            "description": "dynamic binary instrumentator",
+            "description": "dynamic binary\ninstrumentator",
             "creator": "ParaDyn",
             "since": 1999
         },
         {
             "name": "DynamoRIO",
             "paper": "dynamorio",
-            "description": "dynamic binary instrumentator",
-            "since": 2002
+            "description": "dynamic binary\ninstrumentator",
+            "since": 2002,
+            "type": "dynamic instrumentation"
         },
         {
             "name": "EFFIGY",
@@ -258,19 +366,26 @@
         },
         {
             "name": "EGT",
-            "since": 2005
+            "since": 2005,
+            "type": "concolic",
+            "authors": ["C. Cadar", "D. Engler"]
         },
         {
             "name": "Eraser",
             "since": 1997,
-            "based": "ATOM",
-            "description": "data race detector, lockset and happens-before, binary rewriting"
+            "based": ["ATOM"],
+            "description": "data race detector:\nlockset and\nhappens-before,\nbinary rewriting",
+            "authors": ["S. Savage (W)", "M. Burrows (DE)", "G. Nelson (DE)", "P. Sobalvarro (DE)", "T. Anderson (B)"],
+            "type": "DA one path",
+            "languages": ["binary"]
         },
         {
             "name": "EXE",
             "since": 2006,
-            "uses": "STP",
-            "languages": ["binary"]
+            "uses": ["STP"],
+            "languages": ["binary"],
+            "type": "concolic",
+            "authors": ["C. Cadar, V. Ganesh", "P. Pawlowski", "D. Engler, D. Dill"]
         },
         {
             "name": "ExtSAT",
@@ -280,11 +395,28 @@
             "name": "Flayer",
             "languages": ["binary"],
             "based": [
-                "valgrind",
-                "memcheck"
+                "Valgrind",
+                "Memcheck"
             ],
             "paper": "flayer",
-            "since": 2007
+            "since": 2007,
+            "type": "concolic",
+            "authors": ["W. Drewry", "T. Ormandy"],
+            "description": "taint flow,\nredirect flow"
+        },
+        {
+            "name": "libFuzzer",
+            "based": ["LLVM"],
+            "description": "coverage-guided",
+            "type": "fuzzer",
+            "since": 2016,
+            "paper": "Continuous fuzzing with libfuzzer and addresssanitizer",
+            "authors": ["K. Serebryany"],
+            "cited": {"count": 67, "date": "2021.12.27"}
+        },
+        {
+            "name": "Memcheck",
+            "type": "model checker"
         },
         {
             "name": "Fx7",
@@ -292,34 +424,58 @@
         },
         {
             "name": "FuzzBALL",
-            "languages": ["binary"],
+            "languages": ["x86"],
             "url": "http://bitblaze.cs.berkeley.edu/fuzzball.html",
-            "since": 2012
+            "since": 2012,
+            "based": ["BitBlaze"],
+            "authors": ["L. Martignoni (B)", "S. McCamant (B)", "..."],
+            "type": "concolic"
         },
         {
             "name": "Galactica",
             "since": 2016,
-            "type": "concolic"
+            "type": "concolic",
+            "based": ["S2E"]
         },
         {
             "name": "ISSTAC",
             "since": 2016,
-            "type": "concolic"
+            "type": "concolic",
+            "based": ["SPF"]
         },
         {
             "name": "dReal",
             "since": 2013,
-            "type": "SMT"
+            "type": "SMT",
+            "authors": ["S. Kong"]
         },
         {
-            "name": "Java PathFinder",
+            "name": "Java\nPathFinder",
             "id": "Java_PathFinder",
-            "since": 1998
+            "languages": ["Java"],
+            "since": 1998,
+            "type": "model checker"
+        },
+        {
+            "name": "Java\nPathFinder",
+            "id": "Java_PathFinder_2",
+            "since": 2005,
+            "languages": ["Java"],
+            "type": "model checker",
+            "uses": ["Omega"],
+            "authors": ["W. Visser (N)", "C. Păsăreanu (N)", "S. Khurshid (T)"]
+        },
+        {
+            "name": "Omega",
+            "type": "SMT"
         },
         {
             "name": "UC-KLEE",
             "since": 2014,
-            "type": "concolic"
+            "type": "concolic",
+            "languages": ["C", "C++"],
+            "based": ["KLEE"],
+            "authors": ["D. A. Ramos", "D. Engler"]
         },
         {
             "name": "GSAT",
@@ -343,7 +499,9 @@
         {
             "name": "Jalangi",
             "languages": ["JavaScript"],
-            "since": 2013
+            "since": 2013,
+            "type": "concolic",
+            "authors": ["K. Sen (B)", "S. Kalasapur (S)", "..."]
         },
         {
             "name": "Jalangi2",
@@ -369,19 +527,30 @@
             "languages": ["Java"],
             "type": "concolic",
             "url": "http://osl.cs.illinois.edu/software/jcute/",
-            "description": "concolic testing"
+            "description": "concolic testing",
+            "authors": ["K. Sen", "G.Agha"]
         },
         {
             "name": "JDart",
             "languages": ["Java"],
             "github": "psycopaths/jdart",
-            "since": 2016
+            "since": 2016,
+            "type": "concolic",
+            "authors": ["K. Luckow (CM)", "M. Dimjašević (U)", "D. Giannakopoulou (N)", "..."]
         },
         {
             "name": "jFuzz",
             "since": 2009,
             "languages": ["Java"],
             "url": "http://people.csail.mit.edu/akiezun/jfuzz/"
+        },
+        {
+            "name": "Fuzzgrind",
+            "since": 2009,
+            "based": ["Valgrind"],
+            "uses": ["STP"],
+            "authors": ["G. Campana"],
+            "type": "concolic"
         },
         {
             "name": "Key",
@@ -396,21 +565,26 @@
         {
             "name": "KLEE",
             "since": 2008,
-            "description": "online DSE, constraint optimizations",
-            "based": "LLVM",
+            "description": "online DSE,\nconstraint\noptimizations",
+            "based": ["LLVM"],
             "languages": ["bitcode LLVM"],
-            "url": "http://klee.github.io/"
+            "url": "http://klee.github.io/",
+            "type": "concolic",
+            "authors": ["C. Cadar", "D. Dunbar", "D. Engler"]
         },
         {
             "name": "Lean",
             "type": "SMT",
-            "since": 2013
+            "since": 2013,
+            "authors": ["L. de Moura", "S. Kong"]
         },
         {
             "name": "LESE",
             "description": "loop-based extended SE",
             "since": 2009,
-            "languages": ["binary"]
+            "languages": ["binary"],
+            "type": "concolic",
+            "authors": ["P. Saxena (B)", "S. McCamant (B)", "P. Poosankam (B, CM)", "D. Song (B)"]
         },
         {
             "name": "LimeTB",
@@ -418,7 +592,8 @@
             "url": "http://www.tcs.hut.fi/Software/lime/"
         },
         {
-            "name": "massachusetts.fortran",
+            "name": "",
+            "id": "massachusetts.fortran",
             "since": 1976,
             "description": "test generation,\nsymbolic execution\n",
             "authors": [
@@ -434,7 +609,7 @@
             "name": "MathSAT",
             "type": "SMT",
             "languages": [
-                "SMT-LIB 2"
+                "SMT-LIB_2"
             ],
             "license": "proprietary",
             "os": [
@@ -453,9 +628,13 @@
             "languages": ["binary"],
             "uses": [
                 "Pin",
-                "BAP"
+                "BAP",
+                "Z3"
             ],
-            "since": 2012
+            "since": 2012,
+            "type": "concolic",
+            "authors": ["D. Brumley", "..."],
+            "description": "hybrid: online and\noffline DSE,\ndefect detection,\nexploit generation"
         },
         {
             "name": "miasm",
@@ -465,19 +644,30 @@
         {
             "name": "MINESTRONE",
             "since": 2011,
-            "based": "KLEE",
-            "uses": "Pin",
+            "based": ["KLEE"],
+            "uses": ["Pin"],
             "languages": [
                 "C",
                 "C++"
-            ]
+            ],
+            "type": "concolic",
+            "authors": ["A. D. Keromytis (C)", "S. J. Stolfo (C)", "Junfeng Yang (C)", "..."]
         },
         {
             "name": "MiniSAT",
             "languages": ["DIMACS-CNF"],
-            "paper": "minisat",
             "type": "SAT",
-            "since": 2003
+            "since": 2003,
+            "authors": ["N. Eén", "N. Sörensson"]
+        },
+        {
+            "name": "ExpliSAT",
+            "since": 2007,
+            "description": "formal verification,\nsymbolic execution",
+            "authors": ["S. Barner (I)", "C. Eisner (I)", "..."],
+            "type": "model checker",
+            "uses": ["Mage"],
+            "languages": ["C"]
         },
         {
             "name": "MiniSMT",
@@ -494,7 +684,9 @@
             "name": "MergePoint",
             "since": 2014,
             "description": "veritesting: switch\nbetween DSE\nand SSE",
-            "languages": ["binary"]
+            "languages": ["binary"],
+            "type": "concolic",
+            "authors": ["T. Avgerinos", "A. Rebert", "Sang Kil Cha", "D. Brumley"]
         },
         {
             "name": "NuSMV",
@@ -505,7 +697,7 @@
             "type": "SMT",
             "languages": [
                 "Princess native language",
-                "SMT-LIB 2",
+                "SMT-LIB_2",
                 "TPTP"
             ]
         },
@@ -513,7 +705,19 @@
             "name": "Otter",
             "languages": ["C"],
             "bitbucket": "khooyp/otter",
-            "since": 2011
+            "since": 2011,
+            "description": "directed SE",
+            "uses": ["STP"],
+            "authors": ["Kin-Keung Ma", "Khoo Yit Phang", "J. S. Foster", "..."],
+            "type": "concolic"
+        },
+        {
+            "name": "SymDroid",
+            "type": "concolic",
+            "description": "for Dalvik",
+            "uses": ["Z3"],
+            "since": 2012,
+            "authors": ["J. Jeon", "K. K. Micinski", "J. S. Foster"]
         },
         {
             "name": "PathGrind",
@@ -526,26 +730,33 @@
             "since": 2008,
             "languages": [".NET"],
             "url": "http://pex4fun.com/About.aspx",
-            "uses": "Z3"
+            "uses": ["Z3"],
+            "type": "concolic",
+            "authors": ["N. Tillmann", "J. de Halleux"]
         },
         {
             "name": "Rex",
             "type": "SMT",
-            "uses": "Z3",
+            "uses": ["Z3"],
             "description": "regular expressions",
-            "since": 2010
+            "since": 2010,
+            "authors": ["M. Veanes", "P. Halleux", "N. Tillmann"]
         },
         {
             "name": "Rosette",
             "since": 2013,
-            "langauge": "Rosette",
-            "description": "symbolic\nvirtual\nmachine"
+            "languages": ["Rosette"],
+            "description": "symbolic\nvirtual\nmachine",
+            "type": "SMT",
+            "authors": ["E. Torlak", "R. Bodik"]
         },
         {
             "name": "PyExZ3",
             "languages": ["Python"],
             "github": "thomasjball/PyExZ3",
-            "since": 2016
+            "since": 2016,
+            "type": "concolic",
+            "authors": ["T. Ball", "J. Daniel"]
         },
         {
             "name": "pysymemu",
@@ -557,18 +768,23 @@
         },
         {
             "name": "Rubyx",
-            "languages": ["Ruby"]
+            "languages": ["Ruby"],
+            "since": 2010,
+            "uses": ["Drails", "Yices"],
+            "authors": ["A. Chaudhuri", "J. S. Foster"],
+            "type": "concolic"
         },
         {
             "name": "S3",
             "type": "SMT",
-            "based": "Z3-str",
-            "description": "string solver"
+            "based": ["Z3-str"],
+            "description": "string solver",
+            "authors": ["Y. Zheng (P)", "X. Zhang (P)", "V. Ganesh (W)"]
         },
         {
             "name": "S3P",
             "type": "SMT",
-            "based": "Z3",
+            "based": ["Z3"],
             "description": "string solver, progressive S3P"
         },
         {
@@ -576,7 +792,17 @@
             "since": 2008,
             "languages": ["x86"],
             "description": "concolic, fuzzing",
-            "uses": "Z3"
+            "uses": ["Z3"],
+            "type": "concolic",
+            "authors": ["P. Godefroid (M)", "D. Molnar (B)", "M. Levin (M)"]
+        },
+        {
+            "name": "SAGAN +\nJobCenter",
+            "id": "SAGAN",
+            "since": 2010,
+            "based": ["SAGE"],
+            "authors": ["P. Godefroid", "D. Molnar", "E. Bounimova"],
+            "type": "concolic"
         },
         {
             "name": "SELECT",
@@ -601,12 +827,19 @@
         {
             "name": "S2E",
             "languages": ["binary"],
-            "url": "http://s2e.epfl.ch/"
+            "url": "http://s2e.epfl.ch/",
+            "type": "concolic",
+            "based": ["QEMU", "KLEE", "LLVM"],
+            "since": 2011,
+            "description": "selective symbolic,\nconcrete execution\nframework",
+            "authors": ["G. Candea", "V. Kuznetsov", "V. Chipounov"]
         },
         {
             "name": "STP",
             "paper": "stp",
-            "since": 2007
+            "since": 2007,
+            "type": "SMT",
+            "uses": ["MiniSAT"]
         },
         {
             "name": "SPIN",
@@ -623,8 +856,10 @@
             "name": "Splat",
             "languages": ["C"],
             "since": 2008,
-            "uses": "STP",
-            "description": "symbolic length"
+            "uses": ["STP"],
+            "description": "symbolic length",
+            "type": "concolic",
+            "authors": ["Ru-Gang Xu (C)", "P. Godefroid (M)", "R. Majumdar (C)"]
         },
         {
             "name": "SVC",
@@ -641,7 +876,10 @@
         },
         {
             "name": "SymJS",
-            "languages": ["JavaScript"]
+            "languages": ["JavaScript"],
+            "since": 2014,
+            "authors": ["G. Li (F)", "E. Andreasen (A)", "..."],
+            "type": "concolic"
         },
         {
             "name": "ThreadSanitizer",
@@ -650,23 +888,30 @@
                 "cpp",
                 "go"
             ],
-            "based": "valgrind"
+            "based": ["Valgrind"]
         },
         {
             "name": "Triton",
-            "languages": ["binary"],
-            "url": "https://triton.quarkslab.com/"
+            "languages": ["x86", "x64"],
+            "url": "https://triton.quarkslab.com/",
+            "uses": ["Capstone", "Pin"],
+            "authors": ["J. Salwan"],
+            "description": "framework for DSE",
+            "type": "concolic one path",
+            "since": 2015
         },
         {
             "name": "UC KLEE",
             "since": 2014,
-            "based": "KLEE"
+            "based": ["KLEE"]
         },
         {
             "name": "Valgrind",
             "paper": "valgrind",
-            "description": "dynamic binary instrumentator",
-            "ir": "VEX"
+            "description": "dynamic binary\ninstrumentator",
+            "ir": ["VEX"],
+            "since": 2000,
+            "type": "dynamic instrumentation"
         },
         {
             "name": "VeriSoft",
@@ -696,7 +941,29 @@
             "name": "Z3",
             "type": "SMT",
             "description": "SMT solver, SAT: DPLL",
-            "since": 2008
+            "since": 2008,
+            "authors": ["L. de Moura", "N. Bjørner"]
+        },
+        {
+            "name": "Z3-str",
+            "type": "SMT",
+            "since": 2013
+        },
+        {
+            "name": "Z3str2",
+            "type": "SMT",
+            "since": 2017,
+            "authors": ["Y. Zheng (I)", "X. Zhang (P)", "V. Ganesh (W)"]
+        },
+        {
+            "name": "Z3str3",
+            "type": "SMT",
+            "since": 2017,
+            "authors": ["M. Berzish (W)", "Y. Zheng (I)", "V. Ganesh (W)"]
+        },
+        {
+            "name": "Chaff",
+            "type": "SAT"
         },
         {
             "name": "zChaff",
@@ -710,13 +977,17 @@
             "name": "PathCrawler",
             "since": 2005,
             "languages": ["C"],
-            "type": "concolic"
+            "type": "concolic",
+            "description": "limit loop iterations",
+            "uses": ["CIL", "ECLIPSE"],
+            "authors": ["N. Williams, B. Marre", "P. Mouy, M. Roger"]
         },
         {
             "name": "GlassTT",
             "since": 2004,
             "type": "concolic",
-            "languages": ["Java"]
+            "languages": ["Java"],
+            "description": "SJVM on top of\nJVM, analyze only\nmethod"
         },
         {
             "name": "Peach",
@@ -732,16 +1003,18 @@
         {
             "name": "Autodafé",
             "since": 2005,
-            "affiliations": ["EPFL"]
+            "affiliations": ["EPFL"],
+            "type": "concolic"
         },
         {
             "name": "JPF-SE",
             "languages": ["Java"],
             "type": "concolic",
-            "since": 2007
+            "since": 2007,
+            "authors": ["W. Visser (N)", "C. Păsăreanu (N)", "S. Anand (G)"]
         },
         {
-            "name": "Symbolic PathFinder",
+            "name": "Symbolic\nPathFinder",
             "id": "Symbolic_PathFinder",
             "since": 2010,
             "type": "concolic"
@@ -749,49 +1022,60 @@
         {
             "name": "Dytan",
             "since": 2007,
-            "type": "concolic"
+            "type": "concolic",
+            "authors": ["J. Clause", "W. Li", "A. Orso"]
         },
         {
             "name": "Pathgrind",
             "since": 2014,
-            "type": "concolic"
+            "type": "concolic",
+            "authors": ["A. Sharma"]
         },
         {
             "name": "Firmalice",
             "since": 2015,
-            "type": "concolic"
+            "type": "concolic",
+            "authors": ["Y. Shoshitaishvili", "R. Wang", "..."],
+            "description": "firmware auth.\nbypass, uses SA to\nextract CFG,\nDSE on slice"
         },
         {
             "name": "PIN",
             "since": 2007,
-            "type": "dynamic instrumentation"
+            "type": "dynamic instrumentation",
+            "authors": ["Chi-Keung Luk", "R. Cohn", "..."]
         },
         {
             "name": "Cinger",
             "languages": ["Java"],
             "type": "concolic",
-            "since": 2010
+            "since": 2010,
+            "authors": ["S. Anand", "M. J. Harrold"]
         },
         {
-            "name": "Green Solver",
+            "name": "Green\nSolver",
             "id": "Green_Solver",
             "type": "SMT",
-            "since": 2012
+            "since": 2012,
+            "authors": ["W. Visser (S)", "J. Geldenhuys (S)", "M. B. Dwyer (N)"],
+            "description": "permanent cache"
         },
         {
             "name": "AXGEN",
-            "type": "concolic_one_path",
-            "description": "exploit generaton",
+            "type": "concolic one path",
+            "description": "exploit generation",
             "languages": ["binary"],
-            "since": 2009
+            "since": 2009,
+            "authors": ["S. Heelan"]
         },
         {
             "name": "Debugger",
-            "type": "static symbolic execution"
+            "type": "static symbolic execution",
+            "authors": ["P. Sole", "S. Heelan"]
         },
         {
             "name": "ILLITHID",
-            "type": "static symbolic execution"
+            "type": "static symbolic execution",
+            "authors": ["S. Heelan", "P. Sole", "R. Huizer"]
         },
         {
             "name": "DISSECT",
@@ -808,6 +1092,111 @@
                 "A. Kiezun",
                 "M. Y. Levin"
             ]
+        },
+        {
+            "name": "SMT-LIB",
+            "since": 2006,
+            "authors": ["S. Rainse (N)", "C. Tinelli (I)"],
+            "affiliations": ["Iowa", "Nancy"]
+        },
+        {
+            "name": "SMT-\nLIB 2",
+            "id": "SMT-LIB_2",
+            "since": 2010,
+            "authors": ["C. Barrett (N)", "A. Stump", "C. Tinelli (I)"]
+        },
+        {
+            "name": "Scaling Up\nDPLL(T)\nString Solvers",
+            "id": "ScalingUp",
+            "authors": ["M. Woo", "C. Barrett", "D. Brumley", "T. Liang", "..."],
+            "type": "paper",
+            "since": 2017
+        },
+        {
+            "name": "Accelerating\nArray\nConstraints",
+            "id": "AcceleratingArray",
+            "authors": ["D. M. Perry", "A. Mattavelli", "X. Zhang", "C. Cadar"],
+            "type": "paper",
+            "since": 2017
+        },
+        {
+            "name": "Catchconv",
+            "since": 2007,
+            "type": "concolic",
+            "uses": ["STP", "Valgrind"],
+            "authors": ["D. Molnar", "D. Wagner"]
+        },
+        {
+            "name": "Replayer",
+            "since": 2006,
+            "description": "execution replay\nfor dialog program",
+            "authors": ["D. Brumley", "J. Newsome", "J. Franklin"],
+            "type": "concolic",
+            "uses": ["STP", "Valgrind"]
+        },
+        {
+            "name": "Driller",
+            "uses": ["AFL", "angr", "VEX"],
+            "since": 2016,
+            "description": "hybrid fuzzing and\nDSE",
+            "authors": ["N. Stephens", "J. Grosen"],
+            "type": "concolic"
+        },
+        {
+            "name": "Mechanical\nPhish",
+            "id": "Mechanical_Phish",
+            "description": "symbolic execution,\nfuzzing, binary\npatching",
+            "uses": ["AFL", "Patcherex", "Driller", "angr"],
+            "since": 2016,
+            "type": "concolic"
+        },
+        {
+            "name": "lp_solve",
+            "type": "SMT"
+        },
+        {
+            "name": "AFL",
+            "type": "fuzzer",
+            "since": 2014,
+            "authors": ["M. Zalewski"],
+            "description": "fuzzer\ngenetic algorithm"
+        },
+        {
+            "name": "OSS-Fuzz",
+            "description": "fuzzer",
+            "languages": ["C", "C++"],
+            "type": "fuzzer",
+            "since": 2017,
+            "authors": ["K. Serebryany"]
+        },
+        {
+            "name": "AFLFast",
+            "since": 2017,
+            "description": "coverage-based\ngreybox fuzzing,\nMarkov chains",
+            "based": ["AFL"],
+            "authors": ["M. Böhme", "Van-Thuan Pham", "..."],
+            "type": "fuzzer"
+        },
+        {
+            "name": "Survey of\nTest Case\nGeneration",
+            "id": "SurveyTestCase",
+            "type": "paper",
+            "since": 2013,
+            "authors": ["S. Anand (S)", "E. Burke", "Tsong Yueh Chen", "J. Clark", "..."]
+        },
+        {
+            "name": "MultiSE",
+            "since": 2015,
+            "authors": ["K. Sen", "G. Necula", "L. Gong", "W. Choi"],
+            "type": "paper"
+        },
+        {
+            "name": "Kudzu",
+            "languages": ["JavaScript"],
+            "since": 2010,
+            "description": "symbolic\nexecution",
+            "type": "concolic",
+            "authors": ["P. Saxena, D. Akhawe", "S. Hanna, F. Mao", "S. McCamant, D. Song"]
         }
     ]
 }
