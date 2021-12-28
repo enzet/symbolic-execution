@@ -16,7 +16,7 @@ enum class ElementType {
     CONCOLIC,
 
     /** Concolic (dynamic symbolic execution) within one path. */
-    @SerialName("concolic_one_path")
+    @SerialName("concolic one path")
     CONCOLIC_ONE_PATH,
 
     @SerialName("static symbolic execution")
@@ -33,7 +33,7 @@ enum class ElementType {
     @SerialName("model checker")
     MODEL_CHECKER,
 
-    @SerialName("static_instrumentation")
+    @SerialName("static instrumentation")
     STATIC_INSTRUMENTATION,
 
     @SerialName("dynamic instrumentation")
@@ -46,11 +46,17 @@ enum class ElementType {
      * White paper without instrument.
      */
     @SerialName("paper")
-    PAPER
+    PAPER,
+
+    /**
+     * Dynamic analysis within one execution path.
+     */
+    @SerialName("DA one path")
+    DYNAMIC_ANALYSIS_ONE_PATH,
 }
 
 class ColorScheme {
-    fun getColor(type: ElementType): String {
+    fun getColor(type: ElementType?): String {
         return when (type) {
             ElementType.CONCOLIC -> "#E4D3C2"
             ElementType.CONCOLIC_ONE_PATH -> "#CAB7A3"
@@ -61,7 +67,9 @@ class ColorScheme {
             ElementType.SMT -> "#C8DAA4"
             ElementType.STATIC_INSTRUMENTATION -> "#E0CFEB"
             ElementType.STATIC_SYMBOLIC_EXECUTION -> "#C4DAD2"
-            else -> "none"
+            ElementType.PAPER -> "none"
+            ElementType.DYNAMIC_ANALYSIS_ONE_PATH -> "#D4CD89"
+            else -> "#E0DAD5"
         }
     }
 
@@ -92,18 +100,30 @@ class Config(val tools: List<Tool>)
 @Serializable
 open class Tool(
     val since: Int = 1994,
-    val type: ElementType = ElementType.CONCOLIC,
+    val type: ElementType? = null,
     val name: String,
     val id: String = name,
     val authors: List<String> = ArrayList(),
     val description: String = "",
     val languages: List<String> = ArrayList(),
+    val uses: List<String> = ArrayList(),
+    val based: List<String> = ArrayList(),
+    val ir: List<String> = ArrayList(),
 )
 
-data class ToolPicture(val tool: Tool, var position: Vector = Vector(), var size: Vector = Vector(100.0, 150.0)) {
+data class ToolPicture(
+    val tool: Tool,
+    val toolMap: Map<String, ToolPicture>,
+    var position: Vector = Vector(0.0, 0.0),
+    var size: Vector = Vector(100.0, 150.0),
+    var descriptions: List<String> = listOf(),
+    var names: List<String> = listOf(),
+) {
 
     init {
-        size = Vector(120.0, if (tool.description == "") 60.0 else 74.0)
+        descriptions = if (tool.description == "") listOf() else tool.description.split("\n")
+        names = if (tool.name == "") listOf() else tool.name.split("\n")
+        size = Vector(120.0, 40.0 + descriptions.size * 14.0 + names.size * 20.0)
     }
 
     private fun addText(
@@ -118,41 +138,43 @@ data class ToolPicture(val tool: Tool, var position: Vector = Vector(), var size
         ), text
     )
 
-    fun draw(xml: XML, scheme: ColorScheme) {
+    fun draw(xml: XML, scheme: ColorScheme, toolMap: Map<String, ToolPicture>) {
+
+        if (position.x == 0.0) return
+
+        var y = 10.0
         val stroke = if (tool.type == ElementType.PAPER) "#888888" else "none"
+
         xml.add(
             "rect", mapOf(
-                "x" to position.x,
-                "y" to position.y,
-                "width" to size.x,
-                "height" to size.y,
-                "fill" to scheme.getColor(tool.type),
-                "stroke" to stroke,
-                "rx" to 5.0
+                "fill" to scheme.getColor(tool.type), "stroke" to stroke, "rx" to 5.0
+            ) + position.toMap() + size.toSizeMap()
+        )
+        for (text in names) {
+            y += 20.0
+            addText(
+                xml,
+                text,
+                position + Vector(10.0, y),
+                letterSpacing = if (tool.name.uppercase() == tool.name) 1.8 else 0.0,
+                fontSize = 20.0,
             )
-        )
-        addText(
-            xml,
-            tool.name,
-            position + Vector(10.0, 30.0),
-            letterSpacing = if (tool.name.uppercase() == tool.name) 1.8 else 0.0,
-            fontSize = 20.0,
-        )
-        addText(xml, tool.since.toString(), position + Vector(10.0, 44.0))
-        addText(xml, tool.description, position + Vector(10.0, 56.0))
-
-        var y = size.y + 15.0
-        for (author in tool.authors) {
-            addText(xml, author, position + Vector(0.0, y))
-            y += 12
         }
+        addText(xml, tool.since.toString(), position + Vector(10.0, y + 14.0))
+        for (description in descriptions) {
+            addText(xml, description, position + Vector(10.0, y + 26.0))
+            y += 14.0
+        }
+
+        y = size.y + 5.0
+
         if (tool.languages.isNotEmpty()) {
             var x = 0.0
             for (language in tool.languages) {
                 val width = language.length * 6.0 + 20.0
                 xml.add(
                     "rect", (position + Vector(x, -25.0)).toMap() + Vector(width, 20.0).toSizeMap() + mapOf(
-                        "fill" to scheme.getLanguageColor(language), "rx" to 5.0
+                        "fill" to scheme.getLanguageColor(language), "rx" to 2.5
                     )
                 )
                 xml.add(
@@ -169,6 +191,36 @@ data class ToolPicture(val tool: Tool, var position: Vector = Vector(), var size
                 x += width + 5
             }
         }
+        if ((tool.uses + tool.based + tool.ir).isNotEmpty()) {
+
+            for (use in tool.uses + tool.based + tool.ir) {
+
+                val fill = toolMap[use]?.tool?.type?.let { scheme.getColor(it) } ?: "#E0DAD5"
+                val width = use.length * 6.0 + 20.0
+
+                xml.add(
+                    "rect", (position + Vector(0.0, y)).toMap() + Vector(width, 20.0).toSizeMap() + mapOf(
+                        "fill" to fill, "rx" to 2.5
+                    )
+                )
+                xml.add(
+                    "text",
+                    (position + Vector(width / 2.0, y + 14.0)).toMap() + mapOf(
+                        "font-size" to 12.0,
+                        "font-family" to "Roboto",
+                        "font-weight" to 300,
+                        "text-anchor" to "middle",
+                    ),
+                    use,
+                )
+                y += 25.0
+            }
+        }
+        for (author in tool.authors) {
+            y += 12
+            addText(xml, author, position + Vector(0.0, y))
+        }
+        size.y = y
     }
 }
 
@@ -177,7 +229,7 @@ class AffiliationPicture {
     private val padding = Vector(20.0, 20.0)
 
     private var start = Vector(3000.0, 3000.0)
-    private var end = Vector()
+    private var end = Vector(0.0, 0.0)
 
     fun add(toolPicture: ToolPicture) {
         start.x = start.x.coerceAtMost(toolPicture.position.x)
@@ -187,23 +239,23 @@ class AffiliationPicture {
         end.y = end.y.coerceAtLeast(toolEnd.y)
     }
 
-    fun draw(xml: XML) {
-        xml.add(
-            "rect", (start - padding).toMap() + (end - start + 2.0 * padding).toSizeMap() + mapOf(
-                "opacity" to 0.05, "rx" to 20.0
-            )
+    fun draw(xml: XML) = xml.add(
+        "rect", (start - padding).toMap() + (end - start + 2.0 * padding).toSizeMap() + mapOf(
+            "opacity" to 0.07, "rx" to 20.0, "fill" to "#816647"
         )
-    }
+    )
+
+    fun getPolygon(): Polygon = Polygon(arrayListOf(start, Vector(end.x, start.y), end, Vector(start.x, end.y)))
 }
 
 private data class Timeline(val tools: List<Tool>, val scheme: ColorScheme, val configuration: List<String>) {
 
     val toolMap: HashMap<String, ToolPicture> = HashMap()
-    val affiliations: ArrayList<AffiliationPicture> = ArrayList()
+    val affiliations: HashMap<String, HashSet<AffiliationPicture>> = HashMap()
 
     init {
         for (tool in tools) {
-            toolMap[tool.id] = ToolPicture(tool)
+            toolMap[tool.id] = ToolPicture(tool, toolMap)
         }
         for (toolPicture in toolMap.values) {
             toolPicture.position.y = getY(toolPicture.tool.since).toDouble()
@@ -235,28 +287,44 @@ private data class Timeline(val tools: List<Tool>, val scheme: ColorScheme, val 
                 val tool = toolMap[parts[0]] ?: throw NotImplementedError(parts[0])
                 val tool2 = toolMap[parts[2]] ?: throw NotImplementedError(parts[2])
 
-                when (parts[1]) {
-                    "->" -> tool2.position.x = tool.position.x + tool.size.x + STEP
-                    "<-" -> tool2.position.x = tool.position.x - tool2.size.x - STEP
-                    "v" -> tool2.position.x = tool.position.x
-                    "^" -> tool2.position.x = tool.position.x
-                    "|" -> tool2.position.y = tool.position.y
+                if (parts[1].startsWith("->")) {
+                    val offset = if (parts[1].length > 2) parts[1].substring(2).toDouble() else 0.0
+                    tool2.position.x = tool.position.x + tool.size.x + STEP * (1 + offset)
+                } else {
+                    when (parts[1]) {
+                        "<-" -> tool2.position.x = tool.position.x - tool2.size.x - STEP
+                        "v" -> tool2.position.x = tool.position.x
+                        "^" -> tool2.position.x = tool.position.x
+                        "|" -> tool2.position.y = tool.position.y
+                    }
                 }
 
-            } else {
-                // TODO: parts[0] is affiliation.
+            } else if (parts.size > 3) {
+                val affiliation = parts[0]
                 val picture = AffiliationPicture()
                 for (i in 2 until parts.size) {
                     toolMap[parts[i]]?.let { picture.add(it) }
                 }
-                affiliations.add(picture)
+                if (!affiliations.containsKey(affiliation)) {
+                    affiliations[affiliation] = hashSetOf(picture)
+                }
+                affiliations[affiliation]!!.add(picture)
             }
         }
     }
 
     fun draw(xml: XML, filePath: String) {
-        for (affiliationPicture in affiliations) affiliationPicture.draw(xml)
-        for (toolPicture in toolMap.values) toolPicture.draw(xml, scheme)
+        for (affiliationPictures in affiliations.keys) {
+            println("<$affiliationPictures>")
+            var polygon: Polygon? = null
+            for (affiliationPicture in affiliations[affiliationPictures]!!) {
+                affiliationPicture.draw(xml)
+//                val polygon2 = affiliationPicture.getPolygon()
+//                polygon = polygon?.join(polygon2) ?: polygon2
+//                polygon.toSVG(xml)
+            }
+        }
+        for (toolPicture in toolMap.values) toolPicture.draw(xml, scheme, toolMap)
         xml.writeSVG(filePath)
     }
 }

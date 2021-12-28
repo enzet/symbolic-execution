@@ -2,17 +2,16 @@ import java.io.File
 
 class XMLParameter(private val key: String, private val value: Any?) {
 
-    override fun toString(): String = "$key=\"$value\""
+    override fun toString() = "$key=\"$value\""
 }
 
 class XMLTag(private val tag: String, private val parameters: List<XMLParameter>, private val value: String? = null) {
 
-    override fun toString(): String =
-        "<$tag" + parameters.joinToString(prefix = " ", separator = " ") + if (value == null) "/>" else ">$value</$tag>"
+    override fun toString() = "<$tag" + parameters.joinToString(" ", " ") + (value?.let { ">$value</$tag>" } ?: "/>")
 
 }
 
-open class XML() {
+open class XML {
 
     /**
      * Graphical elements.
@@ -24,7 +23,7 @@ open class XML() {
      */
     fun add(tag: String, parameters: Map<String, Any>, text: String? = null) {
 
-        val xmlParameters: List<XMLParameter> = parameters.toList().map { XMLParameter(it.first, it.second) }
+        val xmlParameters = parameters.toList().map { XMLParameter(it.first, it.second) }
         elements.add(XMLTag(tag, xmlParameters, text))
     }
 }
@@ -35,7 +34,7 @@ open class XML() {
  * @property filePath output SVG file path
  */
 fun XML.writeSVG(filePath: String) = File(filePath).printWriter().use { out ->
-    out.println("<svg width=\"5000\" height=\"5000\" xmlns=\"http://www.w3.org/2000/svg\">")
+    out.println("<svg width=\"3550\" height=\"2520\" xmlns=\"http://www.w3.org/2000/svg\">")
     out.println("")
     for (element in elements) out.println(element)
     out.println("</svg>")

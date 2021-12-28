@@ -1,4 +1,3 @@
-import java.lang.Double.NaN
 import java.lang.Double.min
 import kotlin.math.PI
 import kotlin.math.atan2
