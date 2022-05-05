@@ -56,7 +56,7 @@ Please, use [SVGO](https://github.com/svg/svgo) for diagram optimization before 
 Tools structure
 ===============
 
-File [`tools.yml`](tools/tools.yml) contains tools YAML description. E.g.:
+File [`tools.json`](tools/tools.json) contains tools YAML description. E.g.:
 
 ```
 DART:
