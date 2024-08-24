@@ -315,7 +315,6 @@ private data class Timeline(val tools: List<Tool>, val scheme: ColorScheme, val 
 
     fun draw(xml: XML, filePath: String) {
         for (affiliationPictures in affiliations.keys) {
-            println("<$affiliationPictures>")
             var polygon: Polygon? = null
             for (affiliationPicture in affiliations[affiliationPictures]!!) {
                 affiliationPicture.draw(xml)
