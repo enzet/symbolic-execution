@@ -4,6 +4,7 @@ import kotlinx.serialization.decodeFromString
 import kotlinx.serialization.json.Json
 import java.io.File
 import kotlin.math.max
+import kotlin.math.min
 
 const val STEP: Int = 20
 
@@ -273,6 +274,28 @@ data class ToolPicture(
         }
         size.y = y
     }
+
+    /** Put this tool below the specified tool. */
+    fun putBelow(tool: ToolPicture) {
+        position.x = tool.position.x
+        val y = tool.position.y +
+                tool.size.y +
+                tool.getBottomHeight() +
+                10.0 +
+                getTopHeight()
+        position.y = max(position.y, y)
+    }
+
+    /** Put this tool above the specified tool. */
+    fun putAbove(tool: ToolPicture) {
+        position.x = tool.position.x
+        val y = tool.position.y -
+                size.y -
+                getBottomHeight() -
+                10.0 -
+                tool.getTopHeight()
+        position.y = min(position.y, y)
+    }
 }
 
 /**
@@ -325,10 +348,11 @@ private data class Timeline(val tools: List<Tool>, val scheme: ColorScheme, val 
                 }
 
             } else if (parts[0] == "v") {
-                val tool = toolMap[parts[1]] ?: throw NotImplementedError(parts[1])
                 for (i in 2 until parts.size) {
+                    val tool = toolMap[parts[i - 1]] ?: throw NotImplementedError(parts[i - 1])
                     val tool2 = toolMap[parts[i]] ?: throw NotImplementedError(parts[i])
-                    tool2.position.x = tool.position.x
+
+                    tool2.putBelow(tool)
                 }
 
             } else if (parts.size == 2) {
@@ -345,12 +369,8 @@ private data class Timeline(val tools: List<Tool>, val scheme: ColorScheme, val 
                 } else {
                     when (parts[1]) {
                         "<-" -> tool2.position.x = tool.position.x - tool2.size.x - STEP
-                        "v" -> {
-                            tool2.position.x = tool.position.x
-                            val y = tool.position.y + tool.size.y + 100
-                            tool2.position.y = max(tool2.position.y, y)
-                        }
-                        "^" -> tool2.position.x = tool.position.x
+                        "v" -> tool2.putBelow(tool)
+                        "^" -> tool2.putAbove(tool)
                         "|" -> tool2.position.y = tool.position.y
                     }
                 }
