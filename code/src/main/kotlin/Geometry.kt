@@ -21,6 +21,16 @@ class Vector(var x: Double, var y: Double) {
 
     override fun hashCode(): Int = x.hashCode() + y.hashCode()
     override fun equals(other: Any?) = if (other is Vector) x == other.x && y == other.y else false
+
+    fun coerceAtMost(vector: Vector) {
+        x = x.coerceAtMost(vector.x)
+        y = y.coerceAtMost(vector.y)
+    }
+
+    fun coerceAtLeast(vector: Vector) {
+        x = x.coerceAtLeast(vector.x)
+        y = y.coerceAtLeast(vector.y)
+    }
 }
 
 operator fun Double.times(vector: Vector): Vector = Vector(this * vector.x, this * vector.y)

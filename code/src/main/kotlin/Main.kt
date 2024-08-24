@@ -3,6 +3,7 @@ import kotlinx.serialization.Serializable
 import kotlinx.serialization.decodeFromString
 import kotlinx.serialization.json.Json
 import java.io.File
+import kotlin.math.max
 
 const val STEP: Int = 20
 
@@ -119,11 +120,21 @@ data class ToolPicture(
     var descriptions: List<String> = listOf(),
     var names: List<String> = listOf(),
 ) {
+    private val padding = 10.0
+    private val nameHeight = 20.0
+    private val textHeight = 14.0
+
+    private val paperBorderColor = "#888888"
 
     init {
-        descriptions = if (tool.description == "") listOf() else tool.description.split("\n")
         names = if (tool.name == "") listOf() else tool.name.split("\n")
-        size = Vector(120.0, 40.0 + descriptions.size * 14.0 + names.size * 20.0)
+        descriptions = if (tool.description == "") listOf() else tool.description.split("\n")
+        size = Vector(
+            120.0,
+            padding * 2 +
+                    (descriptions.size + 1) * textHeight +
+                    names.size * nameHeight
+        )
     }
 
     private fun addText(
@@ -138,35 +149,50 @@ data class ToolPicture(
         ), text
     )
 
+    fun getBottomHeight(): Double {
+        return (tool.uses + tool.based + tool.ir).size * 25 +
+                (if (tool.authors.isNotEmpty()) 5.0 else 0.0) +
+                (tool.authors).size * textHeight
+    }
+
+    fun getTopHeight(): Double {
+        return if (tool.languages.isNotEmpty()) 25.0 else 0.0
+    }
+
     fun draw(xml: XML, scheme: ColorScheme, toolMap: Map<String, ToolPicture>) {
 
         if (position.x == 0.0) return
 
-        var y = 10.0
-        val stroke = if (tool.type == ElementType.PAPER) "#888888" else "none"
+        val stroke = if (tool.type == ElementType.PAPER) paperBorderColor else "none"
 
         xml.add(
-            "rect", mapOf(
-                "fill" to scheme.getColor(tool.type), "stroke" to stroke, "rx" to 5.0
-            ) + position.toMap() + size.toSizeMap()
+            "rect",
+            mapOf(
+                "fill" to scheme.getColor(tool.type),
+                "stroke" to stroke,
+                "rx" to 5.0) +
+                    position.toMap() +
+                    size.toSizeMap()
         )
+        var y = padding
+
         for (text in names) {
-            y += 20.0
+            y += nameHeight
             addText(
                 xml,
                 text,
-                position + Vector(10.0, y),
+                position + Vector(padding, y),
                 letterSpacing = if (tool.name.uppercase() == tool.name) 1.8 else 0.0,
                 fontSize = 20.0,
             )
         }
-        addText(xml, tool.since.toString(), position + Vector(10.0, y + 14.0))
+        y += textHeight
+        addText(xml, tool.since.toString(), position + Vector(padding, y))
         for (description in descriptions) {
-            addText(xml, description, position + Vector(10.0, y + 26.0))
-            y += 14.0
+            y += textHeight
+            addText(xml, description, position + Vector(padding, y))
         }
-
-        y = size.y + 5.0
+        y += padding
 
         if (tool.languages.isNotEmpty()) {
             var x = 0.0
@@ -195,17 +221,21 @@ data class ToolPicture(
 
             for (use in tool.uses + tool.based + tool.ir) {
 
+                y += 5.0
+
                 val fill = toolMap[use]?.tool?.type?.let { scheme.getColor(it) } ?: "#E0DAD5"
+                /** Very rough estimate of a text width. */
                 val width = use.length * 6.0 + 20.0
 
                 xml.add(
-                    "rect", (position + Vector(0.0, y)).toMap() + Vector(width, 20.0).toSizeMap() + mapOf(
-                        "fill" to fill, "rx" to 2.5
-                    )
+                    "rect",
+                    (position + Vector(0.0, y)).toMap() +
+                            Vector(width, 20.0).toSizeMap() +
+                            mapOf("fill" to fill, "rx" to 2.5)
                 )
                 xml.add(
                     "text",
-                    (position + Vector(width / 2.0, y + 14.0)).toMap() + mapOf(
+                    (position + Vector(width / 2.0, y + textHeight)).toMap() + mapOf(
                         "font-size" to 12.0,
                         "font-family" to "Roboto",
                         "font-weight" to 300,
@@ -213,12 +243,15 @@ data class ToolPicture(
                     ),
                     use,
                 )
-                y += 25.0
+                y += 20.0
             }
         }
-        for (author in tool.authors) {
-            y += 12
-            addText(xml, author, position + Vector(0.0, y))
+        if (tool.authors.isNotEmpty()) {
+            y += 5.0
+            for (author in tool.authors) {
+                y += textHeight
+                addText(xml, author, position + Vector(0.0, y))
+            }
         }
         size.y = y
     }
@@ -228,15 +261,12 @@ class AffiliationPicture {
 
     private val padding = Vector(20.0, 20.0)
 
-    private var start = Vector(3000.0, 3000.0)
-    private var end = Vector(0.0, 0.0)
+    private var start = Vector(Double.MAX_VALUE, Double.MAX_VALUE)
+    private var end = Vector(Double.MIN_VALUE, Double.MIN_VALUE)
 
     fun add(toolPicture: ToolPicture) {
-        start.x = start.x.coerceAtMost(toolPicture.position.x)
-        start.y = start.y.coerceAtMost(toolPicture.position.y)
-        val toolEnd = (toolPicture.position + toolPicture.size)
-        end.x = end.x.coerceAtLeast(toolEnd.x)
-        end.y = end.y.coerceAtLeast(toolEnd.y)
+        start.coerceAtMost(toolPicture.position - Vector(0.0, toolPicture.getTopHeight()))
+        end.coerceAtLeast(toolPicture.position + toolPicture.size + Vector(0.0, toolPicture.getBottomHeight()))
     }
 
     fun draw(xml: XML) = xml.add(
@@ -293,7 +323,11 @@ private data class Timeline(val tools: List<Tool>, val scheme: ColorScheme, val 
                 } else {
                     when (parts[1]) {
                         "<-" -> tool2.position.x = tool.position.x - tool2.size.x - STEP
-                        "v" -> tool2.position.x = tool.position.x
+                        "v" -> {
+                            tool2.position.x = tool.position.x
+                            val y = tool.position.y + tool.size.y + 100
+                            tool2.position.y = max(tool2.position.y, y)
+                        }
                         "^" -> tool2.position.x = tool.position.x
                         "|" -> tool2.position.y = tool.position.y
                     }
