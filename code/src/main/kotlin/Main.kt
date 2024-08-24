@@ -74,6 +74,11 @@ class ColorScheme {
         }
     }
 
+    /**
+     * Language colors extracted from Linguist project.
+     *
+     * See [`languages.yml`](https://github.com/github/linguist/blob/master/lib/linguist/languages.yml) file.
+     */
     fun getLanguageColor(language: String): String {
         return when (language) {
             ".NET" -> "#178600"
@@ -100,25 +105,36 @@ class Config(val tools: List<Tool>)
 
 @Serializable
 open class Tool(
+    /** Start year. E.g. 2000. */
     val since: Int = 1994,
     val type: ElementType? = null,
     val name: String,
+    /** Tool name. E.g. “DART”. */
     val id: String = name,
+    /** Tool authors. E.g. “P. Godefroid (B)\nK. Sen (I)”. */
     val authors: List<String> = ArrayList(),
+    /** Tool description. E.g. “Random testing and direct execution”. */
     val description: String = "",
+    /** Target language. E.g. “C”. */
     val languages: List<String> = ArrayList(),
+    /** Tools used by the tool. E.g. “Z3” for Z3 solver used to solve paths. */
     val uses: List<String> = ArrayList(),
     val based: List<String> = ArrayList(),
     val ir: List<String> = ArrayList(),
 )
 
+/**
+ * Graphical element representing a tool or article.
+ */
 data class ToolPicture(
     val tool: Tool,
     val toolMap: Map<String, ToolPicture>,
     var position: Vector = Vector(0.0, 0.0),
     var size: Vector = Vector(100.0, 150.0),
-    var descriptions: List<String> = listOf(),
+    /** Tool name. E.g. “DART”. */
     var names: List<String> = listOf(),
+    /** Tool description. E.g. “Random testing and direct execution”. */
+    var descriptions: List<String> = listOf(),
 ) {
     private val padding = 10.0
     private val nameHeight = 20.0
@@ -149,12 +165,14 @@ data class ToolPicture(
         ), text
     )
 
+    /** Get total height of all bottom elements: tools and authors. */
     fun getBottomHeight(): Double {
         return (tool.uses + tool.based + tool.ir).size * 25 +
                 (if (tool.authors.isNotEmpty()) 5.0 else 0.0) +
                 (tool.authors).size * textHeight
     }
 
+    /** Get total height of all top language element. */
     fun getTopHeight(): Double {
         return if (tool.languages.isNotEmpty()) 25.0 else 0.0
     }
@@ -257,6 +275,9 @@ data class ToolPicture(
     }
 }
 
+/**
+ * Shape around all tools with the same affiliation.
+ */
 class AffiliationPicture {
 
     private val padding = Vector(20.0, 20.0)
@@ -264,6 +285,7 @@ class AffiliationPicture {
     private var start = Vector(Double.MAX_VALUE, Double.MAX_VALUE)
     private var end = Vector(Double.MIN_VALUE, Double.MIN_VALUE)
 
+    /** Add tool with this affiliation. */
     fun add(toolPicture: ToolPicture) {
         start.coerceAtMost(toolPicture.position - Vector(0.0, toolPicture.getTopHeight()))
         end.coerceAtLeast(toolPicture.position + toolPicture.size + Vector(0.0, toolPicture.getBottomHeight()))
